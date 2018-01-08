@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.links_header{
+    display: flex;
+    flex-direction: row;    
+}
+.links_header a{
+    text-decoration: none;
+    padding:15px;
+    color: black;
+}
+.links_header :hover{
+    text-decoration: underline; 
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);   
+}
+
+.texto, .titulo, .datapub{
+    margin-top:10px;
+}
