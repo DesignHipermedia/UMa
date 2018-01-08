@@ -30,6 +30,7 @@ export default {
     mounted () {
       this.$nextTick(() =>{
           //colocar aqui o jQuery
+          $("body").css("background-color", "lightgreen");
       })
     }
 }
