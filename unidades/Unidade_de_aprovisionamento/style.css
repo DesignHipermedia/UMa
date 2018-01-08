@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.links_header{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    letter-spacing: 4px;    
+    font-family: "Courier New", Courier, monospace; 
+    font-size: 18px;
+}
+.links_header a{
+    text-decoration: none;
+    padding:15px;
+    color: black;
+}
+.links_header :hover{
+    text-decoration: underline; 
+}
+.main_container{
+    display: flex;
+    flex-flow: column;
+    margin-top: 3%;
+    align-items: center;
+}
+.conteudo{
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.5); 
+    
+    
+}
+
+.texto_conteudo, .titulo, .datapub{
+    padding: 10px;  
+}
+
+.datapub{
+    margin-left:auto;
+    font-size: 13px;
+    font-family: "Courier New", Courier, monospace; 
+}
+
+.titulo{
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace; 
+    font-weight: bold;
+}
+.texto_conteudo{
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace; 
+}
