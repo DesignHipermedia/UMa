@@ -34,18 +34,20 @@
 }
 
 .main {
-    flex: 1 100%;
+    display: flex;
     flex-flow: row wrap;
 }
 
 .main_info {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
+    width: 85%;
 }
 
 .caixinha_texto {
-    margin: 5px;
+    margin: 2px;
     border: 1px solid black;
+    width: 100%;
 }
 
 .rodape {
@@ -54,6 +56,7 @@
     border: 1px solid white;
     order:5;
     background-color: grey;
+    align-content: center;
 }
 
 .rodape_texto {
@@ -65,13 +68,50 @@
     justify-content: center;
 }
 
-.main main_menu {
+.main_menu {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
     display: flex;
+    width: 15%;
 }
 
 .caixinha_menu {
     margin: 2px;
     border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+ul a:link {
+    color: black;  
+    text-decoration: none;
+}
+
+ul a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:cadetblue;
+    text-decoration: underline;
 }
