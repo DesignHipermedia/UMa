@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,107 @@
     <link rel="stylesheet" href="style.css">
     <title>Unidade de Aprovisionamento e Património - UAP</title>
 </head>
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
 <body>
-<header><img src="imagens/UMa_logo_sem_fundo.png" width="250">
-<div class='links_header'>
-    <div><a href="#">A Universidade</a></div>
-    <div><a href="#">Ensino</a></div>
-    <div><a href="#">Investigação</a></div>
-    <div><a href="#">Serviços e Comunidades</a></div>
-    <div><a href="#">Faculdades e Escolas</a></div>
-</div>    
-</header> 
-<div class='main_container'>
-    <div class='conteudo'> 
-        <div class='titulo'>
-            <p>À UAP compete</p>
+    <header>
+        <img src="imagens/uma_branco.png" width="250" height="126">
+        <div class="navbar">
+            <div>
+                <a href="#">Home - UAP</a>
+            </div>
+            <div>
+                <a href="#">Links</a>
+            </div>
+            <div>
+                <a href="#">Contatos</a>
+            </div>
+            <div>
+                <a href="#">Formulários</a>
+            </div>
+            <div>
+                <a href="#">Aquisição Bibliografica</a>
+            </div>
+            <div>
+                <a href="#">Contato e Sugestões</a>
+            </div>
         </div>
-        <div class='texto_conteudo'>
-           <article>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           </article>
+        <div class="navbar-rapid-acess">
+            <button onclick="myFunction()" class="dropbtn">Acesso Rápido</button>
+            <div id="myDropdown" class="dropdown-content">
+                <p style="color:black;">
+                    <b>A Universidade</b>
+                </p>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projecto Educativo, Científico e Cultural</a>
+                <a href="#">Conselho Geral</a>
+                <a href="#">Reitoria</a>
+                <a href="#">Senado Universitário</a>
+
+                <p style="color:black;">
+                    <b>A Ensino</b>
+                </p>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projecto Educativo, Científico e Cultural</a>
+                <a href="#">Conselho Geral</a>
+                <a href="#">Reitoria</a>
+                <a href="#">Senado Universitário</a>
+
+
+                <p style="color:black;">
+                    <b>Investigação</b>
+                </p>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projecto Educativo, Científico e Cultural</a>
+                <a href="#">Conselho Geral</a>
+                <a href="#">Reitoria</a>
+                <a href="#">Senado Universitário</a>
+
+                <p style="color:black;">
+                    <b>Serviços e Investigação</b>
+                </p>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projecto Educativo, Científico e Cultural</a>
+                <a href="#">Conselho Geral</a>
+                <a href="#">Reitoria</a>
+                <a href="#">Senado Universitário</a>
+
+                <p style="color:black;">
+                    <b>Faculdades e Escolas</b>
+                </p>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projecto Educativo, Científico e Cultural</a>
+                <a href="#">Conselho Geral</a>
+                <a href="#">Reitoria</a>
+                <a href="#">Senado Universitário</a>
+
+            </div>
         </div>
-        <div class='datapub'>
-            <p>Terça-Feira, 12 de Agosto 2008 10:00</p>
-        </div> 
-    </div>
-    <div class='conteudo'> 
-        <div class='titulo'>
-            <p>Compras Publicas</p>
         </div>
-        <div class='texto_conteudo'>
-           <article>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           </article>
-        </div>
-        <div class='datapub'>
-            <p>Terça-Feira, 12 de Agosto 2008 10:00</p>
-        </div> 
-    </div>
-</div>
+    </header>
+
 </body>
+
+
 </html>
