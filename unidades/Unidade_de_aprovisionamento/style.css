@@ -1,83 +1,90 @@
 * {
     margin:0;
     padding:0;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-size: 14px;
+
 }
 
 header{
-    background-color: black;
-    opacity: 0.4;
-    padding:10px;
-    box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);   
-}
-#titulos{
-    font-weight: bold;
-}
-.links_header{
     display: flex;
-    flex-direction: row; 
+    background-color: #333;
     justify-content: center;
-    letter-spacing: 4px;    
-    font-family: "Courier New", Courier, monospace; 
-    font-size: 18px;
-    margin-top:15px;
 }
-.links_header a{
+
+.navbar{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    margin: 15px 0 0 0;
+    height: 10%;
+}
+
+.navbar a{
     text-decoration: none;
-    padding:15px;
-    color: rgb(255, 255, 255);
-}
-.links_header :hover{
-    text-decoration: underline; 
-}
-.main_container{
-    display: flex;
-    flex-flow: column;
-    margin-top: 1%;
-    align-items: center;
-}
-.conteudo{
-    width:70vw;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2%;
-    box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);   
+    margin-left: 40px;
+    line-height: 130%;
+    color: rgb(196, 194, 194);
+    font-weight: 400;
 }
 
-.texto_conteudo, .titulo, .datapub{
-    padding: 10px;  
+.navbar :hover{
+    text-decoration: underline;
+    color: whitesmoke;
 }
 
-.datapub{
-    margin-left:auto;
-    font-size: 13px;
-    font-family: "Courier New", Courier, monospace; 
-    margin-right: 2%;
+.navbar-rapid-acess{
+    color: whitesmoke;
+    align-self:flex-end;
+    position: relative;
+    display: inline-block;
+    flex-wrap: wrap;
+
 }
 
-.titulo{
-    font-size: 18px;
-    font-family: "Courier New", Courier, monospace; 
-    font-weight: bold;
-    margin-left: 1%;
-    margin-top:1%;
-}
-.texto_conteudo{
-    width:92%;
-    font-size: 15px;
-    font-family: "Courier New", Courier, monospace; 
-    line-height: 25px;
-    margin-left:2%;
-    text-align: justify;
+.navbar-rapid-acess a{
+    text-decoration: none;
+    color: rgb(196, 194, 194);
 }
 
-.contatos{
-    margin-left:5%;
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
 
-footer{
-    display: flex;
-    background-color: black;
-    opacity: 0.4;
-    color:white;
-    margin-top:3%;
+.dropbtn:hover, .dropbtn:focus {
+    text-decoration: underline;   
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right:125px;
+    background-color: #f9f9f9;
+    min-width: 1000px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    
+}
+.dropdown-content :hover{
+    text-decoration: underline;
+
+}
+.dropdown a:hover {
+    background-color: #f1f1f1;
+
+}
+.show {display:block;}
