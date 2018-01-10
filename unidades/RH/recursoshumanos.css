@@ -10,10 +10,18 @@
     font-weight: bold;
 }
 
+body {
+    background-color: black;
+}
+
 .header {
     order: -1;
     flex-wrap: nowrap;
     flex-direction: row;
+    box-shadow: 10px 10px 5px grey;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
 }
 
 .navegacao {
@@ -23,6 +31,63 @@
     justify-content: flex-end;
     order: 1;
     font-family: "Courier New", Courier, monospace;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navegacao a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.navegacao a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .imagem {
@@ -30,24 +95,27 @@
     order: 0;
     display: flex;
     font-family: "Courier New", Courier, monospace;
-    font-size: 20px;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(0, 174, 255)
 }
 
 .main {
     display: flex;
     flex-flow: row wrap;
+    background-color: white;
 }
 
 .main_info {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
-    width: 85%;
+    width: 84.6%;
 }
 
 .caixinha_texto {
     margin: 2px;
-    border: 1px solid black;
     width: 100%;
+    border-top-style: dotted;
 }
 
 .rodape {
@@ -57,6 +125,8 @@
     order:5;
     background-color: grey;
     align-content: center;
+    border-style: solid;
+    border-color: black;
 }
 
 .rodape_texto {
@@ -73,11 +143,14 @@
     font-size: 14px;
     display: flex;
     width: 15%;
+    box-shadow: 10px 10px 5px grey;
+    border-style: solid;
+    border-color: black;
+    justify-content: flex-end;
 }
 
 .caixinha_menu {
     margin: 2px;
-    border: 1px solid black;
     text-align: center;
     width: 100%;
 }
@@ -114,4 +187,9 @@ a:visited {
 a:hover {
     color:cadetblue;
     text-decoration: underline;
+}
+
+.caixinha_texto k {
+    font-family:"Courier New", Courier, monospace;
+    font-size: 11px;
 }
