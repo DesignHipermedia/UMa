@@ -2,12 +2,13 @@
     overflow: hidden;
     background-color: white;
     font-family: Arial;
+    border: 1px solid;
 }
 
 .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,13 +23,13 @@
     font-size: 16px;    
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: white;
 }
 
 .dropdown-content {
