@@ -124,9 +124,9 @@ body {
     border: 1px solid white;
     order:5;
     background-color: grey;
-    align-content: center;
     border-style: solid;
     border-color: black;
+    justify-content: space-between;
 }
 
 .rodape_texto {
@@ -135,7 +135,6 @@ body {
     color: white;
     border-left-style: dashed;
     margin-right: 20%;
-    justify-content: center;
 }
 
 .main_menu {
@@ -155,19 +154,32 @@ body {
     width: 100%;
 }
 
-ul a:link {
+ul {
+    list-style-type: none;
+    width: 200px;
+    background-color: white;
+    justify-content: center;
+}
+
+ul li a{
+    display: block;
+    color: #000;
+    padding:8px 16px;
+    text-decoration: none;
+}
+ul li a:link {
     color: black;  
     text-decoration: none;
 }
 
-ul a:visited {
+ul li a:visited {
     color: black;
     text-decoration: none;
 }
 
-ul a:hover {
-    color: cadetblue;
-    text-decoration: underline;
+ul li a:hover {
+    background-color: #333;
+    color: white;
 }
 
 a {
