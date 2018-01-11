@@ -46,10 +46,16 @@ header{
     text-decoration: none;
     color: rgb(196, 194, 194);
 }
+.rapid-acess-style{
+    font-weight: bold;    
+    color:black;
+    margin:25px 0 10px 0;
+}
+
 
 .dropbtn {
     background-color: #333;
-    color: white;
+    color: whitesmoke;
     padding: 16px;
     border: none;
     cursor: pointer;
@@ -63,20 +69,21 @@ header{
 .dropdown-content {
     display: none;
     position: absolute;
-    right:125px;
+    right:0;
     background-color: #f9f9f9;
-    min-width: 1000px;
+    min-width: 1200px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 18px 30px 0px rgba(0,0,0,0.4);
     z-index: 1;
-    
+    height: 750px;
+    text-align: center;
 
 }
-
 .dropdown-content a {
+    width: 20%;   
     color: black;
-    padding: 12px 16px;
-    display: block;
+    /*padding: 15px 16px 15px;*/
+    margin: 10px 20px 10px 20px;
     
 }
 .dropdown-content :hover{
@@ -85,6 +92,5 @@ header{
 }
 .dropdown a:hover {
     background-color: #f1f1f1;
-
 }
 .show {display:block;}
