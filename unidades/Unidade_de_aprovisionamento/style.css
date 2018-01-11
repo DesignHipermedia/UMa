@@ -14,7 +14,6 @@ header{
 
 .navbar{
     display: flex;
-    flex-direction:row;
     padding: 10px;
     margin: 15px 0 0 0;
     height: 10%;
@@ -60,6 +59,8 @@ header{
     border: none;
     cursor: pointer;
     outline: none;
+    font-weight: bold;  
+
 }
 
 .dropbtn:hover, .dropbtn:focus {
