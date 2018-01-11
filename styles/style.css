@@ -3,6 +3,7 @@
     background-color: white;
     font-family: Arial;
     border: 1px solid;
+    border-radius: 1px;
 }
 
 .navbar a {
