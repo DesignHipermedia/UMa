@@ -14,6 +14,7 @@ header{
 
 .navbar{
     display: flex;
+    flex-direction:row;
     padding: 10px;
     margin: 15px 0 0 0;
     height: 10%;
@@ -45,22 +46,14 @@ header{
     text-decoration: none;
     color: rgb(196, 194, 194);
 }
-.rapid-acess-style{
-    font-weight: bold;    
-    color:black;
-    margin:25px 0 10px 0;
-}
-
 
 .dropbtn {
     background-color: #333;
-    color: whitesmoke;
+    color: white;
     padding: 16px;
     border: none;
     cursor: pointer;
     outline: none;
-    font-weight: bold;  
-
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -70,21 +63,20 @@ header{
 .dropdown-content {
     display: none;
     position: absolute;
-    right:0;
+    right:125px;
     background-color: #f9f9f9;
-    min-width: 1200px;
+    min-width: 1000px;
     overflow: auto;
-    box-shadow: 0px 18px 30px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    height: 750px;
-    text-align: center;
+    
 
 }
+
 .dropdown-content a {
-    width: 20%;   
     color: black;
-    /*padding: 15px 16px 15px;*/
-    margin: 10px 20px 10px 20px;
+    padding: 12px 16px;
+    display: block;
     
 }
 .dropdown-content :hover{
@@ -93,5 +85,6 @@ header{
 }
 .dropdown a:hover {
     background-color: #f1f1f1;
+
 }
 .show {display:block;}

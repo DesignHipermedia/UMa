@@ -101,37 +101,21 @@ body {
 }
 
 .main {
-<<<<<<< HEAD
-    flex-flow: row wrap;
-    display:flex;
-=======
     display: flex;
     flex-flow: row wrap;
     background-color: white;
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
 
 .main_info {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
-<<<<<<< HEAD
-    display: flex;
-    width: 85%;
-    flex-flow: column;
-=======
     width: 84.6%;
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
 
 .caixinha_texto {
     margin: 2px;
-<<<<<<< HEAD
-    border: 1px solid black;
-    width: 100%;
-=======
     width: 100%;
     border-top-style: dotted;
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
 
 .rodape {
@@ -140,13 +124,9 @@ body {
     border: 1px solid white;
     order:5;
     background-color: grey;
-<<<<<<< HEAD
-    justify-content: center;
-=======
     border-style: solid;
     border-color: black;
     justify-content: space-between;
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
 
 .rodape_texto {
@@ -155,34 +135,21 @@ body {
     color: white;
     border-left-style: dashed;
     margin-right: 20%;
-<<<<<<< HEAD
-    text-align: center;
-=======
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
 
 .main_menu {
     font-family: "Courier New", Courier, monospace;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     width: 15%;
-<<<<<<< HEAD
-    justify-content: flex-end;
-    text-align: center;
-=======
     box-shadow: 10px 10px 5px grey;
     border-style: solid;
     border-color: black;
     justify-content: flex-end;
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
 
 .caixinha_menu {
     margin: 2px;
-<<<<<<< HEAD
-    border: 1px solid black;
-    width: 100%;
-=======
     text-align: center;
     width: 100%;
 }
@@ -237,5 +204,4 @@ a:hover {
 .caixinha_texto k {
     font-family:"Courier New", Courier, monospace;
     font-size: 11px;
->>>>>>> ef868e9c1750992b943c7957e170bdf925d3beb2
 }
