@@ -4,10 +4,7 @@
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
     font-size: 14px;
 }
-body{
-    overflow: visible;
 
-}
 header{
     display: flex;
     background-color: #333;
@@ -16,26 +13,30 @@ header{
 
 .navbar{
     display: flex;
+    justify-content: space-around;
     padding: 10px;
     margin: 15px 0 0 0;
     height: 10%;
+    width: 40%;
+
 }
 
 .navbar a{
+    display: flex;
     text-decoration: none;
-    margin-left: 40px;
     line-height: 130%;
     color: rgb(196, 194, 194);
     font-weight: 400;
 }
 
 .navbar :hover{
-    text-decoration: underline;
     color: whitesmoke;
+    border-bottom: 1px solid #13a7e2;
+
 }
 
 .navbar-fast-acess{
-    color: whitesmoke;
+    color: rgb(196, 194, 194);
     align-self:flex-end;
     position: relative;
     display: inline-block;
@@ -52,6 +53,7 @@ header{
     color:black;
     font-size: 16px;
     margin:25px 0 10px 0;
+
 }
 .risk-under-fast-acess{
     border-bottom: 5px solid #13a7e2;
@@ -69,7 +71,8 @@ header{
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    text-decoration: underline;   
+    border-bottom: 5px solid #13a7e2;
+    color:whitesmoke;   
 }
 
 .dropdown-content {
