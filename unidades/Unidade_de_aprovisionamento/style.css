@@ -16,9 +16,8 @@ header{
     justify-content: space-around;
     padding: 10px;
     margin: 15px 0 0 0;
-    height: 10%;
+    height: 8%;
     width: 40%;
-
 }
 
 .navbar a{
@@ -31,8 +30,6 @@ header{
 
 .navbar :hover{
     color: whitesmoke;
-    border-bottom: 1px solid #13a7e2;
-
 }
 
 .navbar-fast-acess{
@@ -41,7 +38,8 @@ header{
     position: relative;
     display: inline-block;
     flex-wrap: wrap;
-
+    text-align: center;
+    width: 250px;
 }
 
 .navbar-fast-acess a{
@@ -52,13 +50,12 @@ header{
     font-weight: bold;    
     color:black;
     font-size: 16px;
-    margin:25px 0 10px 0;
-
+    margin:25px 0 10px 0;   
 }
 .risk-under-fast-acess{
     border-bottom: 5px solid #13a7e2;
-    /*#0c83b2  azul do logo*/
-    
+
+    /*#0c83b2  azul do logo*/   
 }
 .dropbtn {
     background-color: #333;
@@ -71,39 +68,109 @@ header{
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    border-bottom: 5px solid #13a7e2;
-    color:whitesmoke;   
+    color:rgb(255, 255, 255);   
+    border-bottom: 4px solid #13a7e2;   
+    
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    right:0;
-    background-color: #f9f9f9;
-    min-width: 1200px;
-    overflow: auto;
+    right:-315px;
+    background-color: #fafafa;
+    width: 100vw;
     box-shadow: 0px 18px 30px 0px rgba(0,0,0,0.4);
     z-index: 1;
-    height: 850px;
-    text-align: center;
+}
+.dropdown-content-order{
+    display: flex;
+    flex-flow: column wrap;
+    border-left: 1px solid #0e0d0d;
+    width: 250px;
+    margin-bottom: 15px;
+ 
 }
 .dropdown-content a {
-    width: 20%;   
+    display: block;
+    width: auto;   
     color: black;
-    /*padding: 15px 16px 15px;*/
-    margin: 5px 20px 10px 20px;
+    padding:5px;
     line-height: 25px;
+    justify-content: space-around;
     
 }
-.dropdown-content a:hover{
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-content a:hover {
+    border-bottom: 2px solid #13a7e2;   
+}
+.navbar-fast-acess:hover{
+    display: block;
+}
+.dropdown a:hover .dropbtn {
+    background-color: #0e0d0d;
     text-decoration: underline;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+ 
+/* Dropdown Button */
+.links-drpbtn {
+    background-color: #333;
+    color: rgb(196, 194, 194);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.links-dropdown {
+    position: static;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.links-drpdwncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 
 }
-.dropdown a:hover {
-    background-color: #f1f1f1;
-}
-.show {display:block;}
 
+/* Links inside the dropdown */
+.links-drpdwncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.links-drpdwncontent a:hover {
+    color: black;
+    border-bottom: 2px solid #13a7e2;   
+}
+
+/* Show the dropdown menu on hover */
+.links-dropdown:hover .links-drpdwncontent {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.links-dropdown:hover, {
+    border-bottom: 2px solid #13a7e2;   
+
+}
 
 .fancy {
     margin-bottom:15px;
@@ -185,3 +252,5 @@ footer{
 
     text-align: center;
 }
+
+
