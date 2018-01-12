@@ -13,19 +13,19 @@
 
     <script>
         $(document).ready(function () {
-             $(".dropbtn").click(function () {
-                 $(".dropdown-content").css({ "position": "absolute" }).fadeIn("0.5");
-             });
-         });
- 
-    
-            $(document).mouseup(function (e) {
-                var container = $(".dropdown-content");
-                // if the target of the click isn't the container nor a descendant of the container
-                if (!container.is(e.target) && container.has(e.target).length === 0) {
-                    container.fadeOut("0.5");
-                }
+            $(".dropbtn").hover(function () {
+                $(".dropdown-content").css({ "position": "absolute" }).fadeIn("0.5");
             });
+        });
+
+
+        $(document).mouseup(function (e) {
+            var container = $(".dropdown-content");
+            // if the target of the click isn't the container nor a descendant of the container
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                container.fadeOut("0.5");
+            }
+        });
     </script>
 
 
@@ -51,19 +51,11 @@
                 <a href="#">ANCP</a>
             </div>
         </div>
+        <a href="#">Contatos</a>
+        <a href="#">Formulários</a>
+        <a href="#">Aquisição Bibliografica</a>
+        <a href="#">Contato e Sugestões</a>
 
-        <div>
-            <a href="#">Contatos</a>
-        </div>
-        <div>
-            <a href="#">Formulários</a>
-        </div>
-        <div>
-            <a href="#">Aquisição Bibliografica</a>
-        </div>
-        <div>
-            <a href="#">Contato e Sugestões</a>
-        </div>
     </div>
     <div class="navbar-fast-acess">
         <button class="dropbtn">Acesso Rápido</button>
