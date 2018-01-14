@@ -1,7 +1,8 @@
 .navbar {
     padding: 5px;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
+    height: auto;
 }
 
 .navbar a {
@@ -35,12 +36,13 @@
 }
 
 .dropdown-content {
+    overflow: auto;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1000;
 }
 
 .dropdown-content a {
@@ -48,6 +50,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size: 12px;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -56,6 +59,35 @@
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-opacity: 0.5;
+.droppar {
+    font-weight: bold;
+}
+
+.worklogo {
+    width: auto;
+    height: 300px;
+}
+
+.row{
+    padding-bottom: 20px;
+}
+
+.col-sm-3{
+    width: 878px;
+    height: 418px;
+}
+
+.imagemLogo{
+    width: 1408px;
+    height: 408px;
+}
+
+#footerl{
+    background-color: black;
+    opacity: 0.7
+}
+
+.footerhip li a{
+    text-decoration: none;
+    color: white;
 }
