@@ -5,6 +5,7 @@
     font-size: 14px;
 }
 
+
 header{
     display: flex;
     background-color: #333;
@@ -72,23 +73,27 @@ header{
     border-bottom: 4px solid #13a7e2;   
     
 }
-
-.dropdown-content {
-    display: none;
+.dropdown-content
+ {
+    display: block;
     position: absolute;
-    right:-315px;
+    right:-40%;
     background-color: #fafafa;
-    width: 100vw;
+    width: 80vw;
     box-shadow: 0px 18px 30px 0px rgba(0,0,0,0.4);
     z-index: 1;
+
 }
 .dropdown-content-order{
     display: flex;
     flex-flow: column wrap;
-    border-left: 1px solid #0e0d0d;
     width: 250px;
     margin-bottom: 15px;
- 
+    border-left: 0.1px solid #0e0d0d;
+    border-right: 0.1px solid #0e0d0d;
+}
+#dropdown-content-borders{
+    border-left: 0.1px solid #0e0d0d;
 }
 .dropdown-content a {
     display: block;
@@ -137,7 +142,6 @@ header{
     position: static;
     display: inline-block;
 }
-
 /* Dropdown Content (Hidden by Default) */
 .links-drpdwncontent {
     display: none;
@@ -146,8 +150,8 @@ header{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-
 }
+
 
 /* Links inside the dropdown */
 .links-drpdwncontent a {
@@ -161,6 +165,7 @@ header{
 .links-drpdwncontent a:hover {
     color: black;
     border-bottom: 2px solid #13a7e2;   
+
 }
 
 /* Show the dropdown menu on hover */
@@ -171,13 +176,11 @@ header{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .links-dropdown:hover, {
     border-bottom: 2px solid #13a7e2;   
-
 }
 
 .fancy {
-    margin-bottom:15px;
-    line-height: 0.5;
-    text-align: center;
+    margin-left:120%;
+    line-height: 0;
 }
 .fancy span {
     display: inline-block;
@@ -187,19 +190,18 @@ header{
 .fancy span:after {
     content: "";
     position: absolute;
-    height: 5px;
-    border-bottom: 1.5px solid rgb(0, 0, 0);
-    bottom:2px;
-    width: 450px;
+    border-right: 1.5px solid rgb(0, 0, 0);
+    bottom:0px;
+    height: 340px;;
 }
-.fancy span:before {
+/*.fancy span:before {
     right: 100%;
     margin-right: 15px;
 }
 .fancy span:after {
     left: 100%;
     margin-left: 15px;
-}
+}*/
 
 .main_container{
     display: flex;
@@ -213,6 +215,7 @@ header{
     flex-direction: column;
     margin-top: 2%;
     box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);   
+    border-top:5px solid #13a7e2;  
 }
 
 .texto_conteudo, .titulo{
@@ -230,7 +233,8 @@ header{
     font-size: 15px;
     line-height: 25px;
     margin-left:2%;
-    text-align: justify;
+    text-align: justify; 
+
 }
 
 .contatos{
@@ -256,3 +260,62 @@ footer{
 }
 
 
+@media (max-width:1150px) {
+    .navbar{
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      height: 50%;
+    }
+    .main_container{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+    }
+    .dropdown-content-order{
+        border:0; 
+  }
+  .dropdown-content{
+      right:-7%;
+  }
+  ]
+}
+  @media screen and (min-width: 1150px) and (max-width: 1450px) { 
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 50%;
+      width: auto;
+    }
+    .main_container{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-height: 100%;
+        max-width: 100%;
+        border-style: none!important;
+
+    }
+    .dropdown-content-order{
+        border:0;
+    }
+    .links-content-order{
+        display: flex;
+        flex-direction: row;
+    }
+    .links-drpdwncontent{
+        position:absolute;
+        right:20%;
+    }
+}
