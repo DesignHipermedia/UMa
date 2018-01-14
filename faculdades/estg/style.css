@@ -1,5 +1,9 @@
+header {
+    width: auto;
+    height: auto;
+}
 .navbar {
-    padding: 5px;
+    
     background-color: black;
     opacity: 0.7;
     height: auto;
@@ -12,8 +16,8 @@
 }
 
 .navbar .imagemlogo{
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 75px;
 }
 
 .navbar .imagemlupa{
@@ -21,11 +25,16 @@
     height: 20px;
 }
 
+.container1{
+    background-image: url('workspace.jpg');
+    width: auto;
+    height: 300px;
+}
+
 .dropbtn {
     background-color: black;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    font-size: 12px;
     border: none;
     cursor: pointer;
 }
@@ -69,12 +78,13 @@
 }
 
 .row{
-    padding-bottom: 20px;
+    border-style: inset;
+    height: auto;
 }
 
 .col-sm-3{
     width: 878px;
-    height: 418px;
+    height: 438px;
 }
 
 .imagemLogo{
@@ -90,4 +100,50 @@
 .footerhip li a{
     text-decoration: none;
     color: white;
+}
+
+.col-sm-4 h5 {
+    color: white;
+}
+
+.col-sm-4 p {
+    font-size: 10px;
+    color: #F0F0F0;
+}
+
+.col-sm-4 p a {
+    font-size: 10px;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.estgname h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.7;
+    width: 814px;
+    height: 70px;
+    text-align: left center;
+    color: white;
+}
+
+.LastItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.fli {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sli {
+    font-size: 12px;
 }
