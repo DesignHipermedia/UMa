@@ -1,0 +1,11 @@
+.body{
+    display: flex;
+    background-color: crimson;
+}
+
+corpo{
+    background-color: grey;
+    border: 1px;
+    height: 100vh;
+    width: 70vw;
+}
