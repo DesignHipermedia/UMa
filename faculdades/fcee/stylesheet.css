@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 146, 96);
@@ -169,4 +170,16 @@ a{
     margin: 5px;
     padding: 5px;
     border-radius: 4px;
+=======
+.body{
+    display: flex;
+    background-color: crimson;
+}
+
+corpo{
+    background-color: grey;
+    border: 1px;
+    height: 100vh;
+    width: 70vw;
+>>>>>>> e04c54c2d6fa40d84463fa7560f5939ec3ef8051
 }
