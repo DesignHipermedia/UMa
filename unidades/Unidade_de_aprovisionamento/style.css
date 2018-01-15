@@ -75,7 +75,7 @@ header{
 }
 .dropdown-content
  {
-    display: block;
+    display: none;
     position: absolute;
     right:-40%;
     background-color: #fafafa;
@@ -104,6 +104,17 @@ header{
     justify-content: space-around;
     
 }
+.links-mobile{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.links-mobile a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .columns{
     display: flex;
     flex-direction: row;
@@ -263,9 +274,6 @@ footer{
 @media (max-width:1150px) {
     .navbar{
       display: none;
-      flex-direction: column;
-      justify-content: center;
-      height: 50%;
     }
     .main_container{    
         display: flex;
@@ -283,14 +291,16 @@ footer{
   .dropdown-content{
       right:-7%;
   }
+  .links-mobile{
+    display: flex;
 }
-  @media screen and (min-width: 1150px) and (max-width: 1450px) { 
+}
+  @media screen and (min-width: 1150px) and (max-width: 1350px) { 
     .navbar{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 50%;
-      width: auto;
+      display:none;
+    }
+    .links-mobile{
+        display: flex;
     }
     .main_container{    
         display: flex;
@@ -313,8 +323,12 @@ footer{
         display: flex;
         flex-direction: row;
     }
-    .links-drpdwncontent{
-        position:absolute;
-        right:20%;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 650px) { 
+    .links-mobile{
+    display: flex;
+    flex-direction: column;
     }
 }
