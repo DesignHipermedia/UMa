@@ -13,21 +13,18 @@
 
     <script>
         $(document).ready(function () {
-            $(".dropbtn").click(function () {
+            $(".dropbtn").hover(function () {
                 $(".dropdown-content").css({ "position": "absolute" }).fadeIn("0.5");
             });
         });
-        $(document).ready(function () {
-            $(".dropbtn").click(function () {
-                $(".dropdown-content").css({ "position": "absolute" }).fadeIn("0.5");
-            });
-        });
+        
+
 
         $(document).mouseup(function (e) {
             var container = $(".dropdown-content");
             // if the target of the click isn't the container nor a descendant of the container
             if (!container.is(e.target) && container.has(e.target).length === 0) {
-                container.css({ "position": "none" }).fadeOut("0.5");
+                container.fadeOut("0.5");
             }
         });
 
@@ -56,56 +53,10 @@
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
-        <div class="navbar-fast-acess">
-            <button onclick="myFunction()" class="dropbtn">Acesso Rápido</button>
-            <div id="myDropdown" class="dropdown-content">
-<<<<<<< HEAD
-                <p style="color:black;">
-                    <b>A Universidade</b>
-=======
-                <p class="subtitle fancy">
-                    <span class="fast-acess-style">&bull; A Universidade &bull;</span>
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-                </p>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Projecto Educativo, Científico e Cultural</a>
-                <a href="#">Conselho Geral</a>
-                <a href="#">Reitoria</a>
-                <a href="#">Senado Universitário</a>
-<<<<<<< HEAD
-
-                <p style="color:black;">
-                    <b>A Ensino</b>
-                </p>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Projecto Educativo, Científico e Cultural</a>
-                <a href="#">Conselho Geral</a>
-                <a href="#">Reitoria</a>
-                <a href="#">Senado Universitário</a>
-
-
-                <p style="color:black;">
-                    <b>Investigação</b>
-=======
-                <a href="#">Concelho de Cultura</a>
-                <a href="#">Provedor do Estudante</a>
-                <a href="#">Estrutura Orgânica</a>
-                <a href="#">Serviços de Acção Social</a>
-
-                <p class="fast-acess-style">
-                    &bull; Gabinetes &bull;
-                </p>
-                <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
-                <a href="#">Controlo de Qualidade</a>
-                <a href="#">Desenvolvimento de Aplicações Informáticas</a>
-                <a href="#">Imagem e Relações Públicas</a>
-=======
         <a href="#">Contatos</a>
         <a href="#">Formulários</a>
         <a href="#">Aquisição Bibliografica</a>
         <a href="#">Contato e Sugestões</a>
->>>>>>> b0c08cf2faf456cf241f36543c2125288ae4d902
 
     </div>
     <div class="navbar-fast-acess">
@@ -113,8 +64,6 @@
         <div class="dropdown-content">
             <div class="risk-under-fast-acess"></div>
             <div class="links-mobile">
-
-                
                             <a href="#">Home</a>
                             <a href="#">Links</a>
                             <a href="#">Contatos</a>
@@ -139,67 +88,6 @@
                     <a href="#">Serviços de Acção Social</a>
                 </div>
 
-<<<<<<< HEAD
-                <p class="fast-acess-style">
-                    &bull; Serviços e Investigação &bull;
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-                </p>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Projecto Educativo, Científico e Cultural</a>
-                <a href="#">Conselho Geral</a>
-                <a href="#">Reitoria</a>
-                <a href="#">Senado Universitário</a>
-
-<<<<<<< HEAD
-                <p style="color:black;">
-                    <b>Serviços e Investigação</b>
-=======
-                <p class="fast-acess-style">
-                    &bull; Serviços e Investigação &bull;
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-                </p>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Projecto Educativo, Científico e Cultural</a>
-                <a href="#">Conselho Geral</a>
-                <a href="#">Reitoria</a>
-                <a href="#">Senado Universitário</a>
-
-<<<<<<< HEAD
-                <p style="color:black;">
-                    <b>Faculdades e Escolas</b>
-=======
-                <p class="fast-acess-style">
-                    &bull; Comunidades &bull;
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-                </p>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Projecto Educativo, Científico e Cultural</a>
-                <a href="#">Conselho Geral</a>
-                <a href="#">Reitoria</a>
-                <a href="#">Senado Universitário</a>
-
-<<<<<<< HEAD
-=======
-                <p class="fast-acess-style">
-                    &bull; Faculdades e Escolas &bull;
-                </p>
-                <a href="#">Artes e Humanidades</a>
-                <a href="#">Ciências Exactas e da Engenharia</a>
-                <a href="#">Ciências Sociais</a>
-                <a href="#">Ciências da Vida</a>
-                <a href="#">Escola Superior de Saúde</a>
-                <a href="#">Escola Superior de Tecnologias e Gestão</a>
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-            </div>
-            <div class="risk-under-fast-acess"></div>
-        </div>
-    </header>
-    <div class='main_container'>
-            <div class='titulo'><p>Unidade de Aprovisionamento e Património - UAP</p></div>
-            <div class='conteudo'>
-                <div class='titulo'>
-                    <p>À UAP compete</p>
-=======
                 <div class="dropdown-content-order">
                     <p class="fast-acess-style">
                         <i class="fa fa-chevron-right"></i> Gabinetes
@@ -209,7 +97,6 @@
                     <a href="#">Desenvolvimento de Aplicações Informáticas</a>
                     <a href="#">Imagem e Relações Públicas</a>
 
->>>>>>> b0c08cf2faf456cf241f36543c2125288ae4d902
                 </div>
 
                 <div class="dropdown-content-order">
