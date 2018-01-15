@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+   }
+
+   .flexwrappernav{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+   }
+
+   header {
+    flex: 1;
+    width: auto;
+    min-height: 152px;
+    background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+   }
+
+   nav {
+    background-color: rgb(2, 6, 39);
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.90rem;
+    min-height: 0.75rem;
+    align-items: center;
+    /* padding: 0 1rem; */
+    height: auto;
+   }
+
+   .ListItem {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+   }
+
+   .ListItem:hover {
+    text-decoration: underline;
+    color: white;
+   }
+
+   .LastItem {
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+   }  
+
+.painel {
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: gray;
+    }
+.painel .painel_titulo {
+    color: black;
+    margin-bottom: 5px;
+    text-align: center ;
+
+    } 
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap; 
+   }
+
+h1{
+    width: auto;
+    height: auto;
+    color: black;
+
+}
+h2{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h3{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h4{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h5{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h6{
+    width: auto;
+    height: auto;
+    color: black;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    font-size: 0.75rem;
+    min-height: 0.75rem;
+    justify-content: space-around;
+    padding: 0 1rem;
+   }
+
+   .flexItems {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   }
+
+   /* hoverdropdown */
+
+
+   .dropbtn {
+    background-color: rgb(2, 6, 39);
+    color: white;
+    padding: 26px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+    padding: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 0.75rem;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.span{
+    color: black;
+}
