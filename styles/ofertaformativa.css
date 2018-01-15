@@ -15,19 +15,19 @@ body {
    header {
     flex: 1;
     width: auto;
-    min-height: 232px;
+    min-height: 152px;
     background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
     height: auto;
    }
 
    nav {
     background-color: rgb(2, 6, 39);
     font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
+    font-size: 0.90rem;
     min-height: 0.75rem;
     align-items: center;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     height: auto;
    }
 
@@ -36,6 +36,12 @@ body {
     color: white;
     text-decoration: none;
    }
+
+   .ListItem:hover {
+    text-decoration: underline;
+    color: white;
+   }
+
    .LastItem {
     margin-left: auto;
     color: white;
@@ -43,7 +49,6 @@ body {
    }  
 
 .painel {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0FkinVTsJnsbzzWQ9RhixHVjDD4u_yysN3t_l8t7ceGWYjP-x");
     background-size: auto;
     background-position: top;
     background-repeat: no-repeat;
@@ -110,7 +115,8 @@ footer {
    .flexItems {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
    }
 
    /* hoverdropdown */
@@ -119,14 +125,15 @@ footer {
    .dropbtn {
     background-color: rgb(2, 6, 39);
     color: white;
-    padding: 16px;
+    padding: 26px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .dropdown {
-    padding: 40px;
+    padding: 25px;
     position: relative;
     display: inline-block;
 }
@@ -134,25 +141,30 @@ footer {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: gray;
-    min-width: 160px;
+    background-color: #f9f9f9;
+    min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
     z-index: 1;
+    font-size: 0.75rem;
 }
 
 .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
+    color: black;
+    padding: 1px 2px;
     text-decoration: none;
-    display: block;
 }
 
-.dropdown-content a:hover {background-color: rgb(2, 6, 39);}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: rgb(2, 6, 39);;
+a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.span{
+    color: black;
 }
