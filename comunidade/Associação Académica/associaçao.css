@@ -6,6 +6,7 @@ body {
 .container {
     overflow: hidden;
     background-color: #e9e9e9;
+    margin-top: 20px;
 }
   
 .container a {
