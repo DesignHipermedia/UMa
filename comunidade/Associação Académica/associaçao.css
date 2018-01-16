@@ -30,7 +30,6 @@ body {
 }
   
 .container .search-container {
-    background-color: #c7c7c7;
     float: right;
 }
   
@@ -39,6 +38,7 @@ body {
     margin-top: 20px;
     font-size: 17px;
     border: none;
+    background-color: #c7c7c7;
 }
   
 .container .search-container button {
