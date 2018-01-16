@@ -133,7 +133,8 @@ footer {
 }
 
 .dropdown {
-    padding: 25px;
+    padding-bottom: 12.5px;
+    padding-top: 12.5px;
     position: relative;
     display: inline-block;
 }
@@ -144,7 +145,7 @@ footer {
     background-color: #f9f9f9;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    padding: 13px 16px;
     z-index: 1;
     font-size: 0.75rem;
 }
