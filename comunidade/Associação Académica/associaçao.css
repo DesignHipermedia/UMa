@@ -11,7 +11,7 @@ body {
 .container a {
     float: left;
     display: block;
-    color: black;
+    color: gainsboro;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,7 +20,7 @@ body {
   
 .container a:hover {
     background-color: #ddd;
-    color: #22205b;
+    color: black;
 }
   
 .container a.active {
