@@ -6,7 +6,6 @@ body {
 .container {
     overflow: hidden;
     background-color: #ffffff;
-    margin-top: 20px;
 }
   
 .container a {
@@ -14,6 +13,7 @@ body {
     display: block;
     color: #22205b;
     text-align: center;
+    margin-top: 20px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -35,7 +35,7 @@ body {
   
 .container input[type=text] {
     padding: 6px;
-    margin-top: 8px;
+    margin-top: 20px;
     font-size: 17px;
     border: none;
 }
@@ -45,14 +45,14 @@ body {
     padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
-    background: #ffffff;
+    background: #d3d3d3;
     font-size: 17px;
     border: none;
     cursor: pointer;
 }
   
 .container .search-container button:hover {
-    background: #ffffff;
+    background: #22205b;
 }
   
 @media screen and (max-width: 600px) {
