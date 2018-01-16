@@ -3,17 +3,6 @@ body {
     margin:0;
 }
 
-h1 {
-    font-weight: 900;
-    height: 36px;
-    margin: 0;
-    line-height: 0.8;
-}
-
-.cor-principal {
-    color: #22205b;
-}
-
 .container {
     overflow: hidden;
     background-color: #e9e9e9;
@@ -31,11 +20,11 @@ h1 {
   
 .container a:hover {
     background-color: #ddd;
-    color: black;
+    color: #22205b;
 }
   
 .container a.active {
-    background-color: #2196F3;
+    background-color: #22205b;
     color: white;
 }
   
