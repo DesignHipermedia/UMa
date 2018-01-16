@@ -1,3 +1,10 @@
 body {
     background-color: gainsboro;
 }
+
+h1 {
+    font-weight: 900;
+    height: 36px;
+    margin: 0;
+    line-height: 0.8;
+}
