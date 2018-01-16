@@ -1,0 +1,37 @@
+ol{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-align:end;
+    color: black;
+}
+
+.li {
+    text-decoration-color: black;
+    text-decoration: none;
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    width: 250px;
+    height: auto;
+
+
+}
+img{
+    width: 250px;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+   }

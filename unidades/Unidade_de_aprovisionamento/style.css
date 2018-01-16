@@ -14,11 +14,7 @@ header{
 
 .navbar{
     display: flex;
-<<<<<<< HEAD
-    flex-direction:row;
-=======
     justify-content: space-around;
->>>>>>> b48967c2e86543c35f2ce9217fb10272f45a4197
     padding: 10px;
     margin: 15px 0 0 0;
     height: 8%;
@@ -51,9 +47,6 @@ header{
     text-decoration: none;
     color: rgb(196, 194, 194);
 }
-<<<<<<< HEAD
-
-=======
 .fast-acess-style{
     font-weight: bold;    
     color:black;
@@ -65,18 +58,14 @@ header{
 
     /*#0c83b2  azul do logo*/   
 }
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
 .dropbtn {
     background-color: #333;
-    color: white;
+    color: whitesmoke;
     padding: 16px;
     border: none;
     cursor: pointer;
     outline: none;
-<<<<<<< HEAD
-=======
     font-weight: bold;
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -86,23 +75,8 @@ header{
 }
 .dropdown-content
  {
-    display: block;
+    display: none;
     position: absolute;
-<<<<<<< HEAD
-    right:125px;
-    background-color: #f9f9f9;
-    min-width: 1000px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-<<<<<<< HEAD
-    
-
-=======
-    height: 850px;
-    text-align: center;
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-=======
     right:-40%;
     background-color: #fafafa;
     width: 80vw;
@@ -120,30 +94,27 @@ header{
 }
 #dropdown-content-borders{
     border-left: 0.1px solid #0e0d0d;
->>>>>>> b0c08cf2faf456cf241f36543c2125288ae4d902
 }
-
 .dropdown-content a {
-<<<<<<< HEAD
-    color: black;
-<<<<<<< HEAD
-    padding: 12px 16px;
-    display: block;
-=======
-    /*padding: 15px 16px 15px;*/
-    margin: 5px 20px 10px 20px;
-    line-height: 25px;
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-=======
     display: block;
     width: auto;   
     color: black;
     padding:5px;
     line-height: 25px;
     justify-content: space-around;
->>>>>>> b0c08cf2faf456cf241f36543c2125288ae4d902
     
 }
+.links-mobile{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.links-mobile a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .columns{
     display: flex;
     flex-direction: row;
@@ -200,16 +171,6 @@ header{
     text-decoration: none;
     display: block;
 }
-<<<<<<< HEAD
-.dropdown a:hover {
-    background-color: #f1f1f1;
-
-}
-<<<<<<< HEAD
-.show {display:block;}
-=======
-.show {display:block;}
-=======
 
 /* Change color of dropdown links on hover */
 .links-drpdwncontent a:hover {
@@ -217,7 +178,6 @@ header{
     border-bottom: 2px solid #13a7e2;   
 
 }
->>>>>>> b0c08cf2faf456cf241f36543c2125288ae4d902
 
 /* Show the dropdown menu on hover */
 .links-dropdown:hover .links-drpdwncontent {
@@ -309,17 +269,11 @@ footer{
 
     text-align: center;
 }
-<<<<<<< HEAD
->>>>>>> 9f5c0ff5047d6e9fd671ec1fe32ef53d4c82626d
-=======
 
 
 @media (max-width:1150px) {
     .navbar{
       display: none;
-      flex-direction: column;
-      justify-content: center;
-      height: 50%;
     }
     .main_container{    
         display: flex;
@@ -337,14 +291,16 @@ footer{
   .dropdown-content{
       right:-7%;
   }
+  .links-mobile{
+    display: flex;
 }
-  @media screen and (min-width: 1150px) and (max-width: 1450px) { 
+}
+  @media screen and (min-width: 1150px) and (max-width: 1350px) { 
     .navbar{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 50%;
-      width: auto;
+      display:none;
+    }
+    .links-mobile{
+        display: flex;
     }
     .main_container{    
         display: flex;
@@ -367,9 +323,12 @@ footer{
         display: flex;
         flex-direction: row;
     }
-    .links-drpdwncontent{
-        position:absolute;
-        right:20%;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 650px) { 
+    .links-mobile{
+    display: flex;
+    flex-direction: column;
     }
 }
->>>>>>> b0c08cf2faf456cf241f36543c2125288ae4d902
