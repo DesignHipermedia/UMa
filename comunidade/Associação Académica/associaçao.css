@@ -6,12 +6,13 @@ body {
 .container {
     overflow: hidden;
     background-color: #e9e9e9;
+    margin-top: 20px;
 }
   
 .container a {
     float: left;
     display: block;
-    color: black;
+    color: #22205b;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,7 +21,7 @@ body {
   
 .container a:hover {
     background-color: #ddd;
-    color: #22205b;
+    color: black;
 }
   
 .container a.active {
