@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="associaçao.css">
     <title>Associação Académica</title>
 </head>
 <body>
@@ -12,6 +14,7 @@
             <nav class="navbar navbar-expand-md navbar-light bg-light px-0">
                 <a class="navbar-brand" href="#">                     
                     <h1>
+                        <span class="cor-principal"></span>
                         <img src="http://aauma.uma.pt/wp-content/uploads/2017/11/AM-logotipo-site_Artboard-1-1.png" alt="logotipo">                                                           
                     </h1>                 
                 </a>
@@ -21,8 +24,47 @@
                     aria-label="Toggle navigation">                     
                     <span class="navbar-toggler-icon"></span>                 
                 </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="inicio.html" class="nav-link">Início</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item">
+                            <a href="agenda.html" class="nav-link">Agenda</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item">
+                            <a href="iniciativas.html" class="nav-link">Iniciativas</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item pr">
+                            <a href="noticias.html" class="nav-link">Notícias</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item pr">
+                            <a href="erasmus.html" class="nav-link">My Erasmus</a>
+                        </li>
+                        <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                        <li class="nav-item pr-3">
+                                <a href="contactos.html" class="nav-link">Contactos</a>
+                            </li>
+                        <li class="nav-item">
+                            <div class="search-container">
+                                <form action="/action_page.php">
+                                    <input type="text" placeholder="Search.." name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
