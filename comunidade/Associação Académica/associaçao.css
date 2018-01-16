@@ -1,11 +1,11 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #d3d3d3;
     margin:0;
 }
 
 .container {
     overflow: hidden;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     margin-top: 20px;
 }
   
@@ -20,13 +20,13 @@ body {
 }
   
 .container a:hover {
-    background-color: #e6e6e6;
+    background-color: #c7c7c7;
     color: black;
 }
   
 .container a.active {
     background-color: #22205b;
-    color: white;
+    color: black;
 }
   
 .container .search-container {
@@ -45,14 +45,14 @@ body {
     padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
-    background: #e6e6e6;
+    background: #ffffff;
     font-size: 17px;
     border: none;
     cursor: pointer;
 }
   
 .container .search-container button:hover {
-    background: #e6e6e6;
+    background: #ffffff;
 }
   
 @media screen and (max-width: 600px) {
