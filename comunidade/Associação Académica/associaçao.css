@@ -43,9 +43,9 @@ body {
 .container .search-container button {
     float: right;
     padding: 6px 10px;
-    margin-top: 8px;
+    margin-top: 20px;
     margin-right: 16px;
-    background: #d3d3d3;
+    background: #a0a0a0;
     font-size: 17px;
     border: none;
     cursor: pointer;
