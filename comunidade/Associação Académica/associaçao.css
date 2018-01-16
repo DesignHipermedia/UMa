@@ -9,7 +9,7 @@ body {
 }
   
 .container a {
-    float: left;
+    float: right;
     display: block;
     color: black;
     text-align: center;
