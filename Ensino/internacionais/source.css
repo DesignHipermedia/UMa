@@ -1,19 +1,33 @@
-.color1{
+.imgbanner{
     border: 1px dotted red;
-        
+    width:100%;/*To occupy image full width of the container and also fit inside the container*/
+
+}
+
+.bord{
+    
+    border: 1px solid greenyellow;
 }
 .banner{
     display: flex;
     flex-wrap: nowrap;
-    border: 1px solid;
-    margin: 2px;
+    padding: 5px;
+    margin-left: 2%;
+    margin-right:2%;
+    max-height: 70px;
 }
 
 
+.imgb{
+    display: flex;
+    height: 70px;
+    width: auto;
+}
 .flg{
     border: 2px;
     border-radius: 12%;
-    padding: 5px;
+    padding: 1px;
+    max-width: 100%;
 }
 
 .foot3r{
@@ -21,4 +35,10 @@
     color: whitesmoke;
     border-radius: 15px;
     padding: 5px;
+}
+
+
+
+.btna{
+padding: 5px;
 }
