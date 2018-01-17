@@ -9,16 +9,51 @@
     <link rel="stylesheet" href="../styles/ofertaformativa.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript">
+    var arrLang = new Array();
+    arrLang['pt'] = new Array();
+    arrLang['en'] = new Array();
+
+    arrLang['pt']['sobre'] = 'Sobre Nós';
+    arrLang['pt']['universidade'] = 'A Universidade';
+
+    arrLang['en']['sobre'] = 'About Us';
+    arrLang['en']['universidade'] = 'The University';
+
+
+    $(document).ready(function(e) {
+        
+        $('.translate').click(function(){
+            var lang = $(this).attr('id');
+
+            $('.lang').each(function(index, element){
+                $(this).text(arrLang[lang][$(this).attr('key')]);
+                
+            });
+            
+        }); 
+         
+    });
+    
+    </script>
+
 </head>
 
 <body>
     <div class="flexwrappernav">
-        <header class="flexItems"></header>
+        <header class="flexItems">
+            <ul class="img">
+            <li><a id="pt" class="translate" href="#"><img class="images" src="../styles/por.png" alt=""></a></li>
+            <li><a id="en" class="translate" href="#"><img class="imageseng" src="../styles/eng.png" alt=""></li></a>
+            </ul>
+        </header>
         <nav class="flexItems">
                 <div class="dropdown"> <!--#### A Universidade ### -->
-                        <a href="#" class="ListItem">A Universidade</a> 
+                        <a href="#" class="ListItem lang" key="universidade"> A Universidade</a> 
                         <ul class="dropdown-content">
-                            <li><a href="#">Sobre Nós</a></li>
+                            <li class="lang" key="sobre"><a href="#">Sobre Nós</a></li>
                             <li><a href="#">Projeto Educativo, Científico e Cultural</a></li>
                             <li><a href="#">Conselho Geral</a></li>
                             <li><a href="#">Reitoria</a></li>
@@ -107,80 +142,51 @@
 
 
 
+        <div class="flexwrapper">
 
+            <main class="flexMain">
 
-    <section class="flexcontainer">
+                <div class="foco"><span><b>EM FOCO</b></span></div>
+                <div id="flexbox1">
+                    <div><h5>DISSERTAÇÕES E TESES</h5></div>
+                    <div><h5>VAGAS NA UMA</h5></div>
+                    <div><h5>INQUÉRITO PEDAGÓGICO</h5></div>
+                </div>
+                <section id="flexbox">
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non,
+                       consequatur debitis eius doloremque dolor in voluptates labore. Vel provident laboriosam
+                       ipsam eveniet deserunt repellat odio libero vero animi aut obcaecati quam, aspernatur
+                       placeat excepturi similique pariatur odit. Nesciunt delectus sed dolorum quia officiis
+                       nihil dicta deleniti eius magni ea.</div>
+                        <div>Necessitatibus quisquam repellat ratione doloremque beatae voluptas </div>
+                        <div>dignissimos velit nam aliquid, cumque tenetur vitae id at quaerat aut dolor
+                       culpa nulla. A quia inventore dolorum id fugiat, iusto repellendus! Similique, obcaecati
+                       eveniet excepturi quod, tempore ullam quos vel itaque incidunt
+                        deleniti molestiae ipsam a? Non?</div>
+                </section>
+                <br>
+                <div id="flexbox1">
+                        <div><h5>MODELOS DE TRABALHOS ACADÉMICOS</h5></div>
+                        <div><h5>CANDIDATURAS</h5></div>
+                        <div><h5>MESTRADOS 2018/2019</h5></div>
+                    </div>
+                    <section id="flexbox">
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non,
+                           consequatur debitis eius doloremque dolor in voluptates labore. Vel provident laboriosam
+                           ipsam eveniet deserunt repellat odio libero vero animi aut obcaecati quam, aspernatur
+                           placeat excepturi similique pariatur odit. Nesciunt delectus sed dolorum quia officiis
+                           nihil dicta deleniti eius magni ea.</div>
+                            <div>Necessitatibus quisquam repellat ratione doloremque beatae voluptas </div>
+                            <div>dignissimos velit nam aliquid, cumque tenetur vitae id at quaerat aut dolor
+                           culpa nulla. A quia inventore dolorum id fugiat, iusto repellendus! Similique, obcaecati
+                           eveniet excepturi quod, tempore ullam quos vel itaque incidunt
+                            deleniti molestiae ipsam a? Non?</div>
+                    </section>
+                       
 
+            </main>
 
-        <a style="text-decoration: none;" href="#">
-            <div class="painel">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                
-            </div>
-        </a>
-
-
-
-        <a style="text-decoration: none;" href="#">
-            <div class="painel">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                
-            </div>
-        </a>
-
-
-
-
-        <a style="text-decoration: none;" href="#">
-            <div class="painel">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                
-            </div>
-        </a>
-
-
-        <a style="text-decoration: none;" href="#">
-            <div class="painel">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-               
-            </div>
-        </a>
-
-
-        <a style="text-decoration: none;" href="#">
-            <div class="painel">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                
-            </div>
-        </a>
-
-
-    </section>
+        </div>
 
 
 
