@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,44 +10,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript">
-    var arrLang = new Array();
-    arrLang['pt'] = new Array();
-    arrLang['en'] = new Array();
-
-    arrLang['pt']['sobre'] = 'Sobre Nós';
-    arrLang['pt']['universidade'] = 'A Universidade';
-
-    arrLang['en']['sobre'] = 'About Us';
-    arrLang['en']['universidade'] = 'The University';
-
-
-    $(document).ready(function(e) {
-        
-        $('.translate').click(function(){
-            var lang = $(this).attr('id');
-
-            $('.lang').each(function(index, element){
-                $(this).text(arrLang[lang][$(this).attr('key')]);
-                
-            });
-            
-        }); 
-         
-    });
-    
-    </script>
-
 </head>
 
 <body>
     <div class="flexwrappernav">
         <header class="flexItems">
-            <ul class="img">
-            <li><a id="pt" class="translate" href="#"><img class="images" src="../styles/por.png" alt=""></a></li>
-            <li><a id="en" class="translate" href="#"><img class="imageseng" src="../styles/eng.png" alt=""></li></a>
-            </ul>
         </header>
         <nav class="flexItems">
                 <div class="dropdown"> <!--#### A Universidade ### -->
@@ -146,42 +113,46 @@
 
             <main class="flexMain">
 
-                <div class="foco"><span><b>EM FOCO</b></span></div>
-                <div id="flexbox1">
-                    <div><h5>DISSERTAÇÕES E TESES</h5></div>
-                    <div><h5>VAGAS NA UMA</h5></div>
-                    <div><h5>INQUÉRITO PEDAGÓGICO</h5></div>
-                </div>
-                <section id="flexbox">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non,
-                       consequatur debitis eius doloremque dolor in voluptates labore. Vel provident laboriosam
-                       ipsam eveniet deserunt repellat odio libero vero animi aut obcaecati quam, aspernatur
-                       placeat excepturi similique pariatur odit. Nesciunt delectus sed dolorum quia officiis
-                       nihil dicta deleniti eius magni ea.</div>
-                        <div>Necessitatibus quisquam repellat ratione doloremque beatae voluptas </div>
-                        <div>dignissimos velit nam aliquid, cumque tenetur vitae id at quaerat aut dolor
-                       culpa nulla. A quia inventore dolorum id fugiat, iusto repellendus! Similique, obcaecati
-                       eveniet excepturi quod, tempore ullam quos vel itaque incidunt
-                        deleniti molestiae ipsam a? Non?</div>
-                </section>
-                <br>
-                <div id="flexbox1">
-                        <div><h5>MODELOS DE TRABALHOS ACADÉMICOS</h5></div>
-                        <div><h5>CANDIDATURAS</h5></div>
-                        <div><h5>MESTRADOS 2018/2019</h5></div>
-                    </div>
-                    <section id="flexbox">
-                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non,
-                           consequatur debitis eius doloremque dolor in voluptates labore. Vel provident laboriosam
-                           ipsam eveniet deserunt repellat odio libero vero animi aut obcaecati quam, aspernatur
-                           placeat excepturi similique pariatur odit. Nesciunt delectus sed dolorum quia officiis
-                           nihil dicta deleniti eius magni ea.</div>
-                            <div>Necessitatibus quisquam repellat ratione doloremque beatae voluptas </div>
-                            <div>dignissimos velit nam aliquid, cumque tenetur vitae id at quaerat aut dolor
-                           culpa nulla. A quia inventore dolorum id fugiat, iusto repellendus! Similique, obcaecati
-                           eveniet excepturi quod, tempore ullam quos vel itaque incidunt
-                            deleniti molestiae ipsam a? Non?</div>
-                    </section>
+                <div class="foco"><span><b>EM FOCO</b></span></div>                        
+                        
+                        <div class="tab">
+                          <button class="tablinks" onclick="UMa(event, 'DT')" id="defaultOpen">DISSERTAÇÕES E TESES</button>
+                          <button class="tablinks" onclick="UMa(event, 'vagas')">VAGAS NA UMA</button>
+                          <button class="tablinks" onclick="UMa(event, 'inquerito')">INQUÉRITO PEDAGÓGICO</button>
+                        </div>
+                        
+                        <div id="DT" class="tabcontent">
+                            <h3>DISSERTAÇÕES E TESES</h3>
+                          <p>Provas públicas de dissertação de mestrado e teses de doutoramento.</p>
+                        </div>
+                        
+                        <div id="vagas" class="tabcontent">
+                          <h3>VAGAS NA UMA</h3>
+                          <p>Informações sobre procedimentos concursais e candidaturas para bolseiros.</p> 
+                        </div>
+                        
+                        <div id="inquerito" class="tabcontent">
+                          <h3>INQUÉRITO PEDAGÓGICO</h3>
+                          <p>Preenchimento através do "InfoAlunos", até 21 de janeiro de 2018.</p>
+                        </div>
+                        
+                        <script>
+                        function UMa(evt, cityName) {
+                            var i, tabcontent, tablinks;
+                            tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i < tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                            }
+                            tablinks = document.getElementsByClassName("tablinks");
+                            for (i = 0; i < tablinks.length; i++) {
+                                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                            }
+                            document.getElementById(cityName).style.display = "block";
+                            evt.currentTarget.className += " active";
+                        }
+                        
+                        document.getElementById("defaultOpen").click();
+                        </script>
                        
 
             </main>
