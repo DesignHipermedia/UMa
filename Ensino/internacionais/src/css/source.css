@@ -42,3 +42,14 @@
 .btna{
 padding: 5px;
 }
+
+.grow img{
+transition: 2s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 2s ease;
+}

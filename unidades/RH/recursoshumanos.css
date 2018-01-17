@@ -6,7 +6,12 @@
 }
 
 body {
-    background-color: black;
+    background-image: url("imagens/universidade.jpg");
+    display:flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .header {
@@ -47,7 +52,8 @@ body {
 }
 
 .navegacao a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #ddd;
+    color: cadetblue;
 }
 
 .dropdown-content {
@@ -69,8 +75,13 @@ body {
     text-align: left;
 }
 
+.dropdown-content a:link {
+    color: black;
+}
+
 .dropdown-content a:hover {
     background-color: #ddd;
+    color: cadetblue;
 }
 
 .dropdown:hover .dropdown-content {
@@ -129,7 +140,7 @@ body {
 }
 
 .rodape a:hover {
-    color: red;
+    color: cadetblue;
 }
 
 .main_menu {
@@ -163,8 +174,8 @@ body {
 }
 
 .caixinha_menu a:hover {
-    background-color: red;
-    color: white;
+    background-color: #ddd;
+    color: cadetblue;
 }
 
 a {
