@@ -1,0 +1,55 @@
+.imgbanner{
+    border: 1px dotted red;
+    width:100%;/*To occupy image full width of the container and also fit inside the container*/
+
+}
+
+.bord{
+    
+    border: 1px solid greenyellow;
+}
+.banner{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin-left: 2%;
+    margin-right:2%;
+    max-height: 70px;
+}
+
+
+.imgb{
+    display: flex;
+    height: 70px;
+    width: auto;
+}
+.flg{
+    border: 2px;
+    border-radius: 12%;
+    padding: 1px;
+    max-width: 100%;
+}
+
+.foot3r{
+    background-color: rgb(88, 88, 88);
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.btna{
+padding: 5px;
+}
+
+.grow img{
+transition: 2s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 2s ease;
+}
