@@ -118,55 +118,25 @@
                 <span><b>AGENDA</b></span>
             </div>                        
                         
-                        <div class="tab">
-                          <button class="tablinks" onclick="UMa(event, 'DT')" id="defaultOpen">DISSERTAÇÕES E TESES</button>
-                          <button class="tablinks" onclick="UMa(event, 'vagas')">VAGAS NA UMA</button>
-                          <button class="tablinks" onclick="UMa(event, 'inquerito')">INQUÉRITO PEDAGÓGICO</button>
-                        </div>
-                        
-                        <div id="DT" class="tabcontent">
-                            <h3>DISSERTAÇÕES E TESES</h3>
-                          <p>Provas públicas de dissertação de mestrado e teses de doutoramento.</p>
-                        </div>
-                        
-                        <div id="vagas" class="tabcontent">
-                          <h3>VAGAS NA UMA</h3>
-                          <p>Informações sobre procedimentos concursais e candidaturas para bolseiros.</p> 
-                        </div>
-                        
-                        <div id="inquerito" class="tabcontent">
-                          <h3>INQUÉRITO PEDAGÓGICO</h3>
-                          <p>Preenchimento através do "InfoAlunos", até 21 de janeiro de 2018.</p>
-                        </div>
 
-                        <div class="agenda">
-                            <h3></h3>
-                        </div>
-                        
-                        <script>
-                        function UMa(evt, cityName) {
-                            var i, tabcontent, tablinks;
-                            tabcontent = document.getElementsByClassName("tabcontent");
-                            for (i = 0; i < tabcontent.length; i++) {
-                                tabcontent[i].style.display = "none";
-                            }
-                            tablinks = document.getElementsByClassName("tablinks");
-                            for (i = 0; i < tablinks.length; i++) {
-                                tablinks[i].className = tablinks[i].className.replace(" active", "");
-                            }
-                            document.getElementById(cityName).style.display = "block";
-                            evt.currentTarget.className += " active";
-                        }
-                        
-                        document.getElementById("defaultOpen").click();
-                        </script>
 
-                       
                        
 
             </main>
 
+
         </div>
+        <div class="flexwrapper">
+
+                <main class="flexMain">
+    
+                        <div class="ultimas">
+                                <b><h3>ÚLTIMOS CONTEÚDOS</h3></b>
+                        </div>
+                </main>
+        </div>
+
+        
 
 
 

@@ -18,12 +18,24 @@ body {
    .flexwrapper {
     flex-direction: column;
     min-height: 100%;
-    height: 50vh;
+    height: 40vh;
     /*border: 1px solid green;*/
     margin-right: 14%;
    }
 
    .flexMain {
+    padding: 1rem;
+   }
+
+   .flexwrapper1 {
+    flex-direction: column;
+    min-height: 100%;
+    height: 35vh;
+    /*border: 1px solid green;*/
+    margin-right: 14%;
+   }
+
+   .flexMain1 {
     padding: 1rem;
    }
 
@@ -48,6 +60,10 @@ body {
 
     .agenda{    
         margin: 1em 0 1em 0;
+    }
+
+    .ultimas{
+        
     }
 
    header {
@@ -230,6 +246,7 @@ body {font-family: "Lato", sans-serif;}
     width: 40%;
     border-left: none;
     height: 300px;
+
 }
 
 footer {
