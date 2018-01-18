@@ -91,3 +91,8 @@ footer .colaboradores_margem .container {
     justify-content: center;
     background-color: #22205b;
 }
+
+footer .a {
+    color: #ffffff;
+    font-size: 12pt;
+}
