@@ -5,7 +5,7 @@ banner{
     border-image-width: 20%;
 }
 body{
-    background-color: lightgray;
+    background-color: darkgray;
     text-decoration-color: white;
 }
 .mitibanner{
@@ -15,8 +15,18 @@ body{
 .first_panel{
     background-color: darkcyan;
     display: flex;
+    padding: 4%;
 }
 a{
     text-decoration: none;
     color: #fff;
+}
+.cont{
+    margin: 2%;
+}
+.second_panel{
+    display: flex;
+    
+    background-color: lightgray;
+    color: darkblue;
 }
