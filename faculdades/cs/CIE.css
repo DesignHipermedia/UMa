@@ -2,7 +2,7 @@ body {margin:0;}
 
 .topnav {
   overflow: hidden;
-  
+  background-color:rgb(126, 52, 52);
 }
 .topnav a {
     float: left;
@@ -25,5 +25,5 @@ body {margin:0;}
   .container {
     display: flex;
     justify-content: center;
-    background-color:rgb(126, 52, 52);
+    
   }
