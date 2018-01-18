@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -24,7 +24,6 @@ body {
 .navegacao {
     font-family: "Courier New", Courier, monospace;
     overflow: hidden;
-    background-color: #333;
 }
 
 .navegacao a {
@@ -59,7 +58,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 0.7);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -68,7 +67,7 @@ body {
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -76,7 +75,11 @@ body {
 }
 
 .dropdown-content a:link {
-    color: black;
+    color: white;
+}
+
+.dropdown-content a:visited {
+    color:white;
 }
 
 .dropdown-content a:hover {
@@ -85,7 +88,7 @@ body {
 }
 
 .dropdown-content a:link {
-    color:black;
+    color:white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -100,7 +103,7 @@ body {
 .main {
     display: flex;
     flex-flow: row wrap;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     justify-content: space-between;
 }
@@ -109,18 +112,20 @@ body {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
     width: 85%;
-    background-color: white;
 }
 
 .caixinha_texto {
     margin: 2px;
+    margin-top: 2%;
     width: 100%;
-    border-top-style: dotted;
+    padding: 15px;
+    background-color: white;
+    text-align: justify;
 }
 
 .rodape {
     display:flex;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
     justify-content: space-between;
     width: 100%;
 }
@@ -153,7 +158,6 @@ body {
     color: white;
     display: flex;
     width: 15%;
-    background-color: #333;
     text-align: center;
 }
 
@@ -204,4 +208,9 @@ a:hover {
 .caixinha_texto k {
     font-family:"Courier New", Courier, monospace;
     font-size: 11px;
+}
+
+.lingua {
+    color: white;
+    align-self: flex-end;
 }
