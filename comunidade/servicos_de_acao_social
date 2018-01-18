@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="acao_social.css">
+    <link rel="stylesheet" href="acao_social.css">
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+    <script type="text/javascript" src="js/jquery.destaques.js"></script>
+    <title>Ação social</title>
+</head>
+
+<body>    
+    <header>
+        <table>
+            <img width="100%" border="0" cellspacing="0" cellpadding="0" id="Table" class="main" src="logo.png" alt="logo.png">
+            <tr>
+                <nav class="navbar navbar-expand-md navbar-light bg-light px-0">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="acao_social.html" src="casa.png" class="nav-link"></a>
+                            </li>
+                            <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Apresentação</a>
+                            </li>
+                            <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Bolsas</a>
+                            </li>
+                            <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                            <li class="nav-item pr-3">
+                                <a href="#" class="nav-link">Alimentação</a>
+                                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                                <li class="nav-item pr-3">
+                                    <a href="#" class="nav-link">Alojamento</a>
+                                </li>
+                                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                                <li class="nav-item pr-3">
+                                    <a href="#" class="nav-link">Contactos</a>
+                                </li>
+                                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                                <li class="nav-item pr-3">
+                                    <a href="#" class="nav-link">Informações</a>
+                                </li>
+                                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                                <li class="nav-item pr-3">
+                                    <a href="#" class="nav-link">Links</a>
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </tr>
+        </table>
+    </header>
+    <div>
+        <h1>Notícias</h1>
+        <h2>Procedimento Concursal Assistente Operacional - SASUMa</h2>
+        <h3>Procedimento concursal comum para preenchimento de dois postos de trabalho, na carreira e categoria de Assistente
+            Operacional, do mapa de pessoal dos Serviços de Ação Social da Universidade da Madeira, publicado em Diário da
+            República, 2ª Série - Nº 242 - 19 de dezembro de 2017.</h3>
+
+        <h3>Mais informamos que a data limite de candidatura é o dia 8 de janeiro de 2018.</h3>
+
+
+
+        <h4>Para mais informações consultar:</h4>
+
+        <h4>Aviso n.º 15261/2017 - Diário da República, 2ª Série - Nº 242 - 19 de dezembro de 2017</h4>
+
+
+
+        <h4>FORMULÁRIO DE CANDIDATURA AO PROCEDIMENTO CONCURSAL</h3>
+
+        <h2>Candidatura à Bolsa Blandy Educação 2017-2018 (3ª fase)</h1>
+        <h3>Caro aluno,</h3>
+
+        <h3>Relembramos que está em curso a candidatura à Bolsa Blandy Educação (3ª fase) que poderá ser efetuada até às 24 horas
+            do dia 18 do corrente mês.</h3>
+
+        <h3>Recomendamos uma leitura atenta ao regulamento para ver se preenche os critérios de ilegibilidade.</h3>
+    </div>
+    <footer>
+        <img width="100%" border="0" cellspacing="0" cellpadding="0" id="Table" class="main" src="footer.png" alt="footer.png">
+    </footer>
+    <style> # eu praticamente repeti o css das fichas 11 e 13, como ajuda
+    body {
+    background-color: #f8f9fa;
+    
+    background-image: url(uma.png); # eu estou a tentar não repetir a imagem e compouca opacidade, mas quando ponho no-repeat tira a imagem
+}
+#imagem-fundo img {    
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+   
+} 
+
+li {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    padding: 5px;
+   
+    position: relative;
+}
+a {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 5px;
+    padding: 5px; 
+
+}   
+
+h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16pt;
+}
+
+h2 {
+    color: rgba(255, 102, 0,1);
+    font-size: 14pt;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10pt;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 10pt;
+}
+
+
+
+section .container .col-lg-12 {
+    background-color: white;
+}
+
+#carouselExampleIndicators {
+    color:black;
+    height: 210px;
+}
+
+#carouselExampleIndicators .carousel-indicators li {
+    background-color: rgba(220, 20, 60, 0.3);
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: crimson;
+}
+
+#carouselExampleIndicators .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: crimson;
+}
+
+.carousel-caption {
+    color: black;
+    top: 0;
+}
+
+footer {
+    display: block;
+    height: 4px;
+    top: 100%;
+    align-content: center;
+    width: 800px;
+    position: relative;
+    border:5px;
+    padding: 50px;
+    
+}
+
+.container {
+    align-content: center;
+}
+
+.text-center {
+    align-content: center;
+}
+
+#box {
+    display:table; 
+    width:100%;
+}
+
+.column {
+    display:table-cell;
+    width:50%;
+    background: white;
+    padding:0 20px;
+}
+
+.two {
+    background:white;
+    width: 30%;
+
+}
+
+.library {
+    color: red;
+}
+
+#footer {
+    background-color: gray;
+}
+
+.icon {
+    color: red;
+}       
+
+.imgur {
+    width: 400px;
+    height: 200px;
+}
+
+.obs {
+    width:12em;
+    word-wrap: break-word;
+    height: 5em;
+    overflow: hidden;
+}
+</style
+</body>
+
+</html>

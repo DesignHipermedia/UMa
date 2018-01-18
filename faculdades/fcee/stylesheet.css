@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 146, 96);
@@ -7,7 +6,7 @@ body{
     display:flex;
     flex-flow: column;
 }
-
+/* lol */
 .header{
    display:flex;
    width:100vw;
@@ -22,7 +21,7 @@ body{
     flex-flow: row;
     justify-content: space-between;
     border-radius: 4px;
-    background-color:rgba(24, 24, 24, 0.884);
+    background-color:rgba(24, 24, 24, 0.753);
     color: aliceblue;
     height: 10vh;
     margin: 5px;
@@ -116,6 +115,18 @@ a{
 .container{
     display: flex;
     width:75vw;
+    flex-flow: column;
+}
+
+.main-title{
+    background-color: rgba(243, 243, 243, 0);
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.main-content{
+    display:flex;
     flex-flow: row;
 }
 
@@ -129,8 +140,17 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     width: 80%;
 }
+
+.title{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .text{
     text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section{
@@ -170,16 +190,22 @@ a{
     margin: 5px;
     padding: 5px;
     border-radius: 4px;
-=======
-.body{
-    display: flex;
-    background-color: crimson;
 }
-
-corpo{
-    background-color: grey;
-    border: 1px;
-    height: 100vh;
-    width: 70vw;
->>>>>>> e04c54c2d6fa40d84463fa7560f5939ec3ef8051
+.footer{
+    display:flex;
+    width:100vw;
+    flex-flow: row;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    width:75vw;
+    flex-flow: row;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color:rgba(24, 24, 24, 0.753);
+    color: aliceblue;
+    height: 10vh;
+    margin: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
