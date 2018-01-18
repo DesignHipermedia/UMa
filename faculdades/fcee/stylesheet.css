@@ -7,12 +7,14 @@ body{
     flex-flow: column;
 }
 /* lol */
+
 .header{
-   display:flex;
-   width:100vw;
-   flex-flow: row;
-   justify-content: center;
-  
+    display:flex;
+    width:100vw;
+    flex-flow: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
 }
 
 .header-container{
@@ -110,6 +112,7 @@ a{
     flex-flow: row;
     justify-content: center;
     width: 100vw;
+    padding-top: 102px;
 }
 
 .container{
@@ -205,7 +208,16 @@ a{
     border-radius: 4px;
     background-color:rgba(24, 24, 24, 0.753);
     color: aliceblue;
-    height: 10vh;
     margin: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.footer-column{
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid rgba(243, 243, 243, 0.582);
+    padding: 10px;
+    margin: 10px;
+    font-size: 0.8em;
 }
