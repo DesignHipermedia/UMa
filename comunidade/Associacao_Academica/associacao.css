@@ -2,6 +2,7 @@ body {
     background-color: #d3d3d3;
     margin:0;
     height: 1240px;
+    width: 1140px;
 }
 
 .container {
@@ -79,7 +80,9 @@ footer {
     background-color: #22205b;
     position: fixed;
     bottom:0;
-    display: flex;    
+    display: flex;
+    flex-flow: column;
+    align-items: center;    
     justify-content: center;
 }
 
