@@ -1,21 +1,13 @@
-.imgbanner{
-    border: 1px dotted red;
-    width:100%;/*To occupy image full width of the container and also fit inside the container*/
-
+.fxbx{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bord{
     
-    border: 1px solid greenyellow;
+    border: 1px solid red;
 }
-.banner{
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 5px;
-    margin-left: 2%;
-    margin-right:2%;
-    max-height: 70px;
-}
+
 
 
 .imgb{
