@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 .first_panel{
-    background-color: darkcyan;
+    background-color: rgb(9, 50, 83);
     display: flex;
     padding: 4%;
     color: white;
@@ -29,7 +29,7 @@ a{
     display: flex;
     flex-direction: column;
     background-color: lightgray;
-    color: darkblue;
+    color: rgb(9, 50, 83);
     text-align: center;
     padding: 2%;
 }
@@ -44,8 +44,13 @@ a{
     margin: 15px;
     display: inline-block;
     width: 15%;
-    background-color: darkblue;
+    background-color: rgb(9, 50, 83);
 }
 .third_panel{
     background-color: wheat;
+    text-align: center;
+}
+.terceiro_painel_texto{
+    display: flex;
+    justify-content: flex-start;
 }
