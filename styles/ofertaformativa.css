@@ -203,58 +203,22 @@ h6{
     color: black;
 }
 * {box-sizing: border-box}
-body {font-family: "Lato", sans-serif;}
-
-.tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 30%;
-    height: 300px;
-}
 
 
-.tab button {
-    display: block;
-    background-color: inherit;
-    color: black;
-    padding: 22px 16px;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-.tab button:hover {
-    background-color: #ddd;
-}
 
 
-.tab button.active {
-    background-color: #ccc;
-}
 
 
-.tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
-    color: black;
-    width: 40%;
-    border-left: none;
-    height: 300px;
 
-}
+
+
 
 footer {
     background-color: gray;
     color: white;
     font-size: 0.75rem;
     min-height: 0.75rem;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 2rem;
     position: fixed;
     left: 0;
@@ -263,14 +227,77 @@ footer {
    }
 
    .flexItems {
-    display: flex;
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
+    display: flex;
    }
 
-   /* hoverdropdown */
+   .flexitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
 
+   }
+
+   .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 1.5rem;
+    width: 8.5%;
+    text-decoration: none;
+    position: absolute;
+   }
+
+
+   .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+}
 
    .dropbtn {
     background-color: rgb(2, 6, 39);
