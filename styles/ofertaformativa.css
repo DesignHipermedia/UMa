@@ -1,0 +1,348 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    margin: 0;
+    padding: 0;
+   
+   }
+
+   .flexwrappernav{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+   }
+
+   .flexwrapper {
+    flex-direction: column;
+    min-height: 100%;
+    height: 40vh;
+    /*border: 1px solid green;*/
+    margin-right: 14%;
+   }
+
+   .flexMain {
+    padding: 1rem;
+   }
+
+   .flexwrapper1 {
+    flex-direction: column;
+    min-height: 100%;
+    height: 35vh;
+    /*border: 1px solid green;*/
+    margin-right: 14%;
+   }
+
+   .flexMain1 {
+    padding: 1rem;
+   }
+
+   main {
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex: 1;
+    padding: 0;
+   }
+
+   .foco{
+       display: flex;
+       justify-content: space-between;
+        margin-bottom: 25%;
+        color: black;
+        position: relative;
+        margin: 1em 0 1em 0;
+        padding: 0;
+        align-self: flex-start;
+
+   }
+
+    .agenda{    
+        margin: 1em 0 1em 0;
+    }
+
+    .ultimas{
+        
+    }
+
+   header {
+    flex: 1;
+    width: auto;
+    min-height: 152px;
+    background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+   }
+
+   .images{
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    top: 5px;
+    padding: 10px;
+    }
+
+    .img {
+        list-style-type: none;
+    }
+
+    .lang1{
+        color: black;
+    }
+
+    
+   .imageseng{
+    position: absolute;
+    right: 40px;
+    width: 30px;
+    top: 5px;
+    padding: 10px;
+    }
+
+
+   nav {
+    background-color: rgb(2, 6, 39);
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.90rem;
+    min-height: 0.75rem;
+    align-items: center;
+    /* padding: 0 1rem; */
+    height: auto;
+   }
+
+   .ListItem {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+   }
+
+   .ListItem:hover {
+    text-decoration: underline;
+    color: white;
+   }
+
+   .LastItem {
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+   }  
+
+.painel {
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: gray;
+    position: absolute;
+    align-self: flex-start;
+    }
+
+    #flexbox{
+        display:flex;
+        justify-content: space-between;
+        color: black;
+       }
+       #flexbox div{
+        width: 30%;
+        border: 1px solid black;
+       }
+
+       #flexbox1{
+        display:flex;
+        justify-content: space-between;
+        color: black;
+       }
+       #flexbox1 div{
+        width: 30%;
+        height: 3rem;
+        border: 1px solid black;
+       }
+ 
+
+
+   .div{
+       width: 50px;
+       height: 50px;
+   }
+
+h1{
+    width: auto;
+    height: auto;
+    color: black;
+
+}
+h2{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h3{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h4{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h5{
+    width: auto;
+    height: auto;
+    color: black;
+}
+h6{
+    width: auto;
+    height: auto;
+    color: black;
+}
+* {box-sizing: border-box}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: gray;
+    color: white;
+    font-size: 0.75rem;
+    min-height: 0.75rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   }
+
+   .flexItems {
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+   }
+
+   .flexitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+
+   }
+
+   .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 1.5rem;
+    width: 8.5%;
+    text-decoration: none;
+    position: absolute;
+   }
+
+
+   .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+}
+
+   .dropbtn {
+    background-color: rgb(2, 6, 39);
+    color: white;
+    padding: 26px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown {
+    padding-bottom: 12.5px;
+    padding-top: 12.5px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 13px 16px;
+    z-index: 1;
+    font-size: 0.75rem;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.span{
+    color: black;
+}

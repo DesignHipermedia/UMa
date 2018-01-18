@@ -3,27 +3,109 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="recursoshumanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>RecursosHumanos</title>
   </head>
   <body>
     <div id="app"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/dist/build.js"></script>
     <div class="container">
       <header class="header">
-        <a class="imagem">
-          <img src="imagens/UMa_logo_sem_fundo.png" height="125px">
-          <p>UNIDADE DE RECURSOS HUMANOS</p>
-        </a>
+        <div class="imagem">
+          <a href="UMA/index.html"><img src="imagens/uma_branco.png" height="125px"></a>
+        </div>
         <div class="navegacao">
-          <li><a href="#">A Universidade</a></li>
-          <li><a href="#">Ensino</a></li>
-          <li><a href="#">Investigação</a></li>
-          <li><a href="#">Serviços & Comunidades</a></li>
-          <li><a href="#">Faculdades e Escolas</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">A Universidade
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Sobre Nós</a>
+              <a href="#">Projecto Educativo, Científico e Cultural</a>
+              <a href="#">Conselho Geral</a>
+              <a href="#">Reitoria</a>
+              <a href="#">Senado Universitário</a>
+              <a href="#">Conselho de Cultura</a>
+              <a href="#">Conselho de Gestão</a>
+              <a href="#">Provedor do Estudande</a>
+              <a href="#">Estrutura Orgânica</a>
+              <a href="#">Serviços de Ação Social</a>
+              <a href="#"><h2>Gabinetes</h2></a>
+              <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
+              <a href="#">Controlo da Qualidade</a>
+              <a href="#">Desenvolvimento de Aplicações Informáticas</a>
+              <a href="#">Imagem e Relações Públicas</a>
+              <a href="#"><h2>Unidades</h2></a>
+              <a href="#">Assuntos Académicos</a>
+              <a href="#">Aprovisionamento e Património</a>
+              <a href="#">Documentação e Arquivo</a>
+              <a href="#">Equipamentos e Instalações</a>
+              <a href="#">Económica e Financeira</a>
+              <a href="#">Projetos e Cooperação</a>
+              <a href="#">Recursos Humanos</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Ensino
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Guia do Aluno</a>
+              <a href="#">Cursos - Oferta Formativa</a>
+              <a href="#">Formação Contínua de Docentes</a>
+              <a href="#">Gabinete de Apoio ao Estudante</a>
+              <a href="#">Programas de Mobilidade</a>
+              <a href="#">Maiores de 23</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Investigação
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Unidades e Projetos</a>
+              <a href="#"><h2>Institutos</h2></a>
+              <a href="#">Madeira Interactive Technologies Institute</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Serviços & Comunidades
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Secretariado Interno</a>
+              <a href="#">Observatório de Emprego e Formação Profissional</a>
+              <a href="#">Observatório de Turismo</a>
+              <a href="#">Centro de Desenvolvimento Académico</a>
+              <a href="#">Serviço de Consulta Psicológica</a>
+              <a href="#"><h2>Comunidades</h2></a>
+              <a href="#">Associação Académica</a>
+              <a href="#">Associação dos Antigos Alunos da Universidade da Madeira</a>
+              <a href="#">Pastoral do Ensino Superior na Madeira</a>
+              <a href="#">Rotaract Clube</a>
+              <a href="#">TUMa</a>
+              <a href="#">Tun'UMa</a>
+              <a href="#">Tuna D'Elas</a>
+              <a href="#">UM@Fóruns</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Faculdades e Escolas
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Artes e Humanidades</a>
+              <a href="#">Ciências Exactars e da Engenharia</a>
+              <a href="#">Ciências Sociais</a>
+              <a href="#">Ciências da Vida</a>
+              <a href="#">Escola Superior de Saúde</a>
+              <a href="#">Escola Superior de Tecnologias e Gestão</a>
+            </div>
         </div>
       </header>
       <div class="main">
-        <div class="main_info">
+        <div class="main main_info">
           <div class="caixinha_texto">
             <p><h1>Bolsas de Investigação - 2017</h1></p>
             <li><a href="#">Edital BI SUPERPRO - 1</a></li>
@@ -38,11 +120,12 @@
             <li><a href="#">Edital MARINEBLUEREFINE_VI</a></li>
             <p>Versão Inglesa</p>
             <p>Data Limite de apresentação de candidaturas - 26 de outubro de 2017.</p>
+            <p><k>Actualizado Sexta-feira, 17 Novembro 2017 14:53</k></p>
           </div>
           <div class="caixinha_texto">
             <p><h1>Lista Nominativa das Transições e Manutenções</h1></p>
             <p>Para consultar e/ou descarregar a lista nominativa das transições de manutenções do pessoal docente e não docente da Universidade da Madeira carregue <a href="#">AQUI</a>!</p>
-            <p>Atualizado Segunda-feira, 22 Dezembro 2014 17:49</p>
+            <p><k>Atualizado Segunda-feira, 22 Dezembro 2014 17:49</k></p>
           </div>
           <div class="caixinha_texto">
             <p><h1>Abono de Família para Crianças e Jovens e Bolsa de Estudos</h1></p>
@@ -59,53 +142,54 @@
             <p>Nos termos do artigo 45º do DL nº 176/2003 de 2 de agosto, com a nova redação dada pelo DL nº 133/2012 de 27 de junho, a falta de apresentação das provas de escolaridade no mês de julho determina a suspensão do pagamento do abono de família para crianças e jovens a partir do início do ano escolar.</p>
             <p>A apresentação das provas de escolaridade até 31 de dezembro do ano em que deveria ser efetuada determina o levantamento da suspensão e o pagamento das prestações suspensas.</p>
             <p>A apresentação das provas de escolaridade a partir de 1 de janeiro do ano seguinte àquele em que deveria ser efetuada determina a perda das prestações suspensas e a retoma do pagamento a partir do dia 1 do mês seguinte ao da apresentação, salto justificação atendível.</p>
-            <p>Atualizado Segunda-feira, 09 junho 2014 11:55</p>
+            <p><k>Atualizado Segunda-feira, 09 junho 2014 11:55</k></p>
           </div>
         </div>
-        <div class=" main_menu">
+        <div class="main main_menu">
           <div class="caixinha_menu">
             <h1>Menu URH</h1>
-            <p><a href="#">URH - Home</a></p>
-            <p><a href="#">Composição</a></p>
-            <p><a href="#">Notícias</a></p>
-            <p><a href="#">Legislação</a></p>
-            <p><a href="#">Documentação</a></p>
-            <p><a href="#">Regulamentos e Orientações Internas</a></p>
-            <p><a href="#">Publicitação de Atos</a></p>
-            <p><a href="#">Bolsas de Investigação</a></p>
-            <p><a href="#">Procedimentos Concursais</a></p>
-            <p><a href="#">Formulários</a></p>
-            <p><a href="#">SIADAP</a></p>
-            <p><a href="#">Cursos de Especialização Tecnológica</a></p>
-            <p><a href="#">ADSE</a></p>
-            <p><a href="#">Perguntas Frequentes (FAQ's)</a></p>
-            <p><a href="#">Hiperligações</a></p>
-            <p><a href="#">Contactos</a></p>
-            <p><a href="#">Formação Profissional</a></p>
+              <p><a href="index.html">URH - Home</a></p>
+              <p><a href="composicao.html">Composição</a></p>
+              <p><a href="#">Notícias</a></p>
+              <p><a href="#">Legislação</a></p>
+              <p><a href="#">Documentação</a></p>
+              <p><a href="#">Regulamentos e Orientações Internas</a></p>
+              <p><a href="#">Publicitação de Atos</a></p>
+              <p><a href="#">Bolsas de Investigação</a></p>
+              <p><a href="#">Procedimentos Concursais</a></p>
+              <p><a href="#">Formulários</a></p>
+              <p><a href="#">SIADAP</a></p>
+              <p><a href="#">Cursos de Especialização Tecnológica</a></p>
+              <p><a href="#">ADSE</a></p>
+              <p><a href="#">Perguntas Frequentes (FAQ's)</a></p>
+              <p><a href="#">Hiperligações</a></p>
+              <p><a href="#">Contactos</a></p>
+              <p><a href="#">Formação Profissional</a></p>
             <img src="imagens/procedimentos_concursais.jpg">
           </div>
         </div>
       </div>
-    </div>  
-    <footer class="rodape">
-      <div class="rodape_texto">
-        <h1>Unidade de Recursos Humanos</h1>
-        <p>Colégio dos Jesuítas - Rua dos Ferreiros</p>
-        <p>9000-082 Funchal - Portugal</p>
-        <p>Telef. + 351 291 209 455 Fax + 351 291 209 450</p>
-        <p>Email: recursos.humanos@mail.uma.pt</p>
-      </div>
-      <div class="rodape_texto">
-        <h1>Horário de expediente</h1>
-        <p>2º a 6º feira</p>
-        <p>09h00 às 12h30 - 14h00 às 17h30</p>
-      </div>
-      <div class="rodape_texto">
-        <p><a href="#">Ação Social</a></p>
-        <p><a href="#">Publicitação de Atos</a></p>
-        <p><a href="#">Hiperligações Externas</a></p>
-        <p><a href="#">Contactos</a></p>
-      </div>
-    </footer>
+      <footer class="rodape">
+        <div class="rodape_texto">
+          <h1>Unidade de Recursos Humanos</h1>
+          <p>Colégio dos Jesuítas - Rua dos Ferreiros</p>
+          <p>9000-082 Funchal - Portugal</p>
+          <p>Telef. + 351 291 209 455 Fax + 351 291 209 450</p>
+          <p>Email: recursos.humanos@mail.uma.pt</p>
+        </div>
+        <div class="rodape_texto">
+          <h1>Horário de expediente</h1>
+          <p>2º a 6º feira</p>
+          <p>09h00 às 12h30 - 14h00 às 17h30</p>
+        </div>
+        <div class="rodape_texto">
+          <h1>Hiperligações</h1>
+          <p><a href="#">Ação Social</a></p>
+          <p><a href="#">Publicitação de Atos</a></p>
+          <p><a href="#">Hiperligações Externas</a></p>
+          <p><a href="#">Contactos</a></p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
