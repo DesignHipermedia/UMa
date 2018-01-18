@@ -1,11 +1,13 @@
 body {
     background-color: #d3d3d3;
     margin:0;
+    height: 1240px;
 }
 
 .container {
     overflow: hidden;
     background-color: #ffffff;
+    height: auto;
 }
   
 .container a {
@@ -76,7 +78,7 @@ body {
 
 footer {
     background-color: #22205b;
-    color:black;
+    display: flex;
 }
 
 foooter .colaboradores_margem {
@@ -84,6 +86,7 @@ foooter .colaboradores_margem {
 }
 
 footer .colaboradores_margem .container {
+    display: flex;
     width: 100%;
     justify-content: center;
 }
