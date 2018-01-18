@@ -78,6 +78,7 @@ body {
 
 footer {
     background-color: #22205b;
+    color: #ffffff;
     position: fixed;
     bottom:0;
     display: flex;
@@ -95,9 +96,4 @@ footer .colaboradores_margem .container {
     width: 100vw;
     justify-content: center;
     background-color: #22205b;
-}
-
-.footer a {
-    color: #ffffff;
-    font-size: 12pt;
 }
