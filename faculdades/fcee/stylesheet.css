@@ -7,12 +7,14 @@ body{
     flex-flow: column;
 }
 /* lol */
+
 .header{
-   display:flex;
-   width:100vw;
-   flex-flow: row;
-   justify-content: center;
-  
+    display:flex;
+    width:100vw;
+    flex-flow: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
 }
 
 .header-container{
@@ -21,11 +23,11 @@ body{
     flex-flow: row;
     justify-content: space-between;
     border-radius: 4px;
-    background-color:rgba(24, 24, 24, 0.884);
+    background-color:rgba(24, 24, 24, 0.753);
     color: aliceblue;
     height: 10vh;
     margin: 5px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
 .header-menu{
@@ -62,7 +64,7 @@ body{
     border-radius: 4px;
     border: 2px solid rgb(180, 180, 180);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     z-index: 1;
 }
 
@@ -110,11 +112,24 @@ a{
     flex-flow: row;
     justify-content: center;
     width: 100vw;
+    padding-top: 102px;
 }
 
 .container{
     display: flex;
     width:75vw;
+    flex-flow: column;
+}
+
+.main-title{
+    background-color: rgba(243, 243, 243, 0);
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.main-content{
+    display:flex;
     flex-flow: row;
 }
 
@@ -125,11 +140,20 @@ a{
     padding: 10px;
     margin: 5px;
     border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
 }
+
+.title{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .text{
     text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section{
@@ -145,7 +169,7 @@ a{
     padding: 5px;
     margin: 5px;
     border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
 }
 .submenu-fcee{
     background-color:rgb(192, 192, 192);
@@ -169,4 +193,34 @@ a{
     margin: 5px;
     padding: 5px;
     border-radius: 4px;
+}
+.footer{
+    display:flex;
+    width:100vw;
+    flex-flow: row;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    width:75vw;
+    flex-flow: row;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color:rgba(24, 24, 24, 0.753);
+    color: aliceblue;
+    margin: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    
+}
+
+.footer-column{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border: 2px solid rgba(243, 243, 243, 0.582);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 0.8em;
+    flex-grow: 1;
+    margin: 10px;
 }

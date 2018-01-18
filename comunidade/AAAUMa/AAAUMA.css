@@ -1,0 +1,82 @@
+body {
+    background-color: #27c9e6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   }
+flexwrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+   }
+.flexItems1 {
+    display: flex;
+    align-items: left;
+    align-content: space-between;
+    padding: 1rem;
+    justify-content: space-between;
+   }  
+.flexItems {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+   }  
+main {
+    flex: 1;
+   }    
+footer {
+    background-color: grey;
+    color: white;
+    font-size: 0.75rem;
+    min-height: 0.75rem;
+    justify-content: space-around;
+    padding: 0 1rem;
+   }
+main {
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex: 1;
+   }   
+.foco {
+    flex: 1;
+    min-height: 10rem;
+    width: 100%;
+    background-color: white;
+    
+   }
+.ultimas {
+    flex: 2;
+   }
+.agenda {
+    flex: 2;
+   }
+.links {
+    flex: 1;
+   } 
+header {
+    background-color: #27c9e6;
+    flex: 1;
+    min-height: 1rem;
+    background-size: cover;
+    flex-direction: initial
+   }     
+
+   nav {
+    background-color: steelblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 0.75rem;
+    align-items: center;
+    padding: 0 1rem;
+   }
+.ListItem,
+.LastItem {
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+   }
+.ListItem {
+    margin-right: 1rem;
+   }
+      

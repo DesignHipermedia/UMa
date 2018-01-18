@@ -1,7 +1,6 @@
 body {
     background-color: #d3d3d3;
     margin:0;
-    height: 1240px;
 }
 
 .container {
@@ -58,7 +57,7 @@ body {
     background: #22205b;
 }
   
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 600px) {
     .container .search-container {
       float: none;
 }
@@ -77,7 +76,13 @@ body {
 
 footer {
     background-color: #22205b;
+    color: #ffffff;
+    width: auto;
+    bottom:0;
     display: flex;
+    flex-flow: column;
+    align-items: center;    
+    justify-content: center;
 }
 
 foooter .colaboradores_margem {
@@ -86,6 +91,11 @@ foooter .colaboradores_margem {
 
 footer .colaboradores_margem .container {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
+    background-color: #22205b;
+}
+
+footer .col-lg-12 a{
+    color: #ffffff;
 }
