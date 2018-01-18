@@ -27,8 +27,7 @@ body {
 }
   
 .container a.active {
-    background-color: #22205b;
-    color: black;
+    color: #22205b;
 }
   
 .container .search-container {
