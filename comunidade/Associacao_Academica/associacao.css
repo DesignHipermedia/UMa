@@ -6,6 +6,7 @@ body {
 .container {
     overflow: hidden;
     background-color: #ffffff;
+    height: auto;
 }
   
 .container a {
@@ -25,8 +26,7 @@ body {
 }
   
 .container a.active {
-    background-color: #22205b;
-    color: black;
+    color: #22205b;
 }
   
 .container .search-container {
@@ -76,7 +76,13 @@ body {
 
 footer {
     background-color: #22205b;
-    color:black;
+    color: #ffffff;
+    width: auto;
+    bottom:0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;    
+    justify-content: center;
 }
 
 foooter .colaboradores_margem {
@@ -84,6 +90,12 @@ foooter .colaboradores_margem {
 }
 
 footer .colaboradores_margem .container {
-    width: 100%;
+    display: flex;
+    width: 100vw;
     justify-content: center;
+    background-color: #22205b;
+}
+
+footer .col-lg-12 a{
+    color: #ffffff;
 }
