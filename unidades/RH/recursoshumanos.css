@@ -1,35 +1,27 @@
-
-.container > * {
-    padding: 10px;
-    flex: 1 100%;
-}
-
 .container {
     display: flex;
     flex-flow: row wrap;
     font-weight: bold;
+    width: 85%;
 }
 
 body {
-    background-color: black;
+    background-image: url("imagens/universidade.jpg");
+    display:flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .header {
-    order: -1;
-    flex-wrap: nowrap;
+    background-color: #333;
+    width: 100vw;
+    display: flex;
     flex-direction: row;
-    box-shadow: 10px 10px 5px grey;
-    border-style: solid;
-    border-color: black;
-    background-color: white;
 }
 
 .navegacao {
-    list-style: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-    order: 1;
     font-family: "Courier New", Courier, monospace;
     overflow: hidden;
     background-color: #333;
@@ -60,7 +52,8 @@ body {
 }
 
 .navegacao a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #ddd;
+    color: cadetblue;
 }
 
 .dropdown-content {
@@ -82,8 +75,17 @@ body {
     text-align: left;
 }
 
+.dropdown-content a:link {
+    color: black;
+}
+
 .dropdown-content a:hover {
     background-color: #ddd;
+    color: cadetblue;
+}
+
+.dropdown-content a:link {
+    color:black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -91,25 +93,23 @@ body {
 }
 
 .imagem {
-    justify-content: flex-start;
-    order: 0;
-    display: flex;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 30px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(0, 174, 255)
+    height: 125px;
+    width: 250px;
 }
 
 .main {
     display: flex;
     flex-flow: row wrap;
-    background-color: white;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .main_info {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
-    width: 84.6%;
+    width: 85%;
+    background-color: white;
 }
 
 .caixinha_texto {
@@ -119,67 +119,67 @@ body {
 }
 
 .rodape {
-    margin: 1px;
     display:flex;
-    border: 1px solid white;
-    order:5;
-    background-color: grey;
-    border-style: solid;
-    border-color: black;
+    background-color: #333;
     justify-content: space-between;
+    width: 100%;
 }
 
 .rodape_texto {
     font-family: "Courier New", Courier, monospace;
     font-size: 12px;
     color: white;
-    border-left-style: dashed;
     margin-right: 20%;
+    text-align: center;
+}
+
+.rodape a:link {
+    color:white;
+    text-decoration: none;
+}
+
+.rodape a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: cadetblue;
 }
 
 .main_menu {
     font-family: "Courier New", Courier, monospace;
     font-size: 14px;
+    color: white;
     display: flex;
     width: 15%;
-    box-shadow: 10px 10px 5px grey;
-    border-style: solid;
-    border-color: black;
-    justify-content: flex-end;
+    background-color: #333;
+    text-align: center;
 }
 
 .caixinha_menu {
-    margin: 2px;
-    text-align: center;
     width: 100%;
 }
 
-ul {
-    list-style-type: none;
-    width: 200px;
-    background-color: white;
-    justify-content: center;
-}
-
-ul li a{
+.caixinha_menu a{
     display: block;
-    color: #000;
+    color: white;
     padding:8px 16px;
     text-decoration: none;
 }
-ul li a:link {
-    color: black;  
+.caixinha_menu a:link {
+    color: white;  
     text-decoration: none;
 }
 
-ul li a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-ul li a:hover {
-    background-color: #333;
+.caixinha_menu a:visited {
     color: white;
+    text-decoration: none;
+}
+
+.caixinha_menu a:hover {
+    background-color: #ddd;
+    color: cadetblue;
 }
 
 a {
