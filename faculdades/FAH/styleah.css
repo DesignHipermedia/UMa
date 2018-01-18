@@ -1,0 +1,151 @@
+header {
+    width: auto;
+    height: auto;
+}
+.navbar {
+    
+    background-color: black;
+    opacity: 1;
+    height: auto;
+}
+
+.navbar a {
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(212, 34, 34);
+}
+
+.navbar .imagemlogo{
+    width: 200px;
+    height: 75px;
+}
+
+.navbar .imagemlupa{
+    image:url("UMalogo.png");
+    width: 40px;
+    height: 40px;
+}
+.container1{
+    background-image: url('file:///D:/UMA/Design/trabalho/uma%20site%20eu/galeria-de-revistas_03.gif');
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    overflow: auto;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.droppar {
+    font-weight: bold;
+}
+
+.worklogo {
+    width: auto;
+    height: 300px;
+}
+
+.row{
+    border-style: inset;
+    height: auto;
+}
+
+.col-sm-3{
+    width: 878px;
+    height: 438px;
+}
+
+.imagemLogo{
+    width: 1408px;
+    height: 408px;
+}
+
+#footerl{
+    background-color: black;
+    opacity: 0.7
+}
+
+.footerhip li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-sm-4 h5 {
+    color: white;
+}
+
+.col-sm-4 p {
+    font-size: 10px;
+    color: #F0F0F0;
+}
+
+.col-sm-4 p a {
+    font-size: 10px;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.estgname h1{
+    display: flex;
+    flex: center;
+    background-color: black;
+    opacity: 0.7;
+    width: 814px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    z-index: 100,
+}
+
+.LastItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.fli {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sli {
+    font-size: 12px;

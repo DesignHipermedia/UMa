@@ -3,6 +3,7 @@
     padding:0;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
     font-size: 14px;
+
 }
 
 
@@ -84,6 +85,7 @@ header{
     z-index: 1;
 
 }
+
 .dropdown-content-order{
     display: flex;
     flex-flow: column wrap;
@@ -189,30 +191,7 @@ header{
     border-bottom: 2px solid #13a7e2;   
 }
 
-.fancy {
-    margin-left:120%;
-    line-height: 0;
-}
-.fancy span {
-    display: inline-block;
-    position: relative;  
-}
-.fancy span:before,
-.fancy span:after {
-    content: "";
-    position: absolute;
-    border-right: 1.5px solid rgb(0, 0, 0);
-    bottom:0px;
-    height: 340px;;
-}
-/*.fancy span:before {
-    right: 100%;
-    margin-right: 15px;
-}
-.fancy span:after {
-    left: 100%;
-    margin-left: 15px;
-}*/
+
 
 .main_container{
     display: flex;
