@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"crossorigin="anonymous">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css"rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"crossorigin="anonymous">
+<link rel="stylesheet" href="./source.css"/>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" ></script>
+
+    <title>Bem vindo à secção internacional
+    </title>
+</head>
+<body>
+    <section>
+            <div class="container-fluid ">
+                    <div class="banner">
+            <div class=" col-md-2 bord imgb"><img class="imgbanner" src="./src/uma.png"></div>
+            <div class="col-md-2 bord imgb"><img class="imgbanner" src="./src/rsz_1rsz_icon.png">ALUNOS INTERNACIONAIS</div>
+            <div class="col-md 6"></div>
+            <div class="col-md-2 bord imgb">
+                <img class="flg" src="./src/pt.png">
+                <img class="flg" src="./src/eng.jpg">
+            </div>
+                    </div>
+        </div>
+    </section>
+
+
+
+    <style>
+            .vertical-menu {
+                width: 200px;
+            }
+            
+            .vertical-menu a {
+                background-color: #eee;
+                color: black;
+                display: block;
+                padding: 12px;
+                text-decoration: none;
+                border: 1px;
+                border-radius: 5px
+            }
+            
+            .vertical-menu a:hover {
+                background-color: #ccc;
+            }
+            
+            .vertical-menu a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+            </style>
+            
+            
+            <h1>Vertical Menu</h1>
+            
+            <div class="vertical-menu">
+              <a href="#" class="active">Home</a>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 4</a>
+            </div>
+            
+
+
+
+
+
+
+
+    <section>
+        <div class="container-fluid ">
+            <div class="banner">
+            <div class="col-2 color1">Menu</div>
+            <div class="col-8">Carrousel de informações</div>
+            <div class="col-2 color1"><h3>News</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid"><footer><div class="foot3r">
+                <div class="container">
+                <div class="col-lg-12 text-center">
+                <h3>UMa Cantina</h1>
+                <br>
+                <br>
+                <p>Rua de Santa Maria, nº 253 / Funchal / 291.123.123</p>
+                <p>Horário: De 2ª a 6ª e Sábado das 09:00 às 14:00</p>
+                <br>
+                <div class="social-media">
+                <a href="#">
+                <i class="fa fa-facebook"><img src="https://image.freepik.com/free-icon/facebook-symbol_318-37686.jpg" title="Facebook" width="26" height="26"></i>
+                </a>
+               <a href="#">
+                <i class="fa fa-twitter"><img src="https://image.flaticon.com/icons/svg/23/23931.svg" title="Twitter" width="26" height="26"></i>
+                </a>
+               <a href="#">
+                <i class="fa fa-pinterest"><img src="https://seeklogo.com/images/P/pinterest-logo-E994F3A9FB-seeklogo.com.png" title="Pinterest" width="26" height="26"></i>
+                </a>
+               <a href="#">
+                <i class="fa fa-instagram"> <img src="https://png.icons8.com/instagram/win8/26" title="Instagram" width="26" height="26"></i>
+                </a>
+                </div>
+                <br>
+                <p>&copy; 2017 Universidade da Madeira</p>
+                </div>
+                </div>
+                </div>
+                </footer></div>
+    </section>
+</body>
+</html>

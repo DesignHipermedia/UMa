@@ -1,0 +1,24 @@
+titulo{
+    font-size: +23px;
+}
+banner{
+    border-image-width: 20%;
+}
+body{
+    background-color: lightgray;
+    text-decoration-color: white;
+}
+.mitibanner{
+    display: flex;
+    justify-content: center;
+}
+.first_panel{
+    background-color: darkcyan;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+
+}
