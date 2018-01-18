@@ -98,7 +98,6 @@ footer .colaboradores_margem .container {
     background-color: #22205b;
 }
 
-footer .col-lg-12 {
-    padding: 15px;
+footer .col-lg-12 a{
     color: #ffffff;
 }
