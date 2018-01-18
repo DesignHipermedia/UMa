@@ -25,8 +25,7 @@ header {
     height: 20px;
 }
 
-.container1{
-    background-image: url('workspace.jpg');
+.container{
     width: auto;
     height: 300px;
 }
@@ -77,8 +76,8 @@ header {
 }
 
 .row{
-    border-style: inset;
     height: auto;
+    margin-bottom: 2.5px;
 }
 
 .col-sm-3{
