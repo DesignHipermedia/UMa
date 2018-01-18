@@ -77,7 +77,8 @@ body {
 
 footer {
     background-color: #22205b;
-    display: flex;    justify-content: center;
+    display: flex;    
+    justify-content: center;
 }
 
 foooter .colaboradores_margem {
