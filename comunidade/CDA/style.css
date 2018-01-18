@@ -13,32 +13,11 @@ header div img{
     width:auto;
     height: 10vh;
 }
-
-/*navbar*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.painel{
+    border: solid 1px lightgray;
+    padding: 1rem;
+    margin: 1rem; 
 }
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
+.slide{
+    background-image: url("https://cdn.discordapp.com/attachments/347087160245223424/403341628296790016/unknown.png");
 }

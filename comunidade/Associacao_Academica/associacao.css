@@ -58,7 +58,7 @@ body {
     background: #22205b;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
     .container .search-container {
       float: none;
 }
@@ -77,7 +77,10 @@ body {
 
 footer {
     background-color: #22205b;
-    display: flex;
+    position: fixed;
+    bottom:0;
+    display: flex;    
+    justify-content: center;
 }
 
 foooter .colaboradores_margem {
@@ -86,6 +89,12 @@ foooter .colaboradores_margem {
 
 footer .colaboradores_margem .container {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
+    background-color: #22205b;
+}
+
+.footer a {
+    color: #ffffff;
+    font-size: 12pt;
 }
