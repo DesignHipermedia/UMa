@@ -1,0 +1,89 @@
+body {
+    background-color: #d3d3d3;
+    margin:0;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  
+.container a {
+    float: left;
+    display: block;
+    color: #22205b;
+    text-align: center;
+    margin-top: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.container a:hover {
+    background-color: #c7c7c7;
+    color: black;
+}
+  
+.container a.active {
+    background-color: #22205b;
+    color: black;
+}
+  
+.container .search-container {
+    float: right;
+}
+  
+.container input[type=text] {
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 17px;
+    border: none;
+    background-color: #c7c7c7;
+}
+
+
+.container .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-right: 16px;
+    background: #a0a0a0;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+  
+.container .search-container button:hover {
+    background: #22205b;
+}
+  
+@media screen and (max-width: 600px) {
+    .container .search-container {
+      float: none;
+}
+    .container a, .container input[type=text], .container .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .container input[type=text] {
+      border: 1px solid #22205b;  
+    }
+}
+
+footer {
+    background-color: #22205b;
+    color:black;
+}
+
+foooter .colaboradores_margem {
+    padding: 20px 0px;
+}
+
+footer .colaboradores_margem .container {
+    width: 100%;
+    justify-content: center;
+}
