@@ -15,56 +15,36 @@ body {
     min-height: 100%;
    }
 
-   .flexwrapper {
-    flex-direction: column;
-    min-height: 100%;
-    height: 40vh;
-    /*border: 1px solid green;*/
-    margin-right: 14%;
-   }
-
-   .flexMain {
-    padding: 1rem;
-   }
-
-   .flexwrapper1 {
-    flex-direction: column;
-    min-height: 100%;
-    height: 35vh;
-    /*border: 1px solid green;*/
-    margin-right: 14%;
-   }
-
-   .flexMain1 {
-    padding: 1rem;
-   }
-
-   main {
-    flex-direction: row;
-    flex-flow: row wrap;
-    flex: 1;
-    padding: 0;
-   }
-
-   .foco{
-       display: flex;
-       justify-content: space-between;
-        margin-bottom: 25%;
-        color: black;
-        position: relative;
-        margin: 1em 0 1em 0;
-        padding: 0;
-        align-self: flex-start;
-
-   }
-
-    .agenda{    
-        margin: 1em 0 1em 0;
-    }
-
-    .ultimas{
+    .d-flex{
         
+        /* border: 1px solid blue; */
+        color: black;
     }
+
+    .foco{
+        height: 25px;
+        width: 50%;
+        margin: 0.5%;
+    }
+
+    .col-sm-4{
+        padding: 1%;
+
+    }
+
+    .letra{
+        font-size: 12px;
+    }
+
+    .texto{
+        font-size: 12px;
+    }
+
+    /* .padd{
+        padding: 4%;
+    } */
+
+
 
    header {
     flex: 1;
@@ -206,13 +186,6 @@ h6{
 
 
 
-
-
-
-
-
-
-
 footer {
     background-color: gray;
     color: white;
@@ -240,7 +213,7 @@ footer {
     align-items: flex-end;
     padding-right: 3rem;
     padding-bottom: 1rem;
-
+    text-decoration: none;
    }
 
    .social {
@@ -252,6 +225,8 @@ footer {
     width: 8.5%;
     text-decoration: none;
     position: absolute;
+    z-index: 100;
+    
    }
 
 
@@ -268,21 +243,25 @@ footer {
   .fa-google {
     background: #dd4b39;
     color: white;
+    z-index: 110;
   }
   
   .fa-linkedin {
     background: #007bb5;
     color: white;
+    z-index: 110;
   }
   
   .fa-youtube {
     background: #bb0000;
     color: white;
+    z-index: 110;
   }
   
   .fa-instagram {
     background: #125688;
     color: white;
+    z-index: 110;
   }
 
   .fa {
@@ -310,6 +289,7 @@ footer {
 }
 
 .dropdown {
+ 
     padding-bottom: 12.5px;
     padding-top: 12.5px;
     position: relative;
@@ -317,6 +297,7 @@ footer {
 }
 
 .dropdown-content {
+   margin-top: 12px;    
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -325,6 +306,11 @@ footer {
     padding: 13px 16px;
     z-index: 1;
     font-size: 0.75rem;
+    list-style-type: none;
+}
+
+.col1{
+    text-align: center;
 }
 
 .dropdown-content a {
