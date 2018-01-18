@@ -1,11 +1,13 @@
 body {
     background-color: #d3d3d3;
     margin:0;
+    height: 1240px;
 }
 
 .container {
     overflow: hidden;
     background-color: #ffffff;
+    height: auto;
 }
   
 .container a {
