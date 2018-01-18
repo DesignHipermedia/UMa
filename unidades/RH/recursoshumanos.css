@@ -73,6 +73,10 @@ body {
     background-color: #ddd;
 }
 
+.dropdown-content a:link {
+    color:black;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
