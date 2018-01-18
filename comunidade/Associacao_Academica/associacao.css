@@ -76,4 +76,14 @@ body {
 
 footer {
     background-color: #22205b;
+    color:black;
+}
+
+foooter .colaboradores_margem {
+    padding: 20px 0px;
+}
+
+footer .colaboradores_margem .container {
+    width: 100%;
+    justify-content: center;
 }
