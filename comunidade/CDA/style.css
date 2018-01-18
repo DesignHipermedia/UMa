@@ -1,0 +1,47 @@
+
+header{
+    top: 0;
+    background-color: aqua;
+}
+footer{
+    bottom: 0;
+    width: 80%;
+    background-color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+footer h6{
+    color: white;
+}
+footer hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 1em 0;
+    padding: 0; 
+}
+.background{
+    background-image: url("https://cdn.discordapp.com/attachments/347087160245223424/403341628296790016/unknown.png");
+    width: 100%;
+}
+
+header div img{
+    width:auto;
+    height: 10vh;
+}
+.painel{
+    border: solid 1px lightgray;
+    padding: 1rem;
+    margin: 1rem; 
+}
+.slide{
+    background-image: url("https://cdn.discordapp.com/attachments/347087160245223424/403341628296790016/unknown.png");
+}
+footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
