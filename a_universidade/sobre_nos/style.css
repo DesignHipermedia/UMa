@@ -1,7 +1,54 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.row{
+    padding: 1%;
+    text-align: left;
+}
+
+.d-flex{
+    align-content: flex-start;
+}
+
+.letras{
     font-size: 14px;
+}
+
+.a{
+    color: black;
+}
+.a:hover{
+    text-decoration: none;
+}
+.recuo { 
+    text-indent:4em;
+    color: black;
+}
+
+.col-sm-12{
+    float: left;
+}
+
+.table-style .today {background: #2A3F54; color: #ffffff;}
+.table-style th:nth-of-type(7),td:nth-of-type(7) {color: blue;}
+.table-style th:nth-of-type(1),td:nth-of-type(1) {color: red;}
+.table-style tr:first-child th{background-color:#F6F6F6; text-align:center; font-size: 15px;}
+
+.coluna{
+   margin-left: 2%;
+   text-align: justify;
+   text-justify: inter-word;
+}
+
+.nome{
+    float: right;
+    text-align: right;
+}
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.98em;
     line-height: 1.6;
     color: white;
     margin: 0;
@@ -24,17 +71,9 @@ body {
     .foco{
         height: 25px;
         width: 50%;
-        padding: 1%;
-        margin: 1%;
+        margin: 0.5%;
     }
 
-    .agenda2{
-        margin: 1.5%;
-    }
-
-    .tudo{
-        padding: 5%;
-    }
     .col-sm-4{
         padding: 1%;
 
@@ -194,7 +233,6 @@ h6{
 * {
     box-sizing: border-box;
 }
-
 
 
 footer {
