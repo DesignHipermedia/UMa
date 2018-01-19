@@ -13,23 +13,17 @@
 
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="./src/icon.png">Estudantes Internacionais</a>
+                <a class="navbar-brand" id="home" href="#"><img src="./src/icon.png">Estudantes Internacionais</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                   
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Guia de Acolhimento
-                      </a>
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Guia de Acolhimento</a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Chegada</a>
+                        <a class="dropdown-item" id="chegada" href="#">Chegada</a>
                         <a class="dropdown-item" href="#">A nossa Universidade</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Viver em Portugal e na Madeira</a>
@@ -67,42 +61,35 @@
 
       <section>
         <div class="container-fluid">
-            <div class="d-flex flex-row">
-        <!-- Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide w-75 p-3 " data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="./src/Banner_FInal.png" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>BEM VINDO À</h3>
-                <div class="grow">
-                  <img src="./src/uma.png" height="250px">
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./src/Banner_FInal.png" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h3>WELCOME TO</h3>
-                <div class="grow">
-                  <img src="./src/uma.png" height="250px">
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          </a>
+          <div class="d-flex flex-row">
+            <div  id="part">
+
         </div>
-   
-      <div class="w-25 p-3 bord"></div>
-    </div>
+        <div class="w-25 p-3">
+            <h4>Links Utéis</h4>
+                       <p></p>
+                       <h5>Institucionais</h5><p></p>
+                       <span title="UMA | Universidade da Madeira"><a href="./../../"><img src="./src/uma.png" height="50px"></a></span>
+                       <br> <span title="SASUMa | Serviços de Ação Social"><img src="./src/sasuma.png" height="70px"></span>
+                       <br><span title="AAUMa | Associação Académica"><img src="./src/aauma.png" height="50px"></span>
+                       <br>
+                       <br> <span title="Vídeo institucional"><img src="./src/vid.png" height="90px"></span>
+                       <br><span title="Folheto informativo"><img src="./src/folheto.png" height="90px"></span>
+                       <p></p>
+                       <h5>Sobre a cidade</h5><p></p>
+                       <br> Cidade do Funchal
+                       <br> Transportes Públicos
+                       <br> Portal do Cidadão
+                       <br> Turismo
+                       <br>
+                       <p></p>
+                       Estudantes brasileiros
+                       <br>
+                       <p></p>
+                       Segue-nos em
+                   </div>
         </div>
+      </div>
       </section>
 
         <!--  <section>
@@ -118,5 +105,19 @@
 
               <script src="./src/js/jquery-3.2.1.min.js"></script>
               <script src="./src/js/bootstrap.min.js" ></script>
+
+              <script>
+                  $(document).ready(function() {
+                          $('#part').load('indpart.html');
+                          $('#home').click(function(event) {
+                                  event.preventDefault();
+                                  $("#part").load("indpart.html");        
+                                  });
+                          $('#chegada').click(function(event) {
+                                event.preventDefault();
+                                $("#part").load("chegada.html");        
+                                });
+                  });
+                                  </script>
             </body>
 </html>

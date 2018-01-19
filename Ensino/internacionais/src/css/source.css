@@ -51,6 +51,8 @@ justify-self: center;
 justify-items: center;
 align-content: center;
 margin-left: 35%;
+border: 1px;
+border-radius: 2%;
 }
 
 .textpart{
