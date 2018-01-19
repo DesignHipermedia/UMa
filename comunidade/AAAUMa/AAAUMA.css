@@ -1,30 +1,29 @@
 body {
-    background-color: #27c9e6;
+    background-color: #eee;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
-   }
-flexwrapper {
+}
+.flexwrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-   }
-.flexItems1 {
+    min-height: 100%
+}
+.navegacao {
     display: flex;
-    align-items: left;
-    align-content: space-between;
-    padding: 1rem;
-    justify-content: space-between;
-   }  
+    jus
+}
 .flexItems {
     display: flex;
     align-items: center;
     padding: 1rem;
-   }  
+}
 main {
+    flex-direction: row;
+    flex-flow: row wrap;
     flex: 1;
-   }    
+   }
 footer {
     background-color: grey;
     color: white;
@@ -33,35 +32,27 @@ footer {
     justify-content: space-around;
     padding: 0 1rem;
    }
-main {
-    flex-direction: row;
-    flex-flow: row wrap;
-    flex: 1;
-   }   
-.foco {
-    flex: 1;
-    min-height: 10rem;
+   .foco {
     width: 100%;
     background-color: white;
-    
+    flex-direction: column;
+    flex-flow: row wrap;
    }
-.ultimas {
+   .ultimas {
     flex: 2;
    }
-.agenda {
+   .agenda {
     flex: 2;
    }
-.links {
+   .links {
     flex: 1;
-   } 
-header {
-    background-color: #27c9e6;
+   }
+   header {
     flex: 1;
-    min-height: 1rem;
+    min-height: 10rem;
+    background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
     background-size: cover;
-    flex-direction: initial
-   }     
-
+   }
    nav {
     background-color: steelblue;
     font-family: 'Oswald', sans-serif;
@@ -70,13 +61,61 @@ header {
     align-items: center;
     padding: 0 1rem;
    }
-.ListItem,
-.LastItem {
+   .ListItem,
+   .LastItem {
     color: white;
     text-decoration: none;
-    margin-left: auto;
    }
-.ListItem {
+   .ListItem {
     margin-right: 1rem;
    }
-      
+   .LastItem {
+    margin-left: auto;
+   }
+   .foco_content {
+    display: flex;
+    flex-flow: row wrap;
+   }
+   .imagem_foco1 {
+       width: 150px;
+       height: 80px;
+         background-color: steelblue;
+         margin: 10px;
+         background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+   }
+    .imagem_foco2 {
+      width: 150px;
+        height: 80px;
+         background-color: steelblue;
+      margin: 10px;
+      background-image: url('http://www.uma.pt/portal/imagens/logo_int_pt.jpg?v3');
+}
+.imagem_foco3 {
+    width: 150px;
+    height: 80px;
+      background-color: steelblue;
+      margin: 10px;
+      background-image: url('http://www.uma.pt/portal/imagens/eua_member_icon_165.jpg');
+}
+.imagem_foco4 {
+    width: 150px;
+    height: 80px;
+      background-color: steelblue;
+      margin: 10px;
+      background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/poloemprego.jpg');
+}
+.imagem_foco5 {
+    width: 150px;
+    height: 80px;
+      background-color: steelblue;
+      margin: 10px;
+      background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/video_uma_v7.jpg');
+}
+.imagem_foco6 {
+    width: 150px;
+    height: 80px;
+      background-color: steelblue;
+      margin: 10px;
+      background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+}
+   
