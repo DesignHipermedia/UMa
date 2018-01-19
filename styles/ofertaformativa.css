@@ -24,9 +24,17 @@ body {
     .foco{
         height: 25px;
         width: 50%;
-        margin: 0.5%;
+        padding: 1%;
+        margin: 1%;
     }
 
+    .agenda2{
+        margin: 1.5%;
+    }
+
+    .tudo{
+        padding: 5%;
+    }
     .col-sm-4{
         padding: 1%;
 
@@ -215,7 +223,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 3rem;
+    padding-right: 1rem;
     padding-bottom: 1rem;
     text-decoration: none;
    }
