@@ -98,6 +98,7 @@ header {
 .footerhip li a{
     text-decoration: none;
     color: white;
+    font-size: 12px;
 }
 
 .col-sm-4 h5 {

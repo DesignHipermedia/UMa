@@ -11,7 +11,7 @@ footer{
     padding-right: 2rem;
     padding-top: 1rem;
 }
-footer h5,footer p{
+footer h6{
     color: white;
 }
 footer hr{
@@ -38,4 +38,10 @@ header div img{
 }
 .slide{
     background-image: url("https://cdn.discordapp.com/attachments/347087160245223424/403341628296790016/unknown.png");
+}
+footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12px;
 }
