@@ -190,13 +190,14 @@ h6{
 
 
 footer {
+    display: flex;
     background-color: gray;
     color: white;
     font-size: 0.75rem;
     min-height: 0.75rem;
     justify-content: space-between;
+    align-items: center;
     padding: 0 2rem;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -338,6 +339,19 @@ a:hover{
 }
 .ag{
     color: white;
+}
+
+.ultimos{
+    padding: 5%;
+}
+
+.table{
+    padding: 5%;
+}
+
+.linha{
+    border: none;
+    display: none;
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
