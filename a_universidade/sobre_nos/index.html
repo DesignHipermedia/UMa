@@ -1,20 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap 4 Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
 
-<div class="container-fluid">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
-</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
 
-</body>
+      <div class="flexwrappernav">
+          <header class="flexitems">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-google"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+          </header>
+          <nav class="flexItems">
+                  <div class="dropdown"> <!--#### A Universidade ### -->
+                          <a href="./../../" class="ListItem lang" key="universidade"> A Universidade</a> 
+                          <ul class="dropdown-content">
+                              <li><a href="">Sobre Nós</a></li>
+                              <li><a href="#">Projeto Educativo, Científico e Cultural</a></li>
+                              <li><a href="#">Conselho Geral</a></li>
+                              <li><a href="#">Reitoria</a></li>
+                              <li><a href="#">Senado Universitário</a></li>
+                              <li><a href="#">Conselho de Cultura</a></li>
+                              <li><a href="#">Conselho de Gestão</a></li>
+                              <li><a href="#">Provedor do Estudante</a></li>
+                              <li><a href="#">Estrutura Orgânica</a></li>
+                              <li><a href="#">Serviços de Acção Social</a></li>
+                              <div class="dropdown-divider"></div>
+                              <span class="span"><b>Gabinetes</b></span>
+                              <div class="dropdown-divider"></div>
+                              <li><a href="#">Controlo da Qualidade</a></li>
+                              <li><a href="#">Desenvolvimento de Aplicações Informáticas</a></li>
+                              <li><a href="#">Imagem e Relações Públicas</a></li>
+                              <div class="dropdown-divider"></div>
+                              <span class="span"><b>Unidades</b></span>
+                              <div class="dropdown-divider"></div>
+                              <li><a href="#">Assuntos Académicos</a></li>
+                              <li><a href="unidades\Unidade_de_aprovisionamento\index.html">Aprovisionamento e Património</a></li>
+                              <li><a href="#">Documentação e Arquivo</a></li>
+                              <li><a href="#">Equipamentos e Instalações</a></li>
+                              <li><a href="#">Económica e Financeira</a></li>
+                              <li><a href="#">Projectos e Cooperação</a></li>
+                              <li><a href="#">Recursos Humanos</a></li>
+                          </ul>
+                  </div>                                         
+                  <div class="dropdown"> <!--#### Ensino ### -->
+                          <a href="#" class="ListItem">Ensino</a>
+                          <ul class="dropdown-content">
+                              <li><a href="#">Guia do Aluno</a></li>
+                              <li><a href="./Ensino/oferta_formativa/">Cursos - Oferta Formativa</a></li>
+                              <li><a href="#">Formação Contínua de Docentes</a></li>
+                              <li><a href="#">Gabinete de Apoio ao Estudante</a></li>
+                              <li><a href="./Ensino/programas_mobilidade/">Programas de Mobilidade</a></li>
+                              <li><a href="#">Maiores de 23</a></li>
+                              <li><a href="./Ensino/internacionais/">Estudantes Internacionais</a></li>
+                          </ul>
+                  </div> 
+                  <div class="dropdown"> <!--#### Investigação ### -->
+                          <a href="#" class="ListItem">Investigação</a>
+                          <ul class="dropdown-content">
+                              <li><a href="./investigacao/Unidades_e_Projectos/">Unidades e Projetos</a></li>
+                              <div class="dropdown-divider"></div>
+                              <span class="span"><b>Institutos</b></span>
+                              <div class="dropdown-divider"></div>
+                              <li><a href="#">Madeira Interactive Technologies Institute</a></li>
+                          </ul>
+                  </div>
+                  <div class="dropdown"> <!--#### Serviços ### -->
+                          <a href="#" class="ListItem">Serviços</a>
+                          <ul class="dropdown-content">
+                              <li><a href="#">Observatório de Emprego e Formação Profissional</a></li>
+                              <li><a href="./comunidade/Projeto_Turismo/">Projeto Turismo</a></li>
+                              <li><a href="./comunidade/CDA/">Centro de Desenvolvimento Académico</a></li>
+                              <li><a href="#">Serviço de Consulta Psicológica</a></li>
+                              <div class="dropdown-divider"></div>
+                              <span class="span"><b>Comunidades</b></span>
+                              <div class="dropdown-divider"></div>
+                              <li><a href="./comunidade/Associacao_Academica/">Associação Académica</a></li>
+                              <li><a href="./comunidade/AAAUMa/">Associação dos Antigos Alunos da Universidade da Madeira</a></li>
+                              <li class="divider"></li>
+                              <li><a href="comunidade/Associacao_Academica/index.html">Associação Académica</a></li>
+                              <li><a href="#">Associação dos Antigos Alunos da Universidade da Madeira</a></li>
+                              <li><a href="#">Pastoral do Ensino Superior na Madeira</a></li>
+                              <li><a href="#">Rotaract Clube</a></li>
+                              <li><a href="#">TUMa</a></li>
+                              <li><a href="#">Tun'UMa</a></li>
+                              <li><a href="./comunidade/tunas/">Tuna D'Elas</a></li>
+                              <li><a href="#">UM@Fóruns</a></li>
+                          </ul>
+                  </div>
+                  <div class="dropdown"> <!--#### Faculdades ### -->
+                          <a href="#" class="ListItem">Faculdades</a>
+                          <ul class="dropdown-content">
+                              <li><a href="#">Artes e Humanidades</a></li>
+                              <li><a href="./faculdades/fcee/">Ciências Exatas e da Engenharia</a></li>
+                              <li><a href="./faculdades/cs/">Ciências Sociais</a></li>
+                              <li><a href="./faculdades/cv/">Ciências da Vida</a></li>
+                              <li><a href="#">Escola Superior de Saúde</a></li>
+                              <li><a href="./faculdades/estg/">Escola Superior de Tecnologias e Gestão</a></li>
+                          </ul>
+                  </div>
+              <div class="LastItem">
+                  <input type="text" placeholder="Pesquisar">
+                  <button>Pesquisar</button>
+              </div>
+          </nav>
+      </div>
+
+      <div class="container-fluid" >
+          <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col-3">
+              <h5><span class="letras">Eventos na UMa</span></h5>
+              <ul class="letras">
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_jevents&task=month.calendar&Itemid=69&lang=pt">Lista de Eventos</a></li>
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_jevents&task=year.listevents&Itemid=64&lang=pt">Conferências</a></li>
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_jevents&task=year.listevents&Itemid=65&lang=pt">Calendário Académico</a></li>
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_jevents&task=month.calendar&Itemid=66&lang=pt">Workshops</a></li>
+              </ul>
+              <br>
+              <h5><span class="letras">Sobre Nós</span></h5>
+              <ul class="letras">
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_content&view=article&id=49&Itemid=90&lang=pt">Localização da UMa</a></li>
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_content&view=article&id=48&Itemid=91&lang=pt">Missão e Visão</a></li>
+                <li><a class="a" href="http://www2.uma.pt/index.php?option=com_content&view=article&id=50&Itemid=92&lang=pt">Histórico da Universidade da Madeira</a></li>
+                <li><a class="a" href="https://gcq.uma.pt/index.php?option=com_docman&amp;Itemid=53&amp;lang=pt">Relatórios de Avaliação</a></li>
+                <li><a class="a" href="http://www.uma.pt/portal/modulos/geral/index.php?NV_MOD=MOD_GERAL&NV_EAGR=EAGR_DOCS&TPESQ=PESQ_GER_DOC&IdDocumento=279">Boletim UMa Informação</a></li>
+                <li><a class="a" href="http://www.uma.pt/portal/modulos/geral/index.php?NV_MOD=MOD_GERAL&NV_EAGR=EAGR_DOCS&TPESQ=PESQ_GER_DOC&IdDocumento=110&IDM=PT">Mapa da UMa</a></li>
+              </ul>
+              <br>
+              <h5><span class="letras">Calendário de Eventos</span></h5>
+              <div class="col-sm-12 col-sm-9">
+                  <div class="col-md-12" style="padding:0px;">
+                    
+                      <table class="table table-bordered table-style table-responsive">
+                        <tr>
+                          <th colspan="2"><a href="?ym=<?php echo $prev; ?>"><span class="glyphicon glyphicon-chevron-left"></span></a></th>
+                          <th colspan="3"> Jan - 2017<!--?php echo $html_title; ?--></th>
+                          <th colspan="2"><a href="?ym=<?php echo $next; ?>"><span class="glyphicon glyphicon-chevron-right"></span></a></th>
+                        </tr>
+                        <tr>
+                          <th>S</th>
+                          <th>M</th>
+                          <th>T</th>
+                          <th>W</th>
+                          <th>T</th>
+                          <th>F</th>
+                          <th>S</th>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                          <td>4</td>
+                          <td>5</td>
+                          <td>6</td>
+                          <td>7</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>9</td>
+                          <td>10</td>
+                          <td>11</td>
+                          <td>12</td>
+                          <td>13</td>
+                          <td>14</td>
+                        </tr>
+                        <tr>
+                          <td>15</td>
+                          <td>16</td>
+                          <td>17</td>
+                          <td>18</td>
+                          <td class="today">19</td>
+                          <td>20</td>
+                          <td>21</td>
+                        </tr>
+                         <tr>
+                          <td>22</td>
+                          <td>23</td>
+                          <td>24</td>
+                          <td>25</td>
+                          <td>26</td>
+                          <td>27</td>
+                          <td>28</td>
+                        </tr>
+                          <tr>
+                          <td>29</td>
+                          <td>30</td>
+                          <td>31</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        
+                      </table>
+              
+                  </div>
+                </div>
+            </div>
+            <div class="col-6 coluna">
+              <h5><a class="letras a" href="http://www2.uma.pt/index.php?option=com_content&view=category&id=30%3Aa-universidade&Itemid=92&lang=pt">A Universidade</a></h5><br>
+
+                <h3>Antecedentes</h3><hr>
+
+                  <p class="recuo">Com o povoamento do arquipélago da Madeira, ao longo do século XV foram sendo montadas nas várias paróquias escolas de ler e a primeira instituiçao de ensino nacional surgiu nos meados do século seguinte, por carta régia de D. Sebastiao,datada de 20 de Agosto de 1569, que criou o colégio dos jesuítas do Funchal. Em 1599, iniciava-se a construçao do grande edifício do Colégio, no centro da cidade, onde hoje se encontra instalada a Reitoria da Universidade da Madeira.
+Ao mesmo tempo era igualmente instalado o Seminário Diocesano e, nos meados do século XVIII, com a extinçao da Companhia de Jesus, no antigo Colégio, em 1768, ainda viria a funcionar Aula de Geometria e Desenho, essencialmente dedicada ao ensino militar. <p class="recuo">Nos inícios do século seguinte surgiria a primeira instituiçao universitária: a Escola Médico-Cirúrgica do Funchal. As primeiras actividades de uma aula dessa natureza datam de 1816, com os trabalhos para o novo regimento da Santa Casa da Misericórdia do Funchal aprovado tres anos depois. Em 1824 era pedido a Lisboa para se ampliar esta aula para uma Aula de Cirurgia Operatória, ampliada pelo decreto de 1836, que determinava a abertura de escolas médico-cirúrgicas em todas as capitais dos distritos ultramarinos. Foi encerrada nos primeiros meses da República, por decreto de 11 de Novembro de 1910. Na sua existencia de mais de 73 anos, esta escola veio a formar 250 médicos, inclusivamente, em 1902, duas médicas, que exerceram clínica em Portugal e no estrangeiro.</p>
+
+              <h1>&nbsp;</h1>
+              <h3>A Universidade da Madeira</h3><hr>
+
+              <p class="recuo">Foi um Despacho conjunto de 1983 da Secretaria de Estado do Ensino Superior e da Secretaria Regional da Educaçao, entao tutelada pelo Dr. Eduardo Brasao de Castro, que criou "uma comissao com vista ao estudo da viabilidade de criaçao e funcionamento de uma universidade na Regiao Autónoma da Madeira e/ou outras alternativas institucionais". Essa comissao apresentou, em 1985, um "Estudo sobre a Viabilidade da Universidade da Madeira" contrapondo ao modelo napoleónico de Universidade um outro pressupostamente mais adaptado a realidade da Madeira.<p class="recuo">
+
+Tres anos mais tarde, através do Decreto-Lei no 319-A/88, de 13 de Setembro de 1988, nascia a Universidade da Madeira, fazendo parte da primeira Comissao Instaladora o Vogal Presidente Prof. Doutor Raúl de Albuquerque Sardinha, os Vogais Prof. Doutor Fernando Santos Henriques e Prof. Doutor José Luís Morais Ferreira Mendes e a Administradora Dr.a Ana Isabel de Portugal Almada Cardoso.
+
+No seu documento "Estratégia e Programaçao", esta comissao manifestava a vontade de se constituir um novo "projecto científico-cultural" face a "exaustao do modelo convencional de Universidade". Apresentando um calendário tendo em vista a plena integrarao dos cursos de Letras e de Ciencias que, desde 1978, tinham funcionado nos centros de extensao universitária, este documento considerava todavia que a Universidade da Madeira, pelo menos no que dizia respeito aos cursos de Letras, e dada a diversidade de variantes, nao poderia assumir a finalizaçao dos cursos, tendo os seus alunos de se deslocar ao continente.<p class="recuo">
+Em 1989/90, começou a funcionar o 1o ano do curso de Educaçao Física e Desporto. A extinçao da Escola Superior de Educaçao da Madeira e a subsequente criaçao do Centro Integrado de Formaçao de Professores através do Decreto-Lei no 391/89 de 9 de Novembro passou a formaçao inicial dos Educadores de Infância e de Professores do Ensino Básico (1o e 2o ciclos) para o âmbito da Universidade. Foram aprovados, ainda durante o período de vigencia da primeira Comissao Instaladora, os Estatutos da Universidade da Madeira. Na sequencia dum período conturbado que levou a que o Vogal Presidente pedisse a sua exoneraçao, foi nomeada uma nova Comissao Instaladora constituída pelo Prof. Doutor Fernando Santos Henriques, um dos Vogais da anterior comissao que entretanto assumira a presidencia, pelos Vogais Prof. Doutor Jorge Manuel Morais Barbosa, Prof. Doutor Carlos Alberto Nieto de Castro e Prof. Doutor Joaquim José Borges Gouveia, e pela Administradora Mestre Elizabete Maria Azevedo Olim Marote Oliveira. Com esta comissao, a UMa comprometia-se a garantir a totalidade das licenciaturas. No entanto, os Estatutos aprovados durante o mandato da anterior Comissao nao seriam ainda homologados, prolongando-se mais uma vez a fase de instalaçao da Universidade.<p class="recuo"></p>
+
+<p class="recuo">O ano lectivo 1990/91 assistiu aos primeiros passos dados por grande parte dos cursos desta Universidade, como a Biologia, a Física, a Matemática, a Química e as Línguas e Literaturas Modernas, Variantes de Estudos Portugueses, Estudos Portugueses e Franceses, Estudos Portugueses e Ingleses, Estudos Portugueses e Alemaes, Estudos Portugueses e Espanhóis, Estudos Ingleses e Alemaes e Estudos Franceses e Ingleses (todos com o ramo científico e de ensino).
+Em 1992/93, começaram a funcionar os cursos de Gestao e de Engenharia de Sistemas e Computadores. Através do Protocolo de Integraçao de 30 de Setembro de 1992, o Instituto Superior de Artes Plásticas da Madeira (ISAPM) passou a estar integrado na Universidade da Madeira sob a denominaçao de Instituto Superior de Arte e Design, da Universidade da Madeira (ISAD/UMa).
+<p class="recuo">Em 1993 foi nomeada uma terceira Comissao Instaladora constituída pelo Vogal Presidente Prof. Doutor Joao David Pinto Correia, pelos Vogais Prof. Doutor José Manuel Castanheira da Costa e Prof. Doutor Ruben Antunes Capela e pelo Administrador, Prof. Doutor António Augusto Marques de Almeida. Da sua Unidade de Planeamento e Informaçao surgiu o documento "Plano de Desenvolvimento. 1994-1998". Delineado em termos de proposta, este plano partiu do diagnóstico da situaçao entao vigente (Dez. 94), respeitante a alunos, pessoal docente e nao docente, para dessa análise apresentar uma estratégia tendo em vista dois grandes objectivos: "0 equilíbrio em termos de ratios em 1999" e "0 melhoramento da qualidade Científica e Pedagógica dos Cursos da Universidade da Madeira.
+
+<p class="recuo">Foi durante a vigencia desta terceira Comissao Instaladora que começaram a funcionar os cursos de Línguas e Literaturas Clássicas (ramo científico e de ensino) e que se procederam a eleiçoes para a nova Assembleia Constituinte tendo em vista a elaboraçao e a aprovaçao dos Estatutos. Tendo iniciado os seus trabalhos a 5 de Setembro de 1995, estes prolongaram-se até 25 do mesmo mes, dia em que os Estatutos da UMa foram aprovados. Reenviados de novo a Universidade, depois de apreciados pela Comissao de Apreciaçao dos Estatutos (a chamada Comissao Ferrer), a fim de se procederem a algumas alteraçoes, reiniciaram-se os trabalhos a 9 de Fevereiro de 1996 até a sua versao final, lida e aprovada a 14 de Março seguinte.
+
+<p class="recuo">Com a homologaçao dos Estatutos da Universidade por Sua Excelencia o Senhor Ministro da Educaçao, Prof. Doutor Marçal Grilo, no Anfiteatro do Edifício do Colégio, a 13 de Maio de 1996 e consequente eleiçao do responsável para os próximos dois anos, a Universidade da Madeira entrou numa nova e crucial fase da sua vida. Uma fase que deverá ver a Universidade afirmar-se no contexto nacional, como Universidade de pleno direito, bem como atingir, ao seu nível interno, as variaçoes mínimas para enfrentar os grandes desafios que se perfilam para qualquer instituiçao de ensino superior, no limiar do século XXI.
+<h1>&nbsp;</h1>
+<span class="nome">Rui Carita<br>
+    Prof. Catedrático</span>
+            </div>
+
+            <div class="col">
+
+            </div>
+          </div>
+      </div>
+
+      <footer>
+
+      </footer>
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
 </html>
