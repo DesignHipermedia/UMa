@@ -122,10 +122,12 @@ a{
 }
 
 .main-title{
-    background-color: rgba(243, 243, 243, 0);
+    background-color: rgba(24, 24, 24, 0.753);
     padding: 10px;
-    margin: 5px;
-    
+    color:aliceblue;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
 }
 
 .main-content{
@@ -138,10 +140,10 @@ a{
     flex-flow: column;
     background-color: rgb(243, 243, 243);
     padding: 10px;
-    margin: 5px;
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
+    margin-right:10px;
 }
 
 .title{
@@ -167,7 +169,6 @@ a{
     width: 20%;
     background-color: rgb(243, 243, 243);
     padding: 5px;
-    margin: 5px;
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
 }
@@ -199,6 +200,7 @@ a{
     width:100vw;
     flex-flow: row;
     justify-content: center;
+    margin-top: 5px;
 }
 .footer-container{
     display: flex;
@@ -216,7 +218,8 @@ a{
 .footer-column{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     border: 2px solid rgba(243, 243, 243, 0.582);
     border-radius: 4px;
     padding: 10px;
