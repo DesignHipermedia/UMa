@@ -234,6 +234,14 @@ h6{
     box-sizing: border-box;
 }
 
+.ofertas{
+    padding-right: 10%; 
+    list-style: none;
+}
+
+.ins{
+
+}
 
 footer {
     display: flex;
