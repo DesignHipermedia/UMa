@@ -1,0 +1,20 @@
+@supports (display: flex){
+    .Cor{
+        background-color: purple;
+    }
+    .Cor-Menu{
+        background-color: purple;
+    }
+    .Cor-Menu:hover{
+        background-color: rgba(173, 0, 173, 0.76)
+    }
+    .Letras-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12;
+        color:white;
+    }
+    .section-1{
+        background-color: orange;
+        margin: 0px;
+    }
+}
