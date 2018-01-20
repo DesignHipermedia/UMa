@@ -239,9 +239,22 @@ h6{
     list-style: none;
 }
 
-.ins{
+.menu{
+    background-color: #f0f0f0;
+    padding: 1%;
+    font-size: 12px;
+}
+
+ul{
+
+    padding-left: 20px;
 
 }
+
+.elei{
+    list-style: none;
+}
+
 
 footer {
     display: flex;
