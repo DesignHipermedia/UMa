@@ -39,7 +39,11 @@ footer {
     flex-flow: row wrap;
    }
    .ultimas {
-    flex: 2;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    flex-flow: row wrap;
+    background-image: url('http://www.uma.pt/portal/imagens/http://antigosalunos.uma.pt/images/aaaumabanner.jpgUMaBanner25.jpg');
    }
    .agenda {
     flex: 2;
@@ -48,10 +52,12 @@ footer {
     flex: 1;
    }
    header {
-    flex: 1;
-    min-height: 10rem;
-    background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
-    background-size: cover;
+    background-color: #42dad2be;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 0.75rem;
+    align-items: center;
+    padding: 0 1rem;
    }
    nav {
     background-color: steelblue;
@@ -72,6 +78,17 @@ footer {
    .LastItem {
     margin-left: auto;
    }
+   .ultimas_content {
+    display: flex;
+    flex-flow: row wrap;
+   }
+   .imagem_ultimas {
+    width: 100%;
+    height: 100%;
+      background-color: steelblue;
+      margin: 10px;
+      background-image: url('http://www.uma.pt/portal/imagens/http://antigosalunos.uma.pt/images/aaaumabanner.jpgUMaBanner25.jpg');
+}
    .foco_content {
     display: flex;
     flex-flow: row wrap;
@@ -81,7 +98,7 @@ footer {
        height: 80px;
          background-color: steelblue;
          margin: 10px;
-         background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+         background-image: url('http://www.uma.pt/portal/imagens/http://antigosalunos.uma.pt/images/aaaumabanner.jpgUMaBanner25.jpg');
    }
     .imagem_foco2 {
       width: 150px;
