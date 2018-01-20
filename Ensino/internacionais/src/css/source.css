@@ -60,3 +60,20 @@ border-radius: 2%;
 text-align: center;
 justify-self: center;
 }
+
+
+
+.cor img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    transition: 1s ease;
+    }
+    
+    .cor img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
