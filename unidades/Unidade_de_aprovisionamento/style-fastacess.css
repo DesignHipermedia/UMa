@@ -1,0 +1,84 @@
+.fast-acess-style{
+    font-weight: bold;    
+    color:black;
+    font-size: 16px;
+    margin:25px 0 10px 0;   
+}
+.risk-under-fast-acess{
+    border-bottom: 5px solid #13a7e2;
+
+    /*#0c83b2  azul do logo*/   
+}
+.dropbtn {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color:rgb(255, 255, 255);   
+    border-bottom: 4px solid #13a7e2;    
+}
+
+.dropdown-content
+ {
+    display: none;
+    position: absolute;
+    right:-40%;
+    background-color: #fafafa;
+    width: 80vw;
+    box-shadow: 0px 18px 30px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+
+}
+
+.dropdown-content-order{
+    display: flex;
+    flex-flow: column wrap;
+    width: 250px;
+    margin-bottom: 15px;
+    border-left: 0.1px solid #0e0d0d;
+    border-right: 0.1px solid #0e0d0d;
+}
+#dropdown-content-borders{
+    border-left: 0.1px solid #0e0d0d;
+}
+.dropdown-content a {
+    display: block;
+    width: auto;   
+    color: black;
+    padding:5px;
+    line-height: 25px;
+    justify-content: space-around;
+    
+}
+.links-mobile{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.links-mobile a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-content a:hover {
+    border-bottom: 2px solid #13a7e2;  
+     
+}
+
+
+.dropdown a:hover .dropbtn {
+    background-color: #0e0d0d;
+    text-decoration: underline;
+    
+}
