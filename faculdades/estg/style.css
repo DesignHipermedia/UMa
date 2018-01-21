@@ -123,6 +123,12 @@ header {
     color: white;
     text-decoration: none;
    }
+
+   .ListItem:hover{
+       text-decoration: none;
+       color: gray;
+   }
+
    .LastItem {
     margin-left: auto;
     color: white;
