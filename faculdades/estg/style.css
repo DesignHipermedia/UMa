@@ -123,6 +123,12 @@ header {
     color: white;
     text-decoration: none;
    }
+
+   .ListItem:hover{
+       text-decoration: none;
+       color: gray;
+   }
+
    .LastItem {
     margin-left: auto;
     color: white;
@@ -194,4 +200,36 @@ header {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+.firstdown {
+    margin-top: 40px;
+}
+
+.Seconddown{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.thrdown {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.fourdown {
+    margin-top: 40px;
+}
+
+.fivedown {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.downpdf {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagemfundo1{
+    width: 1170px;
+    height: 350px;
 }
