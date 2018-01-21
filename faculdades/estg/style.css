@@ -228,3 +228,8 @@ header {
     display: flex;
     flex-direction: row;
 }
+
+.imagemfundo1{
+    width: 1170px;
+    height: 350px;
+}
