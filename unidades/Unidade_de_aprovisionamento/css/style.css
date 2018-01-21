@@ -3,15 +3,7 @@
     padding:0;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
     font-size: 14px;
-    animation: fadein 0.2s;
 
-
-}
-.universidade{
-    background-image: url("imagens/banner.svg");
-    background-repeat: no-repeat;
-    height: 150px;
-    background-size: cover;
 }
 
 .main_container{
