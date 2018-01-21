@@ -197,6 +197,17 @@ a{
     font-size: 0.9em;
 }
 
+.submenu-search-box{
+    display:flex;
+    background-color:none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: aliceblue;
+}
+
 .submenu-links-box{
     background-color:none;
     margin-top: 5px;
@@ -252,4 +263,30 @@ a{
     font-size: 0.8em;
     flex-grow: 1;
     margin: 10px;
+}
+
+.search{
+    padding: 5px;
+    width: 80%;
+    }
+
+.button {
+    display:flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 20%;
+    border-radius: 2px;
+    border: 2px solid aliceblue;
+    margin-left: 5px;
+    text-align: center;
+    color: black;
+}
+
+.button:hover{
+    background-color: rgb(255, 99, 27);
+    color: aliceblue;
+    padding: 2px solid white;
+    
 }
