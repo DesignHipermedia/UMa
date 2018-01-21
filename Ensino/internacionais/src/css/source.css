@@ -26,8 +26,10 @@
     background-color: rgb(88, 88, 88);
     color: whitesmoke;
     border-radius: 15px;
-    padding: 5px;
-    margin-bottom: auto;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 
@@ -60,3 +62,20 @@ border-radius: 2%;
 text-align: center;
 justify-self: center;
 }
+
+
+
+.cor img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    transition: 1s ease;
+    }
+    
+    .cor img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
