@@ -15,7 +15,7 @@ body{
 .first_panel{
     background-color: rgb(9, 50, 83);
     display: flex;
-    padding: 4%;
+    padding: 5%;
     color: white;
 }
 a{
@@ -23,7 +23,9 @@ a{
     color: #fff;
 }
 .cont{
+    flex-direction: column;
     margin: 1%;
+    column-gap: 400px;
 }
 .second_panel{
     display: flex;
@@ -47,10 +49,20 @@ a{
     background-color: rgb(9, 50, 83);
 }
 .third_panel{
-    background-color: wheat;
+    background-color: rgb(239, 230,211);
     text-align: center;
+    color: rgb(9, 50, 83);
 }
 .terceiro_painel_texto{
     display: flex;
     justify-content: flex-start;
+}
+.carousel{
+    display: inline-flex;
+}
+div .img{
+    width: 30em;
+}
+p {
+    text-align: justify;
 }
