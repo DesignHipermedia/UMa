@@ -8,96 +8,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../estg/dist/simple-calendar.css">
     <title>Escola Superior de Tecnologias e Gestão</title>
 </head>
 <body>
-    <div class="container1">
+    <div class="container">
         <header>
-                <div class="navbar">
-                        <img class="imagemlogo" src="logo.png" alt="Logotipo Uma">
-                <div class="dropdown">
-                        <button class="dropbtn">A universidade</button>
-                        <div class="dropdown-content">
-                          <a href="#">Sobre Nós</a>
-                          <a href="#">Projeto Educativo, Cientifico e Cultural</a>
-                          <a href="#">Conselho Geral</a>
-                          <a href="#">Reitoria</a>
-                          <a href="#">Senado Universitário</a>
-                          <a href="#">Conselho de Cultura</a>
-                          <a href="#">Conselho de Gestão</a>
-                          <a href="#">Provedor do Estudante</a>
-                          <a href="#">Estrutura Orgânica</a>
-                          <a href="#">Serviços de Acção Social</a>
-                          <p class="droppar">Gabinetes</p>
-                          <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
-                          <a href="#">Controlo da Qualidade</a>
-                          <a href="#">Desenvolvimento de Aplicações informáticas</a>
-                          <a href="#">Imagem e Relações Públicas</a>
+            <div class="row">
+                <nav class="flexItems">
+                        <a href="./UMA/index.html"><img class="imagemlogo" src="logo.png" alt="Logotipo Uma"></a>
+                    <br>
+                    <a href="index.html" class="ListItem">Home</a>
+                    <a href="oferta.html" class="ListItem">Oferta Formativa</a>
+                    <a href="calendario.html" class="ListItem">Calendário</a>
+                    <a href="regulamentos.html" class="ListItem">Regulamentos e Legislação</a>                
+                </nav>    
                 </div>
+    </header>
+            <div class="row">
+                <img class="imagemfundo" src="ctesp.jpg" alt="Imagem Curso">
             </div>
-                <div class="dropdown">
-                        <button class="dropbtn">Ensino</button>
-                        <div class="dropdown-content">
-                          <a href="#">Guia do Aluno</a>
-                          <a href="#">Cursos- Oferta Formativa</a>
-                          <a href="#">Formação Continua de Docentes</a>
-                          <a href="#">Gabinete de Apoio ao Estudante</a>
-                          <a href="#">Programas de Mobilidade</a>
-                          <a href="#">Maiores de 23</a>
-                </div>
-            </div>
-                <div class="dropdown">
-                        <button class="dropbtn">Investigaçao</button>
-                        <div class="dropdown-content">
-                          <a href="#">Unidades e Projectos</a>
-                          <p class="droppar">Institutos</p>
-                          <a href="#">Madeira Interactiva Technologies Institute</a>
-                </div>
-            </div>
-                <div class="dropdown">
-                        <button class="dropbtn">Serviços e Comunidade</button>
-                        <div class="dropdown-content">
-                          <a href="#">Secretariado Interno</a>
-                          <a href="#">Observatório de Emprego e Formação Profissional</a>
-                          <a href="#">Observatório de Turismo</a>
-                          <a href="#">Centro de Desenvolvimento Académico</a>
-                          <a href="#">Serviço de Consulta Psicológica</a>
-                          <p class="droppar">Comunidades</p>
-                          <a href="#">Associação Académica</a>
-                          <a href="#">Associação dos Antigos Alunos da Universidade da Madeira</a>
-                          <a href="#">Pastoral do Ensino Superior na Madeira</a>
-                          <a href="#">Rotaract Clube</a>
-                          <a href="#">TUma</a>
-                          <a href="#">Tun'UMa</a>
-                          <a href="#">Tuna D'Elas</a>
-                          <a href="#">UM@Fóruns</a>
-                </div>
-            </div>
-                <div class="dropdown">
-                        <button class="dropbtn">Faculdades e Escolas</button>
-                        <div class="dropdown-content">
-                          <a href="#">Artes e Humanidades</a>
-                          <a href="#">Ciência Exactas e da Engenharia</a>
-                          <a href="#">Ciências Sociais</a>
-                          <a href="#">Ciências da Vida</a>
-                          <a href="#">Escola Superior de Saúde</a>
-                          <a href="#">Escola Superior de Tecnologias e Gestão</a>
-                </div>
-                </div> 
-                <div class="dropdown">
-                    <div class="LastItem">
-                    <input type="text" placeholder="Pesquisar">
-                    <button>Pesquisar</button>
-                </div>
-                </div>
-            </div>
-                <div class="estgname">
-                    <h1>UMa - Escola Superior de Tecnologias e Gestão</h1>
-                </div>
-            </header>
-        </div>
-        <div class="container">
-        <div class="row">
+            <div class="row" id="desenvolveindex">
             <div class="col-sm-9" style="background-color:white;">
                 <h3>Presidente:</h3>
                 <br>
@@ -122,14 +53,26 @@
                <br>
             </div>
             <div class="col-sm-3" style="background-color:#F0F0F0;">
-                <h3>Menu ESTG</h3>
-                <ul>
-                    <li>Home-ESTG</li>
-                    <li><a href="oferta.html">Oferta Formativa</a></li>
-                    <li>Calendário</li>
-                    <li>Regulamentos e Legislação</li>
-                </ul>
+            <form action="/action" class="searchf">
+                <input type="text" placeholder="Pesquisar">
+                <button>Pesquisar</button>
+            </form>
+            <div id="calendar" class="calendar-container"></div>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+            <script src="../estg/dist/jquery.simple-calendar.js"></script>
+            <script>
+                    $(document).ready(function(){
+                    $("#calendar").simpleCalendar({
+                    fixedStartDay: false
+                        });
+                    });
+            </script>
+            <div class="iconlogo">
+                <a href="https://www.facebook.com/UMaGIRP/"><img class="imgsocial" src="fb-icon.png" alt="Facebook"/></a>
+                <a href="https://www.instagram.com/universidadedamadeira/"><img class="imgsocial" src="inst-icon.png" alt="Instagram"/></a>
+                <a href="https://www.pinterest.pt"><img class="imgsocial" src="pint-icon.png" alt="Pinterest"/></a>
             </div>
+        </div>
         </div>
         <footer>
                 <div class="row" id="footerl">
