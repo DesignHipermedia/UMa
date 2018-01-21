@@ -32,8 +32,14 @@ body {
         margin: 1.5%;
     }
 
+    input[type=text]{
+        border-radius: 5px;
+    }
+
     .tudo{
-        padding: 5%;
+        padding: 2%;
+
+        
     }
     .col-sm-4{
         padding: 1%;
@@ -114,7 +120,14 @@ body {
     margin-left: auto;
     color: white;
     text-decoration: none;
-   }  
+    
+   } 
+
+   .pesq{
+    border-radius: 2.5px;
+   }
+
+
 
 .painel {
     background-size: auto;
@@ -324,7 +337,9 @@ footer {
 .col1{
     text-align: center;
     padding: 0.5%;
+    
 }
+
 
 .dropdown-content a {
     color: black;
@@ -363,6 +378,7 @@ a:hover{
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
+    
     position: relative;
     max-width: 250px;
     margin: 0 auto;
