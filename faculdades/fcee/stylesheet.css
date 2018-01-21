@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 146, 96);
+    background-color: rgb(60, 142, 156);
 }
 .flex-container{
     display:flex;
@@ -25,24 +25,24 @@ body{
     border-radius: 4px;
     background-color:rgba(24, 24, 24, 0.753);
     color: aliceblue;
-    height: 10vh;
     margin: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
 .header-menu{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     padding: 5px;
     margin : 5px;
-
 }
 
 .menu-buttons{
     position: relative;
     display: inline-block;
     margin: 10px;
+    
 }
 
 .dropdown-btn{
@@ -50,8 +50,7 @@ body{
     align-items: center;
     color: white;
     background-color: rgba(173, 173, 173, 0.5);
-    font-size: 16px;
-    
+    font-size: 0.9em;
     border-radius: 4px;
     cursor: pointer;
     padding: 10px;
@@ -66,6 +65,7 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     z-index: 1;
+    font-size: 0.9em;
 }
 
 .dropdown-content a {
@@ -122,10 +122,12 @@ a{
 }
 
 .main-title{
-    background-color: rgba(243, 243, 243, 0);
+    background-color: rgba(24, 24, 24, 0.753);
     padding: 10px;
-    margin: 5px;
-    
+    color:aliceblue;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
 }
 
 .main-content{
@@ -138,10 +140,16 @@ a{
     flex-flow: column;
     background-color: rgb(243, 243, 243);
     padding: 10px;
-    margin: 5px;
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
+    margin-right:10px;
+}
+
+.img-docente{
+    border-radius: 4px;
+    height: 20vh;
+    width: 7vw;
 }
 
 .title{
@@ -165,40 +173,60 @@ a{
 
 .submenu{
     width: 20%;
-    background-color: rgb(243, 243, 243);
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.submenu-container{
+    background-color: rgba(24, 24, 24, 0.753);
     padding: 5px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
 }
-.submenu-fcee{
-    background-color:rgb(192, 192, 192);
-    padding: 5px;
+.submenu-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: rgb(255, 99, 27);
     margin: 5px;
     border-radius: 4px;
-    border: 2px solid rgb(66, 66, 66);
-    color:rgb(0, 0, 0);
+    color:aliceblue;
+    font-size: 0.9em;
 }
 
-.submenu-cde{
-    background-color:rgb(192, 192, 192);
+.submenu-links-box{
+    background-color:none;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px;
-    margin: 5px;
     border-radius: 4px;
-    border: 2px solid rgb(66, 66, 66);
-    color:rgb(0, 0, 0);
+    font-size: 0.9em;
+    color: aliceblue;
 }
+
 .submenu-links{
-    background-color: rgb(243, 243, 243);
-    margin: 5px;
-    padding: 5px;
-    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid rgba(0, 0, 0, 0);
 }
+
+.submenu-links:hover{
+    background-color:rgba(0, 61, 61, 0.918);
+    border-radius: 4px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
 .footer{
     display:flex;
     width:100vw;
     flex-flow: row;
     justify-content: center;
+    margin-top: 5px;
 }
 .footer-container{
     display: flex;
@@ -216,7 +244,8 @@ a{
 .footer-column{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     border: 2px solid rgba(243, 243, 243, 0.582);
     border-radius: 4px;
     padding: 10px;

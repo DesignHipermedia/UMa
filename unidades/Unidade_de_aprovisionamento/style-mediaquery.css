@@ -1,0 +1,70 @@
+@media (max-width:1150px) {
+    .navbar{
+      display: none;
+    }
+    .main_container{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+    }
+    .dropdown-content-order{
+        border:0; 
+  }
+  .dropdown-content{
+      right:-7%;
+  }
+  .links-mobile{
+    display: flex;
+
+}
+.universidade{
+    display: none;
+}
+}
+  @media screen and (min-width: 1150px) and (max-width: 1350px) { 
+    .navbar{
+      display:none;
+    }
+    .links-mobile{
+        display: flex;
+    }
+    .main_container{    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-height: 100%;
+        max-width: 100%;
+        border-style: none!important;
+
+    }
+    .dropdown-content-order{
+        border:0;
+    }
+    .links-content-order{
+        display: flex;
+        flex-direction: row;
+    }
+    .universidade{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 650px) { 
+    .links-mobile{
+    display: flex;
+    flex-direction: column;
+    }
+    .universidade{
+        display: none;
+    }
+}

@@ -26,7 +26,10 @@
     background-color: rgb(88, 88, 88);
     color: whitesmoke;
     border-radius: 15px;
-    padding: 5px;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 
 
@@ -51,9 +54,28 @@ justify-self: center;
 justify-items: center;
 align-content: center;
 margin-left: 35%;
+border: 1px;
+border-radius: 2%;
 }
 
 .textpart{
 text-align: center;
 justify-self: center;
 }
+
+
+
+.cor img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    transition: 1s ease;
+    }
+    
+    .cor img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
