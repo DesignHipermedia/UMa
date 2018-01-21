@@ -19,7 +19,6 @@
 <body>
     <div class="flexwrappernav">
         <header class="flexitems">
-            <img class="social" src="../styles/social.png" alt="">
                 
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
@@ -34,14 +33,14 @@
                         <ul class="dropdown-content">
                             <li><a href="./a_universidade/sobre_nos/">Sobre Nós</a></li>
                             <li><a href="./a_universidade/projeto_ecc/">Projeto Educativo, Científico e Cultural</a></li>
-                            <li><a href="#">Conselho Geral</a></li>
-                            <li><a href="#">Reitoria</a></li>
-                            <li><a href="#">Senado Universitário</a></li>
-                            <li><a href="#">Conselho de Cultura</a></li>
-                            <li><a href="#">Conselho de Gestão</a></li>
-                            <li><a href="#">Provedor do Estudante</a></li>
-                            <li><a href="#">Estrutura Orgânica</a></li>
-                            <li><a href="#">Serviços de Acção Social</a></li>
+                            <li><a href="./a_universidade/conselho_geral/">Conselho Geral</a></li>
+                            <li><a href="./a_universidade/reitoria/">Reitoria</a></li>
+                            <li><a href="./a_universidade/senado/">Senado Universitário</a></li>
+                            <li><a href="./a_universidade/c_cultura/">Conselho de Cultura</a></li>
+                            <li><a href="./a_universidade/c_gestao/">Conselho de Gestão</a></li>
+                            <li><a href="./a_universidade/provedor_estudante/">Provedor do Estudante</a></li>
+                            <li><a href="http://www.uma.pt/portal/modulos/instituicao/index.php?TPESQ=PESQ_INSTITUICAO_LISTA&IDM=PT&NV_MOD=MODINSTITUICAO&NV_EAGR=EAGR_INSTITUICAO&NV_MOD_ANT=MODINSTITUICAO&NV_EAGR_ANT=EAGR_INSTITUICAO&IDM=PT&">Estrutura Orgânica</a></li>
+                            <li><a href="http://www.sasuma.pt/portal/index.php">Serviços de Acção Social</a></li>
                             <div class="dropdown-divider"></div>
                             <span class="span"><b>Gabinetes</b></span>
                             <div class="dropdown-divider"></div>
@@ -79,13 +78,13 @@
                             <div class="dropdown-divider"></div>
                             <span class="span"><b>Institutos</b></span>
                             <div class="dropdown-divider"></div>
-                            <li><a href="#">Madeira Interactive Technologies Institute</a></li>
+                            <li><a href="./investigacao/m-iti/home.html">Madeira Interactive Technologies Institute</a></li>
                         </ul>
                 </div>
                 <div class="dropdown"> <!--#### Serviços ### -->
                         <a href="#" class="ListItem">Serviços</a>
                         <ul class="dropdown-content">
-                            <li><a href="#">Observatório de Emprego e Formação Profissional</a></li>
+                            <li><a href="./comunidade/ObervatorioEmprego/">Observatório de Emprego e Formação Profissional</a></li>
                             <li><a href="./comunidade/Projeto_Turismo/">Projeto Turismo</a></li>
                             <li><a href="./comunidade/CDA/">Centro de Desenvolvimento Académico</a></li>
                             <li><a href="#">Serviço de Consulta Psicológica</a></li>
@@ -117,12 +116,15 @@
                         </ul>
                 </div>
             <div class="LastItem">
-                <input type="text" placeholder="Pesquisar">
-                <button>Pesquisar</button>
+                <input type="text" placeholder="Pesquisar...">
+                <button class="pesq">Pesquisar</button>
+                
             </div>
         </nav>
     </div>
-<div class="container-fluid d-flex">    
+
+<div class="col col5">
+<div class="container-fluid d-flex flex-wrap-nowrap">    
 <div class="col">
             <div class="foco"><b>EM FOCO</b></div>
         <div class="d-flex flex-row justify-content-start">
@@ -161,24 +163,17 @@
                      <p class="texto">Preenchimento através do "InfoAlunos", até 21 de janeiro de 2018.</p>
                 </div>
         </div>
-        <div class="col ultimos"><b>ÚLTIMOS CONTEÚDOS</b>
+        <!--<div class="col ultimos"><b>ÚLTIMOS CONTEÚDOS</b>
                 <p></p>
 
-        </div>
+        </div>-->
     </div>
 
     <div class="col col1">
         <div class="agenda2"><b>AGENDA</b></div>
         <div class="tudo">
         <div class="timeline">
-            <div class="container left">
-              <div class="content">
-                <span>17 Jan</span><br>
-                <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2958&Itemid=69&year=2018&month=01&day=17&uid=3f0741a24e85bfd7f33cfa5d376fa4fa&catids=43%7C60&lang=pt%22"><span>Motivação para aprender: Fundamentos e avaliação</span></a> - Curso
-                <hr>
-                <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2959&Itemid=69&year=2018&month=01&day=17&uid=a39e3b2a5c31d6f3e33ac40bcd6fdfd2&catids=43%7C60&lang=pt%22"><span>Jornalismo no Mundo em Mudança. O caso da Rússia</span></a> - Conferências
-              </div>
-            </div>
+
             <div class="container right">
               <div class="content1">
                 <span>22 Jan</span><br>
@@ -197,6 +192,12 @@
                   <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2951&Itemid=69&year=2018&month=02&day=01&uid=fbe20984b46f60274ded8a809888484f&catids=43%7C60&lang=pt%22"><span>5.º Encontro Anual do Centro de Química da Madeira</span></a> - Encontro
                 </div>
               </div>
+              <div class="container left">
+                    <div class="content">
+                      <span>09 Fev</span><br>
+                      <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2958&Itemid=69&year=2018&month=01&day=17&uid=3f0741a24e85bfd7f33cfa5d376fa4fa&catids=43%7C60&lang=pt%22"><span>Das ideias nascem coisas: experiências e processos na Arte e no Design </span></a> - Exposições
+                    </div>
+                  </div>
           </div>
         </div>
     </div>
@@ -244,7 +245,7 @@
     </div>
     
 </div>
-
+</div>
         
 
 

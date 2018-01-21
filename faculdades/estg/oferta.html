@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../estg/dist/simple-calendar.css">
     <title>Escola Superior de Tecnologias e Gestão</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
                     <nav class="flexItems">
                             <a href="http://www.uma.pt/portal/modulos/noticia/index.php?NV_MOD=MODNOTICIA&NV_EAGR=EAGR_NOTICIABROWSER&TPESQ=PESQ_NOTICIA_DESTAQUES"><img class="imagemlogo" src="logo.png" alt="Logotipo Uma"></a>
                             <br>
-                            <a href="index2.html" class="ListItem">Home</a>
+                            <a href="index.html" class="ListItem">Home</a>
                             <a href="oferta.html" class="ListItem">Oferta Formativa</a>
                             <a href="calendario.html" class="ListItem">Calendário</a>
                             <a href="regulamentos.html" class="ListItem">Regulamentos e Legislação</a>                
@@ -75,6 +75,21 @@
                         <input type="text" placeholder="Pesquisar">
                         <button>Pesquisar</button>
                     </form>
+                <div id="calendar" class="calendar-container"></div>
+                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+                    <script src="../estg/dist/jquery.simple-calendar.js"></script>
+                    <script>
+                            $(document).ready(function(){
+                            $("#calendar").simpleCalendar({
+                            fixedStartDay: false
+                                });
+                            });
+                    </script>
+                <div class="iconlogo">
+                        <a href="https://www.facebook.com/UMaGIRP/"><img class="imgsocial" src="fb-icon.png" alt="Facebook"/></a>
+                        <a href="https://www.instagram.com/universidadedamadeira/"><img class="imgsocial" src="inst-icon.png" alt="Instagram"/></a>
+                        <a href="https://www.pinterest.pt"><img class="imgsocial" src="pint-icon.png" alt="Pinterest"/></a>
+                </div>
             </div>
         </div>
         <footer>
@@ -99,6 +114,7 @@
                             <li><a href="#">Contactos</a></li>
                         </ul>    
                         </div>
+                        <p style="text-align:center; color:white; font-size:12px;">© 2018 por Daniel Carvalho.</p>
                 </div>
         </footer>
         </div>   

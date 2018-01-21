@@ -11,7 +11,8 @@
 </head>
 
 <body>
-
+  <script src="./src/js/jquery-3.2.1.min.js"></script>
+  <script src="./src/js/bootstrap.min.js"></script>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" id="home" href="#">
@@ -28,9 +29,9 @@
             aria-expanded="false">Guia de Acolhimento</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" id="chegada" href="#">Chegada</a>
-            <a class="dropdown-item" href="#">A nossa Universidade</a>
+            <a class="dropdown-item" id="uni" href="#">A nossa Universidade</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Viver em Portugal e na Madeira</a>
+            <a class="dropdown-item" id="pt" href="#">Viver em Portugal e na Madeira</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -39,30 +40,30 @@
             Oferta Formativa
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">1º Ciclo</a>
-            <a class="dropdown-item" href="#">2º Ciclo</a>
-            <a class="dropdown-item" href="#">3º Ciclo</a>
+            <a class="dropdown-item" id="1c" href="#">1º Ciclo</a>
+            <a class="dropdown-item" id="2c" href="#">2º Ciclo</a>
+            <a class="dropdown-item" id="3c" href="http://uaa.uma.pt/index.php?option=com_user&view=login&return=aHR0cDovL3VhYS51bWEucHQvaW5kZXgucGhwP29wdGlvbj1jb21fY29udGVudCZ2aWV3PWFydGljbGUmaWQ9MjEwMw==">3º Ciclo</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="./../Oferta_formativa/ofertaformativa.html">Guia do Aluno</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">FAQs</a>
+            <a class="dropdown-item" id="faq" href="#">FAQs</a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Contactos</a>
+          <a class="nav-link" id="cont" href="#">Contactos</a>
         </li>
       </ul>
 
 
       <form class="form-inline my-2 my-lg-0">
-        <div class=".btna">
-          <button class="btn btn-primary btn-sm btn-outline-success" type="submit">
+        
+         
             <img class="flg" width="80px" src="./src/pt.png">
-          </button>
-          <button class="btn btn-outline-danger btn btn-primary btn-sm" type="submit">
+         
+            <div class="cor">
             <img class="flg" width="80px" src="./src/eng.jpg">
-          </button>
+          
         </div>
       </form>
     </div>
@@ -117,7 +118,7 @@
           <br> Turismo
           <br>
           <p></p>
-          Estudantes brasileiros
+          <a href="http://brasil.uma.pt"> Estudantes brasileiros</a>
           <br>
           <p></p>
           Segue-nos em
@@ -136,7 +137,6 @@
               </a> 
               </div>
               <br>
-              <p>&copy; 2018 Universidade da Madeira</p>
               </div>
         </div>
       </div>
@@ -157,36 +157,15 @@
           <footer><div class="foot3r align-items-end align-self-end align-content-end ">
               <div class="container">
               <div class="col-lg-12 text-center">
-              <h3>UMa Cantina</h1>
-              <br>
-              <br>
-              <p>Rua de Santa Maria, nº 253 / Funchal / 291.123.123</p>
-              <p>Horário: De 2ª a 6ª e Sábado das 09:00 às 14:00</p>
-              <br>
-              <div class="social-media">
-              <a href="#">
-              <i class="fa fa-facebook"><img src="https://image.freepik.com/free-icon/facebook-symbol_318-37686.jpg" title="Facebook" width="26" height="26"></i>
-              </a>
-             <a href="#">
-              <i class="fa fa-twitter"><img src="https://image.flaticon.com/icons/svg/23/23931.svg" title="Twitter" width="26" height="26"></i>
-              </a>
-             <a href="#">
-              <i class="fa fa-pinterest"><img src="https://seeklogo.com/images/P/pinterest-logo-E994F3A9FB-seeklogo.com.png" title="Pinterest" width="26" height="26"></i>
-              </a>
-             <a href="#">
-              <i class="fa fa-instagram"> <img src="https://png.icons8.com/instagram/win8/26" title="Instagram" width="26" height="26"></i>
-              </a>
-              </div>
-              <br>
-              <p>&copy; 2017 Universidade da Madeira</p>
+              <br><a href="./../../"><img src="./src/umaf.png" width="30%"></a>
+              <p>&copy; 2018 Universidade da Madeira</p>
               </div>
               </div>
               </div>
               </footer>
       </body>
 
-  <script src="./src/js/jquery-3.2.1.min.js"></script>
-  <script src="./src/js/bootstrap.min.js"></script>
+ 
 
   <script>
     $(document).ready(function () {
@@ -198,6 +177,30 @@
       $('#chegada').click(function (event) {
         event.preventDefault();
         $("#part").load("chegada.html");
+      });
+      $('#uni').click(function (event) {
+        event.preventDefault();
+        $("#part").load("uni.html");
+      });
+      $('#pt').click(function (event) {
+        event.preventDefault();
+        $("#part").load("pt.html");
+      });
+      $('#1c').click(function (event) {
+        event.preventDefault();
+        $("#part").load("1c.html");
+      });
+      $('#2c').click(function (event) {
+        event.preventDefault();
+        $("#part").load("2c.html");
+      });
+      $('#faq').click(function (event) {
+        event.preventDefault();
+        $("#part").load("faq.html");
+      });
+      $('#cont').click(function (event) {
+        event.preventDefault();
+        $("#part").load("cont.html");
       });
     });
   </script>
@@ -211,5 +214,4 @@
 }("Bem-Vindos Alunos Internacionais "));
 </script>
 </body>
-
 </html>
