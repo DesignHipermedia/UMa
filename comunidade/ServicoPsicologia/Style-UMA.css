@@ -1,0 +1,24 @@
+@supports (display: flex){
+    .Cor{
+        background-color: purple;
+    }
+    .Cor-Menu{
+        background-color: purple;
+    }
+    .Cor-Menu:hover{
+        background-color: rgba(173, 0, 173, 0.76);
+    }
+    .Letras-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12;
+        text-align: center;
+        color:white;
+    }
+    .Letras-2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12;
+        text-align: center;
+        color:white;
+        margin-bottom: 2px;
+    }
+}
