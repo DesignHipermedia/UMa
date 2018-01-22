@@ -100,92 +100,81 @@
         <div class="container">
         <div class="row">
             <div class="col-sm-9" style="background-color:white;">
-                <h3>Missão</h3>
-                <br>
-                <ul> 
-                    <p>A Faculdade de Artes e Humanidades tem por finalidades essenciais a realização de actividades de ensino (licenciatura, mestrado, doutoramento e outros ciclos não conferentes de grau) e de investigação no âmbito do seu domínio científico. No âmbito das suas áreas do saber, a Faculdade persegue ainda, entre outros, os seguintes fins:</p>
-                <br> 
-                    <li>A realização de actividades de divulgação e extensão universitária, e de prestação de serviços à Comunidade;</li>
-                    <li>A promoção do intercâmbio cultural, científico e técnico com instituições congéneres nacionais e estrangeiras, e da mobilidade de estudantes e diplomados, docentes e investigadores, tanto ao nível nacional como internacional;</li>
-                    <li>A promoção e apoio a ações e programas que contribuam para a inserção dos diplomados no mundo do trabalho e que fomentem o seu espírito de iniciativa, empreendedorismo e competitividade profissional;</li>
-                    <li>A promoção e participação em outras actividades de ensino e formação de interesse para a Universidade e para a Região onde esta se insere</li>
-                <br>
-                    <p>A Faculdade desenvolve uma política de promoção de qualidade do corpo docente, da investigação e do ensino, na prossecução do espírito de colaboração entre todos os seus membros. Para além da procura do reforço constante das áreas científicas em que actualmente já desenvolve a sua actividade, a Faculdade pode ainda criar e implementar outras áreas que se venham a revelar de interesse para a UMa e para a Região Autónoma da Madeira. A Faculdade conta actualmente com 3 Departamentos que abrangem a generalidade das áreas científicas das Artes e Humanidades: Departamento de Arte e Design, Departamento de Línguas, Literaturas e Culturas e Departamento de Psicologia.</p>
-                </ul>
-                <br>
-                <br>
-                <h3>Presidente da faculdade:</h3>
-                <br>
-                <ul>
-                    <li>Ana Isabel Ferreira da Silva Moniz. </li>
+                <h3>Composição</h3>
+                    </head>
+                    <body>
                     
-                </ul>
-               <br>
-               <br>
-               <h3>Vice-presidentes da faculdade:</h3>
-               <br>
-               <ul>
-                   <li>Ana Maria Pereira Antunes;</li>
-                   <li>António Carlos Jardim Valente;</li>
-                   <li>Joaquim José Sanches Pinheiro.</li>
-               </ul>
-               <br>
-               <br>
-               <h3>Membros do conselho científico:</h3>
-               <br>
-               <ul>
-                   <li>Alcina Maria Pereira de Sousa;</li>
-                   <li>Ana Maria Pereira Antunes;</li>
-                   <li>Anne Martina Emonts;</li>
-                   <li>António Carlos Jardim Valente;</li>
-                   <li>Christine Escallier;</li>
-                   <li>Joaquim José Sanches Pinheiro;</li>
-                   <li>Leonor da Fonseca Martins Coelho;</li>
-                   <li>Maria da Glória Salazar D'Eça Costa Franco;</li>
-                   <li>Maria Helena Dias Rebelo;</li>
-                   <li>Maria João Gouveia Pereira Beja;</li>
-                   <li>Maria Teresa Duarte de Jesus Gonçalves do Nascimento;</li>
-                   <li>Paulo Miguel Fagundes de Freitas Rodrigues;</li>
-                   <li>Shujoy Chakraborty.</li>
-               </ul>
-               <br>
-               <br>
-               <h3>DEPARTAMENTOS DA FAH:</h3>
-               <h3>Departamento de arte e design - coordenador: António Carlos Jardim Valente</h3>
-               <br>
-               <ul>
-                   <li>1º Ciclo (licenciatura) em Artes Visuais - Director de curso: Professor Doutor Vítor Manuel Ornelas Magalhães</li>
-                   <li>1º Ciclo (licenciatura) em Design - Director de curso: Professora Doutora Valentina Vezzani</li>
-                   <li>2º Ciclo (mestrado) em Design dos Espaços - Director de curso: Professor Doutor Shujoy Chakraborty</li>
-               </ul>
-               <br>
-               <br>
-               <h3>Departamento de línguas,literaturas e culturas-coordenador: Joaquim José Sanches Pinheiro</h3>
-               <br>
-               <ul>
-                   <li>1º Ciclo (licenciatura) em Comunicação, Cultura e Organizações (CCO) - Director de curso: Professor Doutor Telmo Reis</li>
-                   <li>1º Ciclo (licenciatura) em Estudos de Cultura (ECul) - Director de curso: Professora Doutora Leonor Martins Coelho</li>
-                   <li>1º Ciclo (licenciatura) em Línguas e Relações Empresariais (LeRE) - Director de curso: Professora Doutora Jane Spínola</li>
-                   <li>2º Ciclo (mestrado) em Estudos Estudos Linguísticos e Culturais - Director de curso: Naidea Nunes Nunes</li>
-                   <li>2º Ciclo (mestrado) em Gestão Cultural - Director de curso: Maria Teresa Duarte de Jesus Gonçalves do Nascimento</li>
-                   <li>2º Ciclo (mestrado) em Estudos Regionais e Locais - Director de curso: Thierry Proença dos Santos</li>
-                   <li>3º Ciclo (doutoramento) em Ilhas Atlânticas: História, Património e Quadro Jurídico-Institucional - Director de curso: Professora Doutora Maria Teresa Duarte de Jesus Gonçalves do Nascimento</li>
-               </ul>
-               <br>
-               <br>
-               <h3>Departamento de psicologia - coordenador: Ana Maria Pereira Antunes</h3>
-               <br>
-               <ul>
-                   <li>1º Ciclo (licenciatura) em Psicologia - Director de curso: Professora Doutora Maria João Beja</li>
-                   <li>2º Ciclo (mestrado) em Psicologia da Educação - Director de curso: Maria da Glória Salazar D’Eça Costa Franco</li>
-               </ul>
+                    <h2></h2>
+                    
+                    <div class="row">
+                      <div class="column" >
+                        <li>Alcina Maria Pereira de Sousa</li>
+                        <li>Alda Patrícia Marques Portugal</li>
+                        <li>Aline Maria Pinguinha França Bazenga</li>
+                        <li>Ana Isabel Ferreira da Silva Moniz</li>
+                        <li>Ana Maria Pereira Antunes</li>
+                       <li>Anne Martina Emonts</li>
+                       <li>António Carlos Jardim Valente</li>
+                       <li>Bernardo Guido de Vasconcelos</li>
+                       <li>Bruno Carlos Rodrigues Tavares Monteiro</li>
+                       <li>Carlos Bruno Xavier Alexandre</li>
+                       <li>Celina Maria Rodrigues Martins</li>
+                       <li>Christine Escallier</li>
+                       <li>Clara Maria de Sousa</li>
+                       <li>Cristina Maria Nascimento Guerra dos Santos Pinheiro</li>
+                       <li>Diana Pimentel Penberthy de Araújo Barbeito</li>
+                       <li>Dominique Marie Figueira Curado Castanheira da Costa</li>
+                       <li>Dora Isabel Fialho Pereira</li>
+                      </div>
+                      <div class="column" >
+                        <li>Duarte Miguel Faria da Encarnação</li>
+                        <li>Hugo Renato de Gouveia Olim</li>
+                        <li>Idalina dos Milagres Abreu Camacho</li>
+                        <li>Inês Tadeu Freitas Gonçalves</li>
+                        <li>Jane Franco Spínola Diogo</li>
+                        <li>Joana Raquel de Abreu Gouveia Fragoeiro</li>
+                        <li>João Adriano Ribeiro</li>
+                        <li>João Miguel Correia Gonçalves</li>
+                        <li>Joaquim José Sanches Pinheiro</li>
+                        <li>José Gerardo de Andrade</li>
+                        <li>José Luis Macedo Relva</li>
+                        <li>José Manuel da Silva Gomes</li>
+                        <li>José Sílvio Moreira Fernandes</li>
+                        <li>Kurt Jurgen Millner</li>
+                        <li>Leonor da Fonseca Martins Coelho</li>
+                        <li>Lúcia do Rosário Cerqueira de Miranda</li>
+                        <li>Maria da Glória Salazar D`eça Costa Franco</li>
+                        <li>Maria Elisete Machado Pereira da Rocha Almeida</li>
+                        <li>Maria Helena Dias Rebelo</li>
+                      </div>
+                      <div class="column" >
+                        <li>Maria Luísa Pereira Soares</li>
+                        <li>Maria Teresa Duarte de Jesus Gonçalves do Nascimento</li>
+                        <li>Mário Franco Barros</li>
+                        <li>Naidea Nunes Nunes</li>
+                        <li>Nuno Miguel Vieira Rodrigues</li>
+                        <li>Pau Pascual Galbis</li>
+                        <li>Paulo Miguel Fagundes de Freitas Rodrigues</li>
+                        <li>Samuel André Alves Mateus</li>
+                        <li>Sandro Patrício Gama Nóbrega</li>
+                        <li>Susana Paula Gomes Luís Gonzaga</li>
+                        <li>Sérgio Manuel Coimbra Lemos</li>
+                        <li>Shujoy Chakraborty</li>
+                        <li>Valentina Vezzani</li>
+                        <li>Telmo Corujo dos Reis</li>
+                        <li>Thierri Proença dos Santos</li>
+                        <li>Wojciech Kazimierz Hydzik</li>
+                        <li>Vítor Manuel Ornelas Magalhães</li>
+                        <li>Vladimir Zegarac</li>
+                      </div>
+                    </div>
                <br>
             </div>
             <div class="col-sm-3" style="background-color:#F0F0F0;">
                 <h3>Menu FAH</h3>
                 <ul>
                     <li><a href="index.html">Home-FAH</a></li>
-                    <li><a href="Composição.html">Composição</a></li>
+                    <li><a href="composição.html">Composição</a></li>
                     <li><a href="New.html">Noticias</a></li>
                     <li><a href="Regulamento.html">Regulamento</a></li>
                     <li><a href="Perguntasfre.html">Perguntas frequente</a></li>

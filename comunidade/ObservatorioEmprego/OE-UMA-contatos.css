@@ -10,7 +10,7 @@ body, html {
 
 .nav-main {
     width: 100%;
-    background-color: #38393d;  
+    background-color: #38393d;
     height: 58px;
     color: white;
 }
@@ -55,7 +55,7 @@ body, html {
 ul {
     
     padding: 0;
-    margin: ;
+    margin: 0;
     list-style-type: none;
     position: absolute;
     
@@ -113,6 +113,9 @@ margin-top: 15px;
 
 }
 
+
+
+
 footer{
     width: 100%;
     height: 58px;
@@ -139,7 +142,7 @@ footer{
 
 
 .container {
-	width: 90%; 
+	width: 90%;  
 	margin-right: auto;
 	margin-left: auto; 
 }
@@ -219,13 +222,11 @@ footer{
 
 .texto{
     font-size: 25px;
-    color: #38393d;
 }
 
 .texto1{
     text-align: center;
     align-items: center;
-    color: #38393d;
 }
 .texto2{
     display: flex;
@@ -234,12 +235,15 @@ footer{
     text-align: right;
     text-decoration: none;
     justify-content: center;
-    padding: 3px;
-    margin-top: -8px;
-    
+    padding: 4px;
 }
 
 .texto2:hover{
     background-color: white;
     text-decoration: underline;
+}
+
+.texto3{
+    margin-left: 20px;
+    font-size: 20px;
 }

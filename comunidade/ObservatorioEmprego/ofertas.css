@@ -10,7 +10,7 @@ body, html {
 
 .nav-main {
     width: 100%;
-    background-color: #38393d;  
+    background-color: #38393d;
     height: 58px;
     color: white;
 }
@@ -55,7 +55,7 @@ body, html {
 ul {
     
     padding: 0;
-    margin: ;
+    margin: 0;
     list-style-type: none;
     position: absolute;
     
@@ -112,6 +112,9 @@ padding: 5px;
 margin-top: 15px;
 
 }
+
+
+
 
 footer{
     width: 100%;
@@ -219,13 +222,11 @@ footer{
 
 .texto{
     font-size: 25px;
-    color: #38393d;
 }
 
 .texto1{
     text-align: center;
     align-items: center;
-    color: #38393d;
 }
 .texto2{
     display: flex;
@@ -234,12 +235,60 @@ footer{
     text-align: right;
     text-decoration: none;
     justify-content: center;
-    padding: 3px;
-    margin-top: -8px;
-    
+    padding: 4px;
 }
 
 .texto2:hover{
     background-color: white;
     text-decoration: underline;
+}
+
+.texto3{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+.caixaimg{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    height: 0;
+    background: #4c4c4c;
+    padding-bottom: 40%;
+    border: solid 10px #38393d;
+    overflow: hidden;
+
+}
+
+.slide{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}   
+
+
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        
+    }
+
+    50%{
+        opacity:0 ;
+
+    }
+}
+
+.slide:nth-child(1){
+    
+}
+
+.slide:nth-child(2){
+    animation-delay: 10s;
 }
