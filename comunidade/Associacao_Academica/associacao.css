@@ -99,3 +99,17 @@ footer .colaboradores_margem .container {
 footer .col-lg-12 a{
     color: #ffffff;
 }
+
+footer .col-lg-12 a:hover{
+    background: #22205b;
+    text-decoration: none;
+}
+
+footer .icons a {
+    color: #ffffff;
+}
+
+footer .icons a:hover {
+    background: #22205b;
+    text-decoration: none;
+}
