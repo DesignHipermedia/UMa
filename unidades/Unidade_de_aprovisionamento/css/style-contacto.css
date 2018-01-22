@@ -1,0 +1,75 @@
+.conteudo{
+    width:70vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);   
+    border-top:5px solid #13a7e2;  
+}
+.organiza{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+.texto_conteudo, .titulo{
+    padding: 15px;  
+}
+
+.titulo{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top:1%;
+    width: 100%;
+    
+}.titulo_form{
+    font-weight: bold;
+    width: 100%;
+    
+}
+.texto_conteudo{
+    width:92%;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left:2%;
+    text-align: justify; 
+}
+.texto_conteudo a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.contatos{
+    margin-left:5%;
+}
+
+.conteudo-form{
+    width:70vw;
+    display: flex;
+    flex-direction:column;
+    margin-top: 2%;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.5);   
+    border-top:5px solid #13a7e2; 
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: wrap;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.formulario_margem{
+    margin-left: 5%;
+    
+}
+@media (max-width: 900px) {
+    .formulario{
+        flex-direction: column;
+    }
+}

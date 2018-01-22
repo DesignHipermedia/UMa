@@ -1,107 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
-        <link rel="stylesheet" href="./src/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <link rel="stylesheet" href="./src/css/source.css">
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+  <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./src/css/source.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
+
 <body>
+  <script src="./src/js/jquery-3.2.1.min.js"></script>
+  <script src="./src/js/bootstrap.min.js"></script>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="home" href="#">
+      <img src="./src/icon.png">Estudantes Internacionais</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="./src/icon.png">Estudantes Internacionais</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                   
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Guia de Acolhimento
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Chegada</a>
-                        <a class="dropdown-item" href="#">A nossa Universidade</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Viver em Portugal e na Madeira</a>
-                      </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Oferta Formativa
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">1º Ciclo</a>
-                              <a class="dropdown-item" href="#">2º Ciclo</a>
-                              <a class="dropdown-item" href="#">3º Ciclo</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Guia do Aluno</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">FAQs</a>
-                            </div>
-                          </li>
-
-                          <li class="nav-item">
-                                <a class="nav-link" href="#">Contactos</a>
-                              </li>
-                  </ul>
-
-
-                  <form class="form-inline my-2 my-lg-0">
-                      <div class=".btna">
-                    <button class="btn btn-primary btn-sm btn-outline-success" type="submit"><img class="flg" width="80px" src="./src/pt.png"></button>
-                    <button class="btn btn-outline-danger btn btn-primary btn-sm" type="submit"><img class="flg" width="80px" src="./src/eng.jpg"></button>
-                </div>
-                </form>
-                </div>
-              </nav>
-
-      <section>
-        <div class="container">
-        <!-- Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="./src/Banner_FInal.png" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h1>BEM VINDO À</h1>
-                <div class="grow">
-                  <img src="./src/uma.png" height="300px">
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./src/Banner_FInal.png" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h1>WELCOME TO</h1>
-                <div class="grow">
-                  <img src="./src/uma.png" height="300px">
-                </div>
-              </div>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Guia de Acolhimento</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" id="chegada" href="#">Chegada</a>
+            <a class="dropdown-item" id="uni" href="#">A nossa Universidade</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="pt" href="#">Viver em Portugal e na Madeira</a>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Oferta Formativa
           </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" id="1c" href="#">1º Ciclo</a>
+            <a class="dropdown-item" id="2c" href="#">2º Ciclo</a>
+            <a class="dropdown-item" id="3c" href="http://uaa.uma.pt/index.php?option=com_user&view=login&return=aHR0cDovL3VhYS51bWEucHQvaW5kZXgucGhwP29wdGlvbj1jb21fY29udGVudCZ2aWV3PWFydGljbGUmaWQ9MjEwMw==">3º Ciclo</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./../Oferta_formativa/ofertaformativa.html">Guia do Aluno</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" id="faq" href="#">FAQs</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="cont" href="#">Contactos</a>
+        </li>
+      </ul>
+
+
+      <form class="form-inline my-2 my-lg-0">
+        
+         
+            <img class="flg" width="80px" src="./src/pt.png">
+         
+            <div class="cor">
+            <img class="flg" width="80px" src="./src/eng.jpg">
+          
+        </div>
+      </form>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container-fluid">
+      <div class="d-flex flex-row">
+        <div class="d-flex" id="part">
+        </div>
+
+        <div class="w-25 p-3">
+          <h4>Links Utéis</h4>
+          <p></p>
+          <h5>Institucionais</h5>
+          <p></p>
+          <span title="UMA | Universidade da Madeira">
+            <a href="./../../">
+              <img src="./src/uma.png" height="50px">
+            </a>
+          </span>
+          <br>
+          <br>
+          <span title="SASUMa | Serviços de Ação Social">
+            <img src="./src/sasuma.png" height="70px">
+          </span>
+          <br>
+          <br>
+          <span title="AAUMa | Associação Académica">
+            <img src="./src/aauma.png" height="50px">
+          </span>
+          <br>
+          <br>
+          <span title="Vídeo institucional">
+            <a href="https://www.youtube.com/watch?v=pGaRjnb7O_c">
+              <img src="./src/vid.png" height="90px">
+            </a>
+          </span>
+          <br>
+          <br>
+          <span title="Folheto informativo">
+            <a href="http://internacionais.uma.pt/wp-content/uploads/2016/07/triptico_alunos_pt.pdf">
+              <img src="./src/folheto.png" height="90px">
+          </span>
           </a>
+          <p></p>
+          <h5>Sobre a cidade</h5>
+          <p></p>
+          <br> Cidade do Funchal
+          <br> Transportes Públicos
+          <br> Portal do Cidadão
+          <br> Turismo
+          <br>
+          <p></p>
+          <a href="http://brasil.uma.pt"> Estudantes brasileiros</a>
+          <br>
+          <p></p>
+          Segue-nos em
+          <div class="social-media">
+              <a href="#" style=" color: inherit; ">
+              <i class="fa fa-facebook"><img src="https://image.freepik.com/free-icon/facebook-symbol_318-37686.jpg" title="Facebook" width="26" height="26"></i>
+              </a> &nbsp;
+             <a href="#"  style=" color: inherit; ">
+              <i class="fa fa-twitter"><img src="https://image.flaticon.com/icons/svg/23/23931.svg" title="Twitter" width="26" height="26"></i>
+              </a> &nbsp;
+             <a href="#"  style=" color: inherit; ">
+              <i class="fa fa-pinterest"><img src="https://seeklogo.com/images/P/pinterest-logo-E994F3A9FB-seeklogo.com.png" title="Pinterest" width="26" height="26"></i>
+              </a> &nbsp;
+             <a href="#"  style=" color: inherit; ">
+              <i class="fa fa-instagram"> <img src="https://png.icons8.com/instagram/win8/26" title="Instagram" width="26" height="26"></i>
+              </a> 
+              </div>
+              <br>
+              </div>
         </div>
       </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-          <section>
+  <!--  <section>
             <div class="container-fluid">
               <div class="d-flex flex-row">
                 <div class="w-75 p-3 bord"></div>
@@ -109,10 +152,66 @@
                 <div class="w-25 p-3 bord"></div>
               </div>
             </div>
-          </section>    
-          
+          </section>    -->
+        
+          <footer><div class="foot3r align-items-end align-self-end align-content-end ">
+              <div class="container">
+              <div class="col-lg-12 text-center">
+              <br><a href="./../../"><img src="./src/umaf.png" width="30%"></a>
+              <p>&copy; 2018 Universidade da Madeira</p>
+              </div>
+              </div>
+              </div>
+              </footer>
+      </body>
 
-              <script src="./src/js/jquery-3.2.1.min.js"></script>
-              <script src="./src/js/bootstrap.min.js" ></script>
-            </body>
+ 
+
+  <script>
+    $(document).ready(function () {
+      $('#part').load('indpart.html');
+      $('#home').click(function (event) {
+        event.preventDefault();
+        $("#part").load("indpart.html");
+      });
+      $('#chegada').click(function (event) {
+        event.preventDefault();
+        $("#part").load("chegada.html");
+      });
+      $('#uni').click(function (event) {
+        event.preventDefault();
+        $("#part").load("uni.html");
+      });
+      $('#pt').click(function (event) {
+        event.preventDefault();
+        $("#part").load("pt.html");
+      });
+      $('#1c').click(function (event) {
+        event.preventDefault();
+        $("#part").load("1c.html");
+      });
+      $('#2c').click(function (event) {
+        event.preventDefault();
+        $("#part").load("2c.html");
+      });
+      $('#faq').click(function (event) {
+        event.preventDefault();
+        $("#part").load("faq.html");
+      });
+      $('#cont').click(function (event) {
+        event.preventDefault();
+        $("#part").load("cont.html");
+      });
+    });
+  </script>
+<script>
+(function titleScroller(text) {
+  document.title = text;
+  console.log(text);
+  setTimeout(function () {
+      titleScroller(text.substr(1) + text.substr(0, 1));
+  }, 500);
+}("Bem-Vindos Alunos Internacionais "));
+</script>
+</body>
 </html>
