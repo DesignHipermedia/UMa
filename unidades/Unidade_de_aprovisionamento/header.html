@@ -1,146 +1,164 @@
-<html>
-<header>
-    <img src="imagens/uma_branco.png" width="250" height="126">
-    <div class="navbar">
 
-        <a href="index.html">Home</a>
+<script> 
 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+            $('header').addClass("sticky"),
+                $('.img').replaceWith("<img class ='img' src='imagens/uma_branco.png' width='150' height='75'>");
+        }
+        else {
+            $('.img').replaceWith("<img class ='img' src='imagens/uma_branco.png' width='250' height='126'>"),
+                $('header').removeClass("sticky");
+        }
+    });
+</script>
+<a class='banner' href="/index.html">
+    <img class='img' src="imagens/uma_branco.png" width="250" height="126">
+</a>
 
-        <div class="links-dropdown">
-            <a href="links.html">
-                <button class="links-drpbtn">Links</button>
-            </a>
-            <div class="links-drpdwncontent">
-                <div class="risk-under-fast-acess"></div>
-                <div class="links-content-order">
-                    <a href="BaseGov.html">BaseGov</a>
-                    <a href="plataforma.html">Plataforma Electrónicade Contratação Pública</a>
-                    <a href="https://siag.uma.pt/siag/base/index.jsp">SIAG</a>
-                    <a href="http://ancpconcursos.ancp.gov.pt/ANCP/default.asp">ANCP</a>
-                </div>
-            </div>
-        </div>
-        <a href="formulario.html">Formulários</a>
-        <a href="aquisicaobib.html">Aquisição Bibliografica</a>
-        <a href="contato.html">Contato e Sugestões</a>
-
-    </div>
-    <div class="navbar-fast-acess">
-        <button class="dropbtn">Acesso Rápido</button>
-        <div class="dropdown-content">
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="links-dropdown">
+        <a href="links.html">
+            <button class="links-drpbtn">Links</button>
+        </a>
+        <div class="links-drpdwncontent">
             <div class="risk-under-fast-acess"></div>
-            <div class="links-mobile">
-                <a href="#">Home</a>
-                <a href="#">Links</a>
-                <a href="#">Contatos</a>
-                <a href="#">Formulários</a>
-                <a href="#">Aquisição Bibliografica</a>
-                <a href="#">Contato e Sugestões</a>
-            </div>
-            <div class="columns">
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-
-
-                        <i class="fa fa-chevron-right"></i> A Universidade </p>
-                    <a href="#">Sobre Nós</a>
-                    <a href="#">Projeto Educativo, Científico e Cultural</a>
-                    <a href="#">Conselho Geral</a>
-                    <a href="#">Reitoria</a>
-                    <a href="#">Senado Universitário</a>
-                    <a href="#">Concelho de Cultura</a>
-                    <a href="#">Provedor do Estudante</a>
-                    <a href="#">Estrutura Orgânica</a>
-                    <a href="#">Serviços de Acção Social</a>
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Gabinetes
-                    </p>
-                    <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
-                    <a href="#">Controlo de Qualidade</a>
-                    <a href="#">Desenvolvimento de Aplicações Informáticas</a>
-                    <a href="#">Imagem e Relações Públicas</a>
-
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Unidades
-                    </p>
-                    <a href="#">Assuntos Académicos</a>
-                    <a href="#">Aprovisionamento e Patrímonio</a>
-                    <a href="#">Documentação e Arquivo</a>
-                    <a href="#">Equipamentos e Instalações</a>
-                    <a href="#">Económica e Financeira</a>
-                    <a href="#">Projectos e Cooperação</a>
-                    <a href="#">Recursos Humanos</a>
-
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> A Ensino
-                    </p>
-                    <a href="#">Guia do Aluno</a>
-                    <a href="#">Crusos Oferta Formativa</a>
-                    <a href="#">Froamçao Continua de Docentes</a>
-                    <a href="#">Gabinete de Apoio ao Estudante</a>
-                    <a href="#">Programas de Mobilidade</a>
-                    <a href="#">Maiores de 23</a>
-
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Investigação
-                    </p>
-                    <a href="#">Unidades e Projectos de Investigação</a>
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Serviços e Investigação
-                    </p>
-                    <a href="#">Madeira Interactive Technologies Institute</a>
-
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Serviços e Investigação
-                    </p>
-                    <a href="#">Secretariado Interno</a>
-                    <a href="#">Observatório de Emprego e Formação Profissional</a>
-                    <a href="#">Observatório de Turismo</a>
-                    <a href="#">Centro de Desenvolvimento Académico</a>
-                    <a href="#">Serviço de Consulta Psicológica</a>
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Comunidades
-                    </p>
-                    <a href="#">Associação Académica</a>
-                    <a href="#">Associação dos Antigos Alunos</a>
-                    <a href="#">Pastoral do Ensino Superior da Madeira</a>
-                    <a href="#">Rotaract Clube</a>
-                    <a href="#">TUMa</a>
-                    <a href="#">Tun'UMa</a>
-                    <a href="#">Tuna D'Elas</a>
-                    <a href="#">UM@Fóruns</a>
-                </div>
-
-                <div class="dropdown-content-order">
-                    <p class="fast-acess-style">
-                        <i class="fa fa-chevron-right"></i> Faculdades e Escolas
-                    </p>
-                    <a href="#">Artes e Humanidades</a>
-                    <a href="#">Ciências Exactas e da Engenharia</a>
-                    <a href="#">Ciências Sociais</a>
-                    <a href="#">Ciências da Vida</a>
-                    <a href="#">Escola Superior de Saúde</a>
-                    <a href="#">Escola Superior de Tecnologias e Gestão</a>
-                </div>
+            <div class="links-content-order">
+                <a href="BaseGov.html">BaseGov</a>
+                <a href="plataforma.html">Plataforma Electrónicade Contratação Pública</a>
+                <a href="https://siag.uma.pt/siag/base/index.jsp">SIAG</a>
+                <a href="http://ancpconcursos.ancp.gov.pt/ANCP/default.asp">ANCP</a>
             </div>
         </div>
-</header>
-</html>
+    </div>
+    <a href="formulario.html">Download de Formularios</a>
+    <a href="aquisicaobib.html">Aquisição Bibliografica</a>
+    <a href="contacto.html">Contacto e Sugestões</a>
+    <!---
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'pt', includedLanguages: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="tradutor.txt"></script>-->
+</div>
+<div class="navbar-fast-acess">
+    <button class="dropbtn">Acesso Rápido</button>
+    <div class="dropdown-content">
+        <div class="risk-under-fast-acess"></div>
+        <div class="links-mobile">
+            <a href="#">Home</a>
+            <a href="#">Links</a>
+            <a href="#">Contatos</a>
+            <a href="#">Formulários</a>
+            <a href="#">Aquisição Bibliografica</a>
+            <a href="#">Contato e Sugestões</a>
+        </div>
+        <div class="columns">
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> A Universidade </p>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Projeto Educativo, Científico e Cultural</a>
+                <a href="#">Conselho Geral</a>
+                <a href="#">Reitoria</a>
+                <a href="#">Senado Universitário</a>
+                <a href="#">Concelho de Cultura</a>
+                <a href="#">Provedor do Estudante</a>
+                <a href="#">Estrutura Orgânica</a>
+                <a href="#">Serviços de Acção Social</a>
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Gabinetes
+                </p>
+                <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
+                <a href="#">Controlo de Qualidade</a>
+                <a href="#">Desenvolvimento de Aplicações Informáticas</a>
+                <a href="#">Imagem e Relações Públicas</a>
+
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Unidades
+                </p>
+                <a href="#">Assuntos Académicos</a>
+                <a href="#">Aprovisionamento e Patrímonio</a>
+                <a href="#">Documentação e Arquivo</a>
+                <a href="#">Equipamentos e Instalações</a>
+                <a href="#">Económica e Financeira</a>
+                <a href="#">Projectos e Cooperação</a>
+                <a href="#">Recursos Humanos</a>
+
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> A Ensino
+                </p>
+                <a href="#">Guia do Aluno</a>
+                <a href="#">Crusos Oferta Formativa</a>
+                <a href="#">Froamçao Continua de Docentes</a>
+                <a href="#">Gabinete de Apoio ao Estudante</a>
+                <a href="#">Programas de Mobilidade</a>
+                <a href="#">Maiores de 23</a>
+
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Investigação
+                </p>
+                <a href="#">Unidades e Projectos de Investigação</a>
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Serviços e Investigação
+                </p>
+                <a href="#">Madeira Interactive Technologies Institute</a>
+
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Serviços e Investigação
+                </p>
+                <a href="#">Secretariado Interno</a>
+                <a href="#">Observatório de Emprego e Formação Profissional</a>
+                <a href="#">Observatório de Turismo</a>
+                <a href="#">Centro de Desenvolvimento Académico</a>
+                <a href="#">Serviço de Consulta Psicológica</a>
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Comunidades
+                </p>
+                <a href="#">Associação Académica</a>
+                <a href="#">Associação dos Antigos Alunos</a>
+                <a href="#">Pastoral do Ensino Superior da Madeira</a>
+                <a href="#">Rotaract Clube</a>
+                <a href="#">TUMa</a>
+                <a href="#">Tun'UMa</a>
+                <a href="#">Tuna D'Elas</a>
+                <a href="#">UM@Fóruns</a>
+            </div>
+
+            <div class="dropdown-content-order">
+                <p class="fast-acess-style">
+                    <i class="fa fa-chevron-right"></i> Faculdades e Escolas
+                </p>
+                <a href="#">Artes e Humanidades</a>
+                <a href="#">Ciências Exactas e da Engenharia</a>
+                <a href="#">Ciências Sociais</a>
+                <a href="#">Ciências da Vida</a>
+                <a href="#">Escola Superior de Saúde</a>
+                <a href="#">Escola Superior de Tecnologias e Gestão</a>
+            </div>
+        </div>
+    </div>
