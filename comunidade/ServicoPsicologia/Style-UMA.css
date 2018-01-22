@@ -6,15 +6,19 @@
         background-color: purple;
     }
     .Cor-Menu:hover{
-        background-color: rgba(173, 0, 173, 0.76)
+        background-color: rgba(173, 0, 173, 0.76);
     }
     .Letras-1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 12;
+        text-align: center;
         color:white;
     }
-    .section-1{
-        background-color: orange;
-        margin: 0px;
+    .Letras-2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12;
+        text-align: center;
+        color:white;
+        margin-bottom: 2px;
     }
 }
