@@ -26,7 +26,7 @@ main {
    }
 footer {
     background-color: #050101b0;
-    color: #370875;
+    color: #ffffff;
     font-size: 0.75rem;
     min-height: 0.75rem;
     justify-content: space-around;
@@ -89,23 +89,23 @@ nav {
 .imagem_ultimas {
     height: 150px;
     width: 90px;
-    background-color: steelblue;
+    background-color: #fdfdfd;
     margin: 10px;
     background-image: url('http://antigosalunos.uma.pt/images/aaaumabanner.jpg');
 }
 .foco_content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content:space-around;
     
    }
-.imagem1 {
+   .imagem1 {
     width: 350px;
     height: 180px;
     background-color: steelblue;
     margin: 10px;
-    background-image: url('http://antigosalunos.uma.pt/media/joomlashine/demo_assets/jsn-corsa/custom-html/icons/flat-design.png');
-   }
+    background-image: url('http://files.unidade-de-ensino-estruturado.webnode.pt/system_preview_detail_200000480-44f1f45ebc/mensagens-de-trabalho-em-equipe-3.png');
+}
 .imagem2 {
     width: 350px;
     height: 180px;
