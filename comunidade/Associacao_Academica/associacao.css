@@ -100,6 +100,16 @@ footer .col-lg-12 a{
     color: #ffffff;
 }
 
-footer .icons {
+footer .col-lg-12 a:hover{
+    background: #22205b;
+    text-decoration: none;
+}
+
+footer .icons a {
     color: #ffffff;
+}
+
+footer .icons a:hover {
+    background: #22205b;
+    text-decoration: none;
 }
