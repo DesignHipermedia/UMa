@@ -55,7 +55,7 @@ body, html {
 ul {
     
     padding: 0;
-    margin: ;
+    margin: 0;
     list-style-type: none;
     position: absolute;
     
@@ -112,6 +112,9 @@ padding: 5px;
 margin-top: 15px;
 margin-left: 400px;
 }
+
+
+
 
 footer{
     width: 100%;
@@ -218,7 +221,7 @@ footer{
 }
 
 .texto{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .texto1{
@@ -238,4 +241,9 @@ footer{
 .texto2:hover{
     background-color: white;
     text-decoration: underline;
+}
+
+.texto3{
+    margin-left: 20px;
+    font-size: 15px;
 }
