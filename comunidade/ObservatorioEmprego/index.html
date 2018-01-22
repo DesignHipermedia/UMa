@@ -2,41 +2,126 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>OE-UMa | Observaatório de Emprego e Formação Profissional | Universidade da Madeira</title>
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OE-UMa | Observaatório de Emprego e Formação Profissional | Universidade da Madeira</title>
+  
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="home.css">
+  <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
-<body>
-    <header></header>
-    <div class="flexbox container first-panel">
-        <img src="banner.jpg" alt="">
+<body onLoad="renderTime();">
+  <nav class="nav-main">
+    
+    <ul>
+      <li > <div class="logo"><img src="banner1.gif" alt=""> </div></li>
+      <li>
+
+        <a href="index.html" class="nav-item">OE-UMa</a>
+        <div class="nav-content">
+          
+
+            
+              <ul>
+                
+                <li><a href="OE-UMA-objetivos.html">Objetivos e Competências</a></li>
+                <li><a href="OE-UMA-membros.html">Membros</a></li>
+                <li><a href="OE-UMA-contatos.html">Contactos</a></li>
+                
+              </ul>
+
+           
+          
+        </div>
+      </li>
+      <li>
+
+        <a href="http://poloemprego.uma.pt/index.php/ofertas-de-emprego-de-ensino-superior/" class="nav-item">Ofertas de Emprego</a>
+        <div class="nav-content">
+
+            <ul>
+                
+                <li><a href="ofertas.html">Monitorização do Desemprego</a></li>
+                
+              </ul>
+
+        </div>
+      </li>
+      <li>
+
+        <a href="" class="nav-item">Fórum da Empregabilidade</a>
+        <div class="nav-content">
+            
+                        <ul>
+                            
+                            <li><a href="#">Fórum da Empregabilidade entre 2012-2018</a></li>
+                            
+                          </ul>
+                          
+                    </div>
+      </li>
+      <li>
+
+        <a href="" class="nav-item">Relatórios Anuais</a>
+        <div class="nav-content">
+            
+                        <ul>
+                            
+                            <li><a href="#">Relatório Anual</a></li>
+                            
+                          </ul>
+                          
+                    </div>
+      </li>
+      <li>
+        <input type="text" name="searchbox" class="search" placeholder="Pesquisar..">
+        
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+  <h1 class="titulo">OE-UMa</h1>
     </div>
-<div class="container first-panel">
 
-        <div class="navbar">
-                <a href="#home">Home</a>
-                <a href="#news">News</a>
-                <div class="dropdown">
-                  <button class="dropbtn">Dropdown 
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                  </div>
-                </div> 
-              </div>
+    <div class="row">
+        <div class="nine">
+          <p class="texto">O Observatório de Emprego e Formação Profissional da Universidade da Madeira (OE-UMa) é um organismo de aconselhamento da universidade, que se ocupa com a análise e o aconselhamento sobre os problemas de emprego e de formação dos diplomados da UMa. O OE-UMa acompanha o fenómeno do emprego, em termos quantitativos e qualitativos, tendo em conta a evolução das qualificações, de modo a avaliar os impactos sectoriais e regionais, bem como a eficácia dos instrumentos de política interna da UMa, no que concerne ao emprego e formação profissional.</p>
+          <br>
+          <hr>
+        </div>
+        
+        <div class="three">
+            <p class="texto1">Brevemente</p>
+        <div class="texto1">  <img src="cartaz1.jpg" alt=""> </div>
+            <p class="texto1">Outras Actividades</p>
+            
+              <a href="" class="texto2" >A transformação do emprego na RAM </a>
+              <a href="" class="texto2" >A transformação do emprego em Portugal</a>
+              <a href="" class="texto2">O trajeto das categorias empresariais</a>
+              <a href="" class="texto2">Conselho de Juventude da RAM</a>
+              <a href="" class="texto2">Competências, mercado de trabalho <br> e empregabilidade </a>
+              
+            
+        </div>
 
+            </div>
+
+  </div>
+      
+
+<footer>
+
+<div id="clockDisplay" class="footer1"></div>
+<p class="footer1"> © 2018 <a href="#" class="uni" > Universidade da Madeira </a></p>
+</footer>
+
+  
 </div>
-</header>
 </body>
 
 </html>

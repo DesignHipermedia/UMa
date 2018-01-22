@@ -30,46 +30,6 @@ header {
     height: 300px;
 }
 
-.dropbtn {
-    background-color: black;
-    color: white;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1000;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.droppar {
-    font-weight: bold;
-}
-
 .worklogo {
     width: auto;
     height: 300px;
@@ -98,6 +58,7 @@ header {
 .footerhip li a{
     text-decoration: none;
     color: white;
+    font-size: 12px;
 }
 
 .col-sm-4 h5 {
@@ -139,3 +100,136 @@ header {
     color: steelblue;
 }
 
+.flexwrappernav{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin-top: 20px;
+    
+   }
+
+   nav {
+    background-color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    height: 110px;
+    opacity: 0.7;
+   }
+
+   .ListItem {
+    align-items: center;
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+   }
+
+   .ListItem:hover{
+       text-decoration: none;
+       color: gray;
+   }
+
+   .LastItem {
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+    float: right;
+   }  
+
+   .flexItems{
+       font-size: 12px;
+   }
+
+   .imagemlogo {
+    width: 200px;
+    height: 75px;
+   }
+
+.imagemfundo{
+    width: 1170px;
+}
+
+.searchf {
+    padding-top: 20px;
+}
+
+#imagemback {
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#desenvolve {
+    margin-top: 2.5px;
+    border: 2px solid #F0F0F0;
+}
+
+#desenvolveindex {
+    margin-top: 2.5px;
+    border: 2px solid #F0F0F0;
+
+}
+
+#desenvolvecalend{
+    margin-top: 2.5px;
+    border: 2px solid #F0F0F0;
+}
+
+#rightcol {
+    height: 1254px;
+}
+
+.title{
+    text-align: center;
+}
+
+.calendar-container{
+    margin: 15px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.iconlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgsocial {
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.firstdown {
+    margin-top: 40px;
+}
+
+.Seconddown{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.thrdown {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.fourdown {
+    margin-top: 40px;
+}
+
+.fivedown {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.downpdf {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagemfundo1{
+    width: 1170px;
+    height: 350px;
+}

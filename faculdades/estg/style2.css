@@ -52,4 +52,44 @@
 
 #desenvolve {
     margin-top: 2.5px;
+    border: 2px solid #F0F0F0;
+}
+
+#desenvolveindex {
+    margin-top: 2.5px;
+    border: 2px solid #F0F0F0;
+
+}
+
+#desenvolvecalend{
+    margin-top: 2.5px;
+    border: 2px solid #F0F0F0;
+}
+
+#rightcol {
+    height: 1254px;
+}
+
+.title{
+    text-align: center;
+}
+
+.calendar-container{
+    margin: 15px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.iconlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgsocial {
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }

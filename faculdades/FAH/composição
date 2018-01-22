@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleah.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Artes e Humanidades</title>
+</head>
+<body>
+    <div class="container1">
+        <header>
+                <div class="navbar">
+                        <img class="imagemlogo" src="http://aulp.org/sites/default/files/Logotipos/LogoUMa_Institucional1.jpg" alt="Logotipo Uma">
+                <div class="dropdown">
+                        <button class="dropbtn">A universidade</button>
+                        <div class="dropdown-content">
+                          <a href="#">Sobre Nós</a>
+                          <a href="#">Projeto Educativo, Cientifico e Cultural</a>
+                          <a href="#">Conselho Geral</a>
+                          <a href="#">Reitoria</a>
+                          <a href="#">Senado Universitário</a>
+                          <a href="#">Conselho de Cultura</a>
+                          <a href="#">Conselho de Gestão</a>
+                          <a href="#">Provedor do Estudante</a>
+                          <a href="#">Estrutura Orgânica</a>
+                          <a href="#">Serviços de Acção Social</a>
+                          <p class="droppar">Gabinetes</p>
+                          <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
+                          <a href="#">Controlo da Qualidade</a>
+                          <a href="#">Desenvolvimento de Aplicações informáticas</a>
+                          <a href="#">Imagem e Relações Públicas</a>
+                </div>
+            </div>
+                <div class="dropdown">
+                        <button class="dropbtn">Ensino</button>
+                        <div class="dropdown-content">
+                          <a href="#">Guia do Aluno</a>
+                          <a href="#">Cursos- Oferta Formativa</a>
+                          <a href="#">Formação Continua de Docentes</a>
+                          <a href="#">Gabinete de Apoio ao Estudante</a>
+                          <a href="#">Programas de Mobilidade</a>
+                          <a href="#">Maiores de 23</a>
+                </div>
+            </div>
+                <div class="dropdown">
+                        <button class="dropbtn">Investigaçao</button>
+                        <div class="dropdown-content">
+                          <a href="#">Unidades e Projectos</a>
+                          <p class="droppar">Institutos</p>
+                          <a href="#">Madeira Interactiva Technologies Institute</a>
+                </div>
+            </div>
+                <div class="dropdown">
+                        <button class="dropbtn">Serviços e Comunidade</button>
+                        <div class="dropdown-content">
+                          <a href="#">Secretariado Interno</a>
+                          <a href="#">Observatório de Emprego e Formação Profissional</a>
+                          <a href="#">Observatório de Turismo</a>
+                          <a href="#">Centro de Desenvolvimento Académico</a>
+                          <a href="#">Serviço de Consulta Psicológica</a>
+                          <p class="droppar">Comunidades</p>
+                          <a href="#">Associação Académica</a>
+                          <a href="#">Associação dos Antigos Alunos da Universidade da Madeira</a>
+                          <a href="#">Pastoral do Ensino Superior na Madeira</a>
+                          <a href="#">Rotaract Clube</a>
+                          <a href="#">TUma</a>
+                          <a href="#">Tun'UMa</a>
+                          <a href="#">Tuna D'Elas</a>
+                          <a href="#">UM@Fóruns</a>
+                </div>
+            </div>
+                <div class="dropdown">
+                        <button class="dropbtn">Faculdades e Escolas</button>
+                        <div class="dropdown-content">
+                          <a href="index.html">Artes e Humanidades</a>
+                          <a href="#">Ciência Exactas e da Engenharia</a>
+                          <a href="#">Ciências Sociais</a>
+                          <a href="#">Ciências da Vida</a>
+                          <a href="#">Escola Superior de Saúde</a>
+                          <a href="#">Escola Superior de Tecnologias e Gestão</a>
+                </div>
+                </div> 
+                <div class="dropdown">
+                    <div class="LastItem">
+                    <input type="text" placeholder="Pesquisar">
+                    <button>Pesquisar</button>
+                </div>
+                </div>
+                </div>
+               
+            </header>
+            <div class="estgname">
+                <h1>Artes e Humanidades</h1>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-9" style="background-color:white;">
+                <h3>Composição</h3>
+                    </head>
+                    <body>
+                        <div class="row">
+                      <div class="column" >
+                        <li>Alcina Maria Pereira de Sousa</li>
+                        <li>Alda Patrícia Marques Portugal</li>
+                        <li>Aline Maria Pinguinha França Bazenga</li>
+                        <li>Ana Isabel Ferreira da Silva Moniz</li>
+                        <li>Ana Maria Pereira Antunes</li>
+                       <li>Anne Martina Emonts</li>
+                       <li>António Carlos Jardim Valente</li>
+                       <li>Bernardo Guido de Vasconcelos</li>
+                       <li>Bruno Carlos Rodrigues Tavares Monteiro</li>
+                       <li>Carlos Bruno Xavier Alexandre</li>
+                       <li>Celina Maria Rodrigues Martins</li>
+                       <li>Christine Escallier</li>
+                       <li>Clara Maria de Sousa</li>
+                       <li>Cristina Maria Nascimento Guerra dos Santos Pinheiro</li>
+                       <li>Diana Pimentel Penberthy de Araújo Barbeito</li>
+                       <li>Dominique Marie Figueira Curado Castanheira da Costa</li>
+                       <li>Dora Isabel Fialho Pereira</li>
+                      </div>
+                      <div class="column" >
+                        <li>Duarte Miguel Faria da Encarnação</li>
+                        <li>Hugo Renato de Gouveia Olim</li>
+                        <li>Idalina dos Milagres Abreu Camacho</li>
+                        <li>Inês Tadeu Freitas Gonçalves</li>
+                        <li>Jane Franco Spínola Diogo</li>
+                        <li>Joana Raquel de Abreu Gouveia Fragoeiro</li>
+                        <li>João Adriano Ribeiro</li>
+                        <li>João Miguel Correia Gonçalves</li>
+                        <li>Joaquim José Sanches Pinheiro</li>
+                        <li>José Gerardo de Andrade</li>
+                        <li>José Luis Macedo Relva</li>
+                        <li>José Manuel da Silva Gomes</li>
+                        <li>José Sílvio Moreira Fernandes</li>
+                        <li>Kurt Jurgen Millner</li>
+                        <li>Leonor da Fonseca Martins Coelho</li>
+                        <li>Lúcia do Rosário Cerqueira de Miranda</li>
+                        <li>Maria da Glória Salazar D`eça Costa Franco</li>
+                        <li>Maria Elisete Machado Pereira da Rocha Almeida</li>
+                        <li>Maria Helena Dias Rebelo</li>
+                      </div>
+                      <div class="column" >
+                        <li>Maria Luísa Pereira Soares</li>
+                        <li>Maria Teresa Duarte de Jesus Gonçalves do Nascimento</li>
+                        <li>Mário Franco Barros</li>
+                        <li>Naidea Nunes Nunes</li>
+                        <li>Nuno Miguel Vieira Rodrigues</li>
+                        <li>Pau Pascual Galbis</li>
+                        <li>Paulo Miguel Fagundes de Freitas Rodrigues</li>
+                        <li>Samuel André Alves Mateus</li>
+                        <li>Sandro Patrício Gama Nóbrega</li>
+                        <li>Susana Paula Gomes Luís Gonzaga</li>
+                        <li>Sérgio Manuel Coimbra Lemos</li>
+                        <li>Shujoy Chakraborty</li>
+                        <li>Valentina Vezzani</li>
+                        <li>Telmo Corujo dos Reis</li>
+                        <li>Thierri Proença dos Santos</li>
+                        <li>Wojciech Kazimierz Hydzik</li>
+                        <li>Vítor Manuel Ornelas Magalhães</li>
+                        <li>Vladimir Zegarac</li>
+                      </div>
+                    </div>
+               <br>
+            </div>
+            <div class="col-sm-3" style="background-color:#F0F0F0;">
+                <h3>Menu FAH</h3>
+                <ul>
+                    <li><a href="index.html">Home-FAH</a></li>
+                    <li><a href="composição.html">Composição</a></li>
+                    <li><a href="New.html">Noticias</a></li>
+                    <li><a href="Regulamento.html">Regulamento</a></li>
+                    <li><a href="Perguntasfre.html">Perguntas frequente</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        
+        <footer>
+                <div class="row" id="footerl">
+                        <div class="col-sm-4">
+                            <h5>Secretariado</h5>
+                            <p>Campus Universitário da Penteada
+                                    9020-105 Funchal - Portugal</p>
+                            <p>Telef. + 351 291 705 000 | Fax + 351 291 705 249</p>
+                            <p><a href="malito:secretariado.estg@mail.uma.pt">email: secretariado.estg@mail.uma.pt</a></p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>Horário de Atendimento</h5>
+                            <p>2ª a 6ª feira das 09h00 às 18h00</p>
+                        </div>
+                        <div class="col-sm-4">
+                        <h5>Hiperligações</h5>
+                        <ul class="footerhip">
+                            <li><a href="#">Acção Social</a></li>
+                            <li><a href="#">Publicitação de Actos</a></li>
+                            <li><a href="#">Hiperligações Externas</a></li>
+                            <li><a href="#">Contactos</a></li>
+                        </ul>    
+                        </div>
+                        <p>&copy;2012 UMa - Gabinete de Desenvolvimento de Aplicações Informáticas. Todos os direitos reservados. Processado em 0.0103 segundos</p>
+                </div>
+        </footer>
+        </div>   
+</body>
+</html>
