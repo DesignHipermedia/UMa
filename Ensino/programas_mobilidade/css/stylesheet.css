@@ -5,3 +5,9 @@
 .grey{
   background-color: dimgrey;
 }
+
+.white{
+  /*background-color: white;*/
+  border-style: solid;
+  border-color: black;
+}
