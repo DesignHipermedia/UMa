@@ -50,3 +50,7 @@ footer p {
     margin-left: auto;
     margin-right: auto;
 }
+.centro{
+    display: block;
+    margin: auto;
+}
