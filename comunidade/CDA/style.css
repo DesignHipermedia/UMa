@@ -2,6 +2,7 @@
 header{
     top: 0;
     background-color: aqua;
+    margin-bottom: 1rem;
 }
 footer{
     bottom: 0;
@@ -29,7 +30,7 @@ footer hr{
 
 header div img{
     width:auto;
-    height: 10vh;
+    height: 7vh;
 }
 .painel{
     border: solid 1px lightgray;
@@ -49,4 +50,8 @@ footer p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.centro{
+    display: block;
+    margin: auto;
 }
