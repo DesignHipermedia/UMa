@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UMa </title>
-    <link rel="stylesheet" href="../styles/ofertaformativa.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/styles/ofertaformativa.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     
     
 
@@ -18,14 +16,13 @@
 
 <body>
     <div class="flexwrappernav">
-        <header class="flexitems">
-                
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-google"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
+        <header class="flexitems">  
+                <a href="https://www.facebook.com/UMaGIRP" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/UMaGIRP" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/umagirp" class="fa fa-linkedin"></a>
+                <a href="https://plus.google.com/100728536791559324211" class="fa fa-google"></a>
+                <a href="https://www.instagram.com/universidadedamadeira/" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/user/UMadeiraGIRP" class="fa fa-youtube"></a>
         </header>
         <nav class="flexItems">
                 <div class="dropdown"> <!--#### A Universidade ### -->
@@ -125,6 +122,7 @@
 
 <div class="col col5">
 <div class="container-fluid d-flex flex-wrap-nowrap">    
+        <div class="row">
 <div class="col">
             <div class="foco"><b>EM FOCO</b></div>
         <div class="d-flex flex-row justify-content-start">
@@ -169,38 +167,38 @@
         </div>-->
     </div>
 
-    <div class="col col1">
+    
+    <div class="col-3 col1">
         <div class="agenda2"><b>AGENDA</b></div>
-        <div class="tudo">
-        <div class="timeline">
-
-            <div class="container right">
-              <div class="content1">
-                <span>22 Jan</span><br>
-                <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2959&Itemid=69&year=2018&month=01&day=17&uid=a39e3b2a5c31d6f3e33ac40bcd6fdfd2&catids=43%7C60&lang=pt%22"><span>Agricultura Biológica</span></a> - Seminário
-              </div>
-            </div>
-            <div class="container left">
-                <div class="content">
-                  <span>29 Jan</span><br>
-                  <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2956&Itemid=69&year=2018&month=01&day=29&uid=5e1644a5cd0db0e4c3f717efc19faef1&catids=43%7C60&lang=pt%22"><span>CIEC 2018 - II Conferência Internacional em Educação Comparada</span></a> - Conferências
-                </div>
-              </div>
-              <div class="container right">
-                <div class="content1">
-                  <span>01 Fev</span><br>
-                  <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2951&Itemid=69&year=2018&month=02&day=01&uid=fbe20984b46f60274ded8a809888484f&catids=43%7C60&lang=pt%22"><span>5.º Encontro Anual do Centro de Química da Madeira</span></a> - Encontro
-                </div>
-              </div>
-              <div class="container left">
-                    <div class="content">
-                      <span>09 Fev</span><br>
-                      <a class="ag" href="http://www2.uma.pt/index.php?option=com_jevents&task=icalrepeat.detail&evid=2958&Itemid=69&year=2018&month=01&day=17&uid=3f0741a24e85bfd7f33cfa5d376fa4fa&catids=43%7C60&lang=pt%22"><span>Das ideias nascem coisas: experiências e processos na Arte e no Design </span></a> - Exposições
+        <ul class="tabs">
+                <li>
+                    <input type="radio" name="tabs" id="tab1" checked />
+                            <label for="tab1">Segunda<span>22</span></label>
+                    <div id="tab-content1" class="tab-content">
+                    <table>
+                        <tr>
+                            <td><a href="">Agricultura Biológica</a> - Seminário</td>
+                        </tr>
+                    </table>
                     </div>
-                  </div>
-          </div>
-        </div>
+                </li>
+              
+                <li>
+                    <input type="radio" name="tabs" id="tab2" />
+                            <label for="tab2">Friday<span>24</span></label>
+                    <div id="tab-content2" class="tab-content">
+                        <table>
+                            <tr>
+                                <td>9:00 <span class="is-hidden--mobile">- 9:30</span></td>
+                                <td><span class="session-title">Platform Innovations</span><span class="session-description">Postback Day Two hits the ground running with at what’s next from the platform giants of mobile advertising ecosystems.</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
     </div>
+    
+
     <div class="col col1">
         <div class="agenda2"><b>VÍDEO INSTITUCIONAL</b></div>
         <a href="https://www.youtube.com/embed/pGaRjnb7O_c" class="html5lightbox"><img src="../styles/video_uma.jpg" height="90" alt="Video Promocional" title="Video Promocional"></a>
@@ -243,21 +241,46 @@
                 <li class="serv"><a href="http://bolsaemprego.universia.pt/"><img src="../styles/universia.png" alt=""></a></li>
         </ul>
     </div>
-    
+    </div>
 </div>
 </div>
         
 
+<footer>
+    <div class="row row1">
+    <div class="col">Reitoria da Universidade da Madeira
+      <h1></h1>
+            <span class="glyphicon">&#x2709;</span> Colégio dos Jesuítas - Rua dos Ferreiros
+            9000-082 Funchal - Portugal<br>
+            <span class="glyphicon">&#xe145;</span>  Telef. + 351 291 209 400 | Fax + 351 291 209 410<br>
+            <span class="glyphicon">&#xe171;</span> Email: gabinetedareitoria@uma.pt
+
+    </div>
+
+    <div class="col">Horário de Atendimento
+        <h1></h1>
+        <span class="glyphicon glyphicon-calendar"></span>2ª a 6ª feira<br>
+               09h30 / 13h00 - 14h00 / 17h30
+      </div>
 
 
+    <div class="col">
+        <ul class="ligacoes">
+                <span >Hiperligações</span>
+                <h1></h1>  
+            <li><a class="ligacoes1" href="">Ação Social</a></li>
+            <li><a class="ligacoes1" href="">Publicitação de Actos</a></li>
+            <li><a class="ligacoes1" href="">Hiperligações Externas</a></li>
+            <li><a class="ligacoes1" href="">Contactos</a></li>
+        </ul>
+    </div>
+    </div>
+  </footer>
 
-    <footer class="flexItems">
-        <p>Colégio dos Jesuítas - Rua dos Ferreiros</p>
-        <p>9000-082 Funchal - Portugal</p>
-        <p>Telef. + 351 291 209 400 | Fax + 351 291 209 410</p>
-        <p>email: gabinetedareitoria@uma.pt</p>
-    </footer>
 
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 
 </html>
