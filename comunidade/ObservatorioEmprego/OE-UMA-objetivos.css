@@ -110,7 +110,7 @@ ul li:hover ul {
 width: 150px;
 padding: 5px;
 margin-top: 15px;
-margin-left: 400px;
+
 }
 
 
@@ -142,7 +142,7 @@ footer{
 
 
 .container {
-	width: 1700px; 
+	width: 90%; 
 	margin-right: auto;
 	margin-left: auto; 
 }
