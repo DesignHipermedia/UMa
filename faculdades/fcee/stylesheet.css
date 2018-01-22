@@ -138,6 +138,7 @@ a{
 .main-content{
     display:flex;
     flex-flow: row;
+    
 }
 
 .content{
@@ -149,12 +150,14 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
     margin-right:10px;
+    height: 100%;
 }
 
 .img-docente{
     border-radius: 4px;
     height: 20vh;
     width: 7vw;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
 .title{
@@ -165,6 +168,10 @@ a{
 
 .title h3{
     font-size: 1vw;
+}
+
+.data{
+    font-size: 1vmin;
 }
 
 .text{
