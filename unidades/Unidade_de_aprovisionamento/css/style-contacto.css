@@ -59,6 +59,8 @@
     flex-direction: wrap;
     margin-bottom: 2%;
     justify-content: center;
+    position: relative;
+    z-index: -1;
 }
 input{
     margin-top: 5px;
