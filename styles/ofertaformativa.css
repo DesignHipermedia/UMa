@@ -9,6 +9,7 @@
   
   .tabs {
     position: relative;
+    
   }
   .tabs li {
     float: left;
@@ -39,7 +40,7 @@
   }
   .tabs label span {
     display: block;
-    font-size: 2em;
+    font-size: 1em;
     line-height: 1;
     font-weight: 900;
   }
@@ -48,7 +49,7 @@
     display: none;
     overflow: hidden;
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 25px;
     padding: 25px;
     position: absolute;
@@ -56,6 +57,11 @@
     left: 0;
     background: #ffffff;
   }
+
+  .agnda{
+    font-size: 12px;
+  }
+
   .tabs [id^="tab"]:checked + label {
     background: #007aff;
     color: #ffffff;
@@ -91,16 +97,11 @@
     padding: 15px;
   }
   td:nth-of-type(2n+1) {
-    width: 25%;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 5%;
+    text-align: left;
+
   }
   
-  .session-title {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
   
   .session-description {
     display: block;
