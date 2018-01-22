@@ -45,3 +45,12 @@ footer p {
     color: white;
     font-size: 12px;
 }
+.meio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centro{
+    display: block;
+    margin: auto;
+}

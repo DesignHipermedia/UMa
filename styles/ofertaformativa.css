@@ -24,9 +24,23 @@ body {
     .foco{
         height: 25px;
         width: 50%;
-        margin: 0.5%;
+        padding: 1%;
+        margin: 1%;
     }
 
+    .agenda2{
+        margin: 1.5%;
+    }
+
+    input[type=text]{
+        border-radius: 5px;
+    }
+
+    .tudo{
+        padding: 2%;
+
+        
+    }
     .col-sm-4{
         padding: 1%;
 
@@ -106,7 +120,14 @@ body {
     margin-left: auto;
     color: white;
     text-decoration: none;
-   }  
+    
+   } 
+
+   .pesq{
+    border-radius: 2.5px;
+   }
+
+
 
 .painel {
     background-size: auto;
@@ -190,13 +211,14 @@ h6{
 
 
 footer {
+    display: flex;
     background-color: gray;
     color: white;
     font-size: 0.75rem;
     min-height: 0.75rem;
     justify-content: space-between;
+    align-items: center;
     padding: 0 2rem;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -214,7 +236,7 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 3rem;
+    padding-right: 1rem;
     padding-bottom: 1rem;
     text-decoration: none;
    }
@@ -315,7 +337,9 @@ footer {
 .col1{
     text-align: center;
     padding: 0.5%;
+    
 }
+
 
 .dropdown-content a {
     color: black;
@@ -339,8 +363,22 @@ a:hover{
 .ag{
     color: white;
 }
+
+.ultimos{
+    padding: 5%;
+}
+
+.table{
+    padding: 5%;
+}
+
+.linha{
+    border: none;
+    display: none;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline {
+    
     position: relative;
     max-width: 250px;
     margin: 0 auto;
