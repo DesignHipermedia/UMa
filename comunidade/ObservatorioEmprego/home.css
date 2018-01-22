@@ -10,7 +10,7 @@ body, html {
 
 .nav-main {
     width: 100%;
-    background-color: #38393d;
+    background-color: #38393d;  
     height: 58px;
     color: white;
 }
@@ -110,7 +110,7 @@ ul li:hover ul {
 width: 150px;
 padding: 5px;
 margin-top: 15px;
-margin-left: 400px;
+
 }
 
 footer{
@@ -139,7 +139,7 @@ footer{
 
 
 .container {
-	width: 1700px; 
+	width: 90%; 
 	margin-right: auto;
 	margin-left: auto; 
 }
@@ -219,11 +219,13 @@ footer{
 
 .texto{
     font-size: 25px;
+    color: #38393d;
 }
 
 .texto1{
     text-align: center;
     align-items: center;
+    color: #38393d;
 }
 .texto2{
     display: flex;
@@ -232,7 +234,9 @@ footer{
     text-align: right;
     text-decoration: none;
     justify-content: center;
-    padding: 4px;
+    padding: 3px;
+    margin-top: -8px;
+    
 }
 
 .texto2:hover{
