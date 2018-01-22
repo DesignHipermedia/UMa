@@ -9,7 +9,7 @@
 .main_container{
     display: flex;
     flex-flow: column;
-    margin-top: 1%;
+    margin-top: 6%;
     align-items: center;
 }
 .conteudo{

@@ -3,6 +3,8 @@
     color:black;
     font-size: 16px;
     margin:25px 0 10px 0;   
+    
+ 
 }
 .risk-under-fast-acess{
     border-bottom: 5px solid #13a7e2;
@@ -33,7 +35,6 @@
     width: 80vw;
     box-shadow: 0px 18px 30px 0px rgba(0,0,0,0.4);
     z-index: 1;
-
 }
 
 .dropdown-content-order{
@@ -75,7 +76,6 @@
     border-bottom: 2px solid #13a7e2;  
      
 }
-
 
 .dropdown a:hover .dropbtn {
     background-color: #0e0d0d;

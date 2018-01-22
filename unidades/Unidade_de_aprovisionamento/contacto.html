@@ -8,20 +8,32 @@
     <link rel="stylesheet" href="css/style-header.css">
     <link rel="stylesheet" href="css/style-fastacess.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-contacto.css">
     <link rel="stylesheet" href="css/style-mediaquery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
     <script>
         $(function () {
             $("header").load("header.html");
-
         });
-
     </script>
 </head>
 <header class='header'></header>
+<script>
+    function initMap() {
+        var uluru = { lat: 32.6500686, lng: -16.909317 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeuDzwiAEUXjBXbA4TulQfjnMhX0vnVcU&callback=initMap">
+</script>
 
 <body>
     <div class='main_container'>
@@ -141,6 +153,7 @@
     </div>
 
 </footer>
+
 
 
 </html>
