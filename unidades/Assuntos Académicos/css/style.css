@@ -1,0 +1,101 @@
+body {
+    background-color: #111;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img {
+    display: flex;
+    justify-content: center;
+    margin: -15px;
+    width: 100%;
+}
+.flex-container ul {
+    display: flex;
+    justify-content: center;
+    margin: -35px -25px 0 auto;
+}
+.flex-nav li {
+    margin: 0 20px 0 0;
+    list-style-type: none;
+    display: flex;    
+}
+.flex-nav li .dropbtn {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+.flex-nav li .dropbtn:hover {
+    font-weight: bold;
+}
+li.dropdown {
+    display: flex;    
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+}
+.dropdown-menu a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+}
+.dropdown-menu h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    padding: 1px;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto 0 -5px;
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    border-right: 2px solid #022F4C;
+}
+.sidenav a {
+    display: flex;
+    margin: 0 auto 0 15px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
