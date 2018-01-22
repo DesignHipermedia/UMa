@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: orange;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 .navegacao {
     display: flex;
-    jus
+    justify-content: center;
 }
 .flexItems {
     display: flex;
@@ -25,114 +25,120 @@ main {
     flex: 1;
    }
 footer {
-    background-color: grey;
-    color: white;
+    background-color: #050101b0;
+    color: #370875;
     font-size: 0.75rem;
     min-height: 0.75rem;
     justify-content: space-around;
     padding: 0 1rem;
    }
-   .foco {
+.foco {
     width: 100%;
     background-color: white;
     flex-direction: column;
     flex-flow: row wrap;
    }
-   .ultimas {
+.ultimas {
     width: 100%;
     background-color: white;
     flex-direction: column;
     flex-flow: row wrap;
-    background-image: url('http://www.uma.pt/portal/imagens/http://antigosalunos.uma.pt/images/aaaumabanner.jpgUMaBanner25.jpg');
+    align-items: center;
    }
-   .agenda {
+.agenda {
     flex: 2;
    }
-   .links {
-    flex: 1;
+.informacao {
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    flex-flow: row wrap;
+    margin:10px;
    }
-   header {
-    background-color: #42dad2be;
+header {
+    background-color: orange;
     font-family: 'Oswald', sans-serif;
     font-size: 1rem;
     min-height: 0.75rem;
     align-items: center;
     padding: 0 1rem;
    }
-   nav {
-    background-color: steelblue;
-    font-family: 'Oswald', sans-serif;
+nav {
+    background-color: white;
+    font-family: 'Oswald', sans-serif, black;
     font-size: 1rem;
     min-height: 0.75rem;
     align-items: center;
     padding: 0 1rem;
+    margin:10px;
    }
-   .ListItem,
-   .LastItem {
-    color: white;
+.LastItem {
+    color: #050303;
     text-decoration: none;
    }
-   .ListItem {
+.ListItem {
     margin-right: 1rem;
    }
-   .LastItem {
+.LastItem {
     margin-left: auto;
    }
-   .ultimas_content {
+.ultimas_content {
     display: flex;
     flex-flow: row wrap;
    }
-   .imagem_ultimas {
-    width: 100%;
-    height: 100%;
-      background-color: steelblue;
-      margin: 10px;
-      background-image: url('http://www.uma.pt/portal/imagens/http://antigosalunos.uma.pt/images/aaaumabanner.jpgUMaBanner25.jpg');
+.imagem_ultimas {
+    height: 150px;
+    width: 90px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://antigosalunos.uma.pt/images/aaaumabanner.jpg');
 }
-   .foco_content {
+.foco_content {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    
    }
-   .imagem_foco1 {
-       width: 150px;
-       height: 80px;
-         background-color: steelblue;
-         margin: 10px;
-         background-image: url('http://www.uma.pt/portal/imagens/http://antigosalunos.uma.pt/images/aaaumabanner.jpgUMaBanner25.jpg');
+.imagem1 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://antigosalunos.uma.pt/media/joomlashine/demo_assets/jsn-corsa/custom-html/icons/flat-design.png');
    }
-    .imagem_foco2 {
-      width: 150px;
-        height: 80px;
-         background-color: steelblue;
-      margin: 10px;
-      background-image: url('http://www.uma.pt/portal/imagens/logo_int_pt.jpg?v3');
+.imagem2 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://www.uma.pt/portal/imagens/logo_int_pt.jpg?v3');
 }
-.imagem_foco3 {
-    width: 150px;
-    height: 80px;
-      background-color: steelblue;
-      margin: 10px;
-      background-image: url('http://www.uma.pt/portal/imagens/eua_member_icon_165.jpg');
+.imagem3 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://www.uma.pt/portal/imagens/eua_member_icon_165.jpg');
 }
-.imagem_foco4 {
-    width: 150px;
-    height: 80px;
-      background-color: steelblue;
-      margin: 10px;
-      background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/poloemprego.jpg');
+.imagem4 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/poloemprego.jpg');
 }
-.imagem_foco5 {
-    width: 150px;
-    height: 80px;
-      background-color: steelblue;
-      margin: 10px;
-      background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/video_uma_v7.jpg');
+.imagem5 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/video_uma_v7.jpg');
 }
-.imagem_foco6 {
-    width: 150px;
-    height: 80px;
-      background-color: steelblue;
-      margin: 10px;
-      background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+.imagem6 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
 }
    

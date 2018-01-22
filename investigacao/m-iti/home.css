@@ -20,7 +20,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 .cont{
     flex-direction: column;
@@ -65,4 +65,18 @@ div .img{
 }
 p {
     text-align: justify;
+}
+.forth_panel{
+    background-color: rgb(245, 216, 197);
+    color: rgb(9, 50, 83);
+}
+.linksp{
+    color: black;
+}
+.fifth_panel{
+ background-color: rgb(230, 090, 103);
+ color: rgb(9, 50, 83);
+}
+.last_image{
+    width: 60%;
 }
