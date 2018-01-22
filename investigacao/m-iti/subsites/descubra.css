@@ -1,0 +1,19 @@
+.prim_painel{
+    background-color: burlywood;
+}
+.border{
+    border-width: thick;
+}
+.seg_painel{
+    background-color: burlywood;
+}
+.memes{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+
+.memes1:hover > .memes  {
+    max-height: 1000px;
+    transition: max-height 0.4s ease-in;
+}
