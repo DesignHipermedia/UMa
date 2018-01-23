@@ -8,17 +8,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/stylesheet.css">
-<body class="grey">
+<body class="grey line-height-base">
 
 
 <!-- Nav tabs -->
-<ul class="nav nav-tabs|pills" id="navId">
-  <li class="nav-item">
-    <a href="#tab1Id" class="nav-link active">UMA</a>
+<div class="container-fluid">
+  <div class="col d-flex justify-content-center">
+    <img src="images/logo_white_on_transparent.png" height="72" width="196"/>
+  </div>
+  <div class="col d-flex justify-content-center">
+    <img class="hidden-sm-down"src="images/unit_pt-PT.png" height="20"
+          width="400"/>
+  </div>
+</div>
+
+<ul class="nav nav-tabs|pills text-white d-flex justify-content-center " id="navId">
+  <li class="nav-item text-white">
+    <a href="#tab1Id" class="nav-link active text-white">UMA</a>
   </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-       aria-expanded="false">Prorgramas Mobilidade</a>
+  <li class="nav-item dropdown text-white">
+    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+       aria-expanded="false">Programas Mobilidade</a>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#tab2Id">Bolsas Luso-Brasileiras Santander Universidades
       </a>
@@ -28,10 +38,10 @@
     </div>
   </li>
   <li class="nav-item">
-    <a href="#tab5Id" class="nav-link">Another link</a>
+    <a href="#tab5Id" class="nav-link text-white">Another link</a>
   </li>
   <li class="nav-item">
-    <a href="#" class="nav-link disabled">Disabled</a>
+    <a href="#" class="nav-link disabled text-white">Disabled</a>
   </li>
 </ul>
 
@@ -51,7 +61,7 @@
   });
 </script>
 
-<div class="container">
+<div class="container p-3">
   <div class="row">
     <div class="col text-white black">
 
@@ -78,6 +88,16 @@
 
   </div>
 </div>
+
+<footer class="footer border white mx-5 ">
+  <ul class="border border-dark list-unstyled">
+    <li class="pull-left">Unidade de Projetos e Cooperação</li>
+    <li class="pull-left">Colégio dos Jesuítas - Rua dos Ferreiros
+      9000-082 Funchal - Portugal</li>
+    <li class="pull-left">Telef. + 351 291 209 471 | Fax + 351 291 209 470</li>
+    <li class=" pull-left">email: projetos@mail.uma.pt </li>
+  </ul>
+</footer>
 
 </body>
 </html>

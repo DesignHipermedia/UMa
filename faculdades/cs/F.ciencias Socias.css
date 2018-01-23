@@ -12,6 +12,10 @@ body {
 .cor-quinta {
     color: rgb(221, 219, 235);
 }
+.cor-primaria {
+    color: rgb(226, 115, 24);
+  
+  }
 #flexbox{
     display:flex;
     justify-content: space-between;
@@ -28,7 +32,13 @@ h11 {
     .cor-principal {
             color: rgb(197, 57, 57);
             }
-
+    h1 {
+            font-weight: 900;
+            height: 36px;
+            margin: 0;
+            line-height: 0.8;
+                    }
+    
    
     .switch {
             position: relative;
@@ -48,39 +58,75 @@ h11 {
         }
         
         .dropdown {
-            position: relative;
-            display: inline-block;
-        }
+            
+               padding-bottom: 12.5px;
+               padding-top: 12.5px;
+               position: relative;
+               display: inline-block;
+           }
         
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
+           .dropdown-content {
+            margin-top: 12px;    
+             display: none;
+             position: absolute;
+             background-color: #f9f9f9;
+             min-width: 300px;
+             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+             padding: 13px 16px;
+             z-index: 1;
+             font-size: 0.75rem;
+             list-style-type: none;
+         }
         
-        .dropdown-content a {
+         .dropdown-content a {
             color: black;
-            padding: 12px 16px;
+            padding: 1px 2px;
             text-decoration: none;
-            display: block;
         }
         
-        .dropdown-content a:hover {background-color: #f1f1f1}
-        
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        
-        .dropdown:hover .dropbtn {
-            background-color: #3e8e41;
-        }
-        * {
-            box-sizing: border-box;
-        }
-        
+   .flexItems {
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+   }
+
+   .flexitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+   }
+   .LastoItem {
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+   }
+   
+
+   nav {
+    background-color: rgb(2, 6, 39);
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.90rem;
+    min-height: 0.75rem;
+    align-items: center;
+    /* padding: 0 1rem; */
+    height: auto;
+   }
+
+   .ListItem {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+   }
+
+   .ListItem:hover {
+    text-decoration: underline;
+    color: white;
+   }
         body {
             margin: 0;
         }
@@ -104,57 +150,37 @@ h11 {
             height: 210px;
             align-items:center ;
             background-color: rgb(24, 24, 29);
-            
         }
         
         .right {
           width: 25%;
-          
         }                    
       
         .row:after {
             display: table;
             clear: both;
         }
-    
         .columna {
             float: left;
             padding: 10px;
             height: 150px; 
             width: 75%;
-            height: 150px;
-            align-items:center ;
-            border-bottom-left-radius: 25px;
-        }
-        .columno {
-            float: left;
-            padding: 10px;
-            width: 75%;
-            height: 210px;
-            align-items:center ;
         }
         .columnb {
             float: left;
-            width: 33%;
+            width: 33.33%;
             padding: 10px;
             height: 150px;
-            border-radius: 10px;
             align-items:center ;
-        }
+            margin-top: 10px;
+            
+                }
         .columnc {
             float: left;
             width: 33.33%;
             padding: 10px;
             height: 50px;
             border-radius: 10px;
-            align-items:center ;
-            background-color: rgb(24, 24, 29);
-        }
-        .columnd {
-            float: left;
-            width: 100%;
-            padding: 10px;
-            height: 100px;
             align-items:center ;
             background-color: rgb(24, 24, 29);
         }
@@ -170,11 +196,9 @@ h11 {
             float: left;
             width: 100%;
             padding: 10px;
-            height: 190px;
+            height: 185px;
             align-items:center ;
             background-color: rgb(24, 24, 29);
-            border-bottom-right-radius: 25px;
-            border-bottom-left-radius: 25px;
         }
         .columng {
             float: left;
@@ -185,30 +209,84 @@ h11 {
             align-items:center ;
             background-color: rgb(24, 24, 29);
         }
-        .columnh {
+        .columnm { 
             float: left;
             width: 75%;
             padding: 10px;
-            height: 150px;
+            height: 600px;
             align-items:center ;
             background-color: rgb(24, 24, 29);
         }
-        .columni{
-            float: right;
+        .columnh {
+            float: left;
+            width: 33.33%;
             padding: 10px;
-            height: 150px; 
-            width: 25%;
-            height: 150px;
+            height: 50px;
+            border-radius: 10px;
             align-items:center ;
+            background-color: rgb(24, 24, 29);
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
-        .columny{
+        .columnt {
+            width: 25%;
+            height: 420px ; 
             float: right;
             padding: 10px;
-            height: 150px; 
-            width: 25%;
-            height: 150px;
-            align-items:center ;
-            border-bottom-right-radius: 25px;
 
+          }  
+          .columni {
+            display: flex;
+            width: 64%;
+            padding: 10px;
+            height: 25px;
+            align-items:center ;
+            margin-bottom: 10px;
+            
         }
-        
+        .columnq{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items:center ;
+            
+        }
+        columnu{
+            width: 25%;
+            height: 290px ; 
+            float: left;
+            padding: 10px;
+        }
+        .columnw {
+            width: 25%;
+            height: 390px ; 
+            float: right;
+            padding: 10px;
+
+          }
+        .columnx{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items:center ;
+        }
+
+          .LastItem {
+              text-decoration: none;
+              color: white;
+          }
+
+          .LastItem:hover {
+              text-decoration: none;
+              color: black;
+          }
+        body{
+              background-image: url("cienciassocias.jpg");
+          }
+          #relogio{
+              background-color: white;
+              opacity: 0.5;
+          }
+         
