@@ -94,13 +94,13 @@
                    
                 </header>
                 <div class="estgname">
-                    <h1>Artes e Humanidades</h1>
+                    <h1>Artes Visuais</h1>
                 </div>
             </div>
             <div class="container">
             <div class="row">
                 <div class="col-sm-9" style="background-color:white;">
-                    <h3>Diretore do curso:</h3>
+                    <h3>Diretor do curso:</h3>
                     <ul>
                         <li>Pau Pascual Galbis</li>
                         <li>E-mail: pau.galbis@staff.uma.pt</li>
@@ -126,9 +126,21 @@
                     <ul>
                         <li><a href="index.html">Home-FAH</a></li>
                         <li><a href="Composição.html">Composição</a></li>
-                        <li><a href="New.html">Noticias</a></li>
-                        <li><a href="Regulamento.html">Regulamento</a></li>
-                        <li><a href="Perguntasfre.html">Perguntas frequente</a></li>
+                    </ul>
+                    <h3>Cursos</h3>
+                    <ul>
+                    <li><a href="curso.html">Artes Visuais</a></li>
+                    <li><a href="curso2.html">Design</a></li>
+                    <li><a href="curso3.html">Design dos Espaços</a></li>
+                    <li><a href="curso4.html">Comunicação, Cultura e Organizações (CCO)</a></li>
+                    <li><a href="curso5.html">Estudos de Cultura (ECul)</a></li>
+                    <li><a href="curso6.html"> Línguas e Relações Empresariais (LeRE)</a></li>
+                    <li><a href="curso7.html">Estudos Linguísticos e Culturais</a></li>
+                    <li><a href="curso8.html"> Gestão Cultural</a></li>
+                    <li><a href="curso9.html">Estudos Regionais e Locais</a></li>
+                    <li><a href="curso10.html">Ilhas Atlânticas: História, Património e Quadro Jurídico-Institucional</a></li>
+                    <li><a href="curso11.html">Psicologia</a></li>
+                    <li><a href="curso12.html">Psicologia da Educação</a></li>
                     </ul>
                 </div>
             </div>
