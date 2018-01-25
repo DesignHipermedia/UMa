@@ -282,6 +282,15 @@ h11 {
               text-decoration: none;
               color: black;
           }
+
+          .LastItem1 {
+            text-decoration: none;
+            color: white;
+        }
+          .LastItem1:hover {
+            text-decoration: none;
+            color: rgb(139, 20, 20);
+        }
         body{
               background-image: url("cienciassocias.jpg");
           }
@@ -289,4 +298,18 @@ h11 {
               background-color: white;
               opacity: 0.5;
           }
-         
+          #active{
+            color:black;
+          }
+          @media (max-width:800px) {
+            .left, .main, .right {
+              width:100%; 
+            }
+        }
+        .fac{
+            padding-top: 10px;
+        }
+        .listiem{
+            color: white;
+            margin-top: 10px;
+        }
