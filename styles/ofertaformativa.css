@@ -9,10 +9,11 @@
   
   .tabs {
     position: relative;
+    
   }
   .tabs li {
     float: left;
-    width: 50%;
+    width: 25%;
     display: block;
   }
   .tabs input[type="radio"] {
@@ -39,23 +40,26 @@
   }
   .tabs label span {
     display: block;
-    font-size: 2em;
+    font-size: 1em;
     line-height: 1;
     font-weight: 900;
   }
   .tabs .tab-content {
-    z-index: 2;
+   
     display: none;
     overflow: hidden;
     width: 100%;
-    font-size: 12px;
-    line-height: 25px;
-    padding: 25px;
+    font-size: 14px;
     position: absolute;
     top: 100px;
     left: 0;
     background: #ffffff;
   }
+
+  .agnda{
+    font-size: 12px;
+  }
+
   .tabs [id^="tab"]:checked + label {
     background: #007aff;
     color: #ffffff;
@@ -86,21 +90,16 @@
   
   td {
     border: 0;
-    width: 75%;
+    width: 100%;
     vertical-align: top;
     padding: 15px;
   }
   td:nth-of-type(2n+1) {
-    width: 25%;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 5%;
+    text-align: left;
+
   }
   
-  .session-title {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
   
   .session-description {
     display: block;
@@ -340,6 +339,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+
    }
 
    .flexItems {
@@ -443,6 +443,7 @@ footer {
 .col1{
     text-align: center;
     padding: 0.5%;
+    width: 100%;
     
 }
 
@@ -581,7 +582,6 @@ a:hover{
     text-align: left;
     list-style: none;
     padding: 1%;
-    padding-left: 25%;
     font-size: 12px;
   }
 
