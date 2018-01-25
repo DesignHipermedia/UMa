@@ -70,12 +70,12 @@
   </nav>
 
   <section>
-    <div class="container-fluid">
-      <div class="d-flex flex-row">
-        <div class="d-flex" id="part">
+    <div class="container-fluid w-100">
+      <div class="d-flex  justify-content-between flex-row">
+        <div id="part" class="a">
         </div>
 
-        <div class="w-25 p-3">
+        <div class="p-3 ml-auto">
           <h4>Links Utéis</h4>
           <p></p>
           <h5>Institucionais</h5>
@@ -144,15 +144,6 @@
     </div>
   </section>
 
-  <!--  <section>
-            <div class="container-fluid">
-              <div class="d-flex flex-row">
-                <div class="w-75 p-3 bord"></div>
-                <div class="w-5 p-3"></div>
-                <div class="w-25 p-3 bord"></div>
-              </div>
-            </div>
-          </section>    -->
         
           <footer><div class="foot3r align-items-end align-self-end align-content-end ">
               <div class="container">
@@ -163,9 +154,8 @@
               </div>
               </div>
               </footer>
-      </body>
 
- 
+      </body>
 
   <script>
     $(document).ready(function () {
@@ -207,11 +197,12 @@
 <script>
 (function titleScroller(text) {
   document.title = text;
-  console.log(text);
   setTimeout(function () {
       titleScroller(text.substr(1) + text.substr(0, 1));
   }, 500);
 }("Bem-Vindos Alunos Internacionais "));
 </script>
+
+
 </body>
 </html>

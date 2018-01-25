@@ -113,7 +113,7 @@ a{
     flex-flow: row;
     justify-content: center;
     width: 100vw;
-    padding-top: 102px;
+    padding-top: 115px;
 }
 
 .container{
@@ -131,9 +131,14 @@ a{
     margin-bottom: 10px;
 }
 
+.main-title h1{
+    font-size: 2vw;  
+}
+
 .main-content{
     display:flex;
     flex-flow: row;
+    
 }
 
 .content{
@@ -145,12 +150,14 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
     margin-right:10px;
+    height: 100%;
 }
 
 .img-docente{
     border-radius: 4px;
     height: 20vh;
     width: 7vw;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
 .title{
@@ -159,10 +166,37 @@ a{
     padding-right: 10px;
 }
 
+.title h3{
+    font-size: 1vw;
+}
+
+.data{
+    font-size: 1vmin;
+}
+
 .text{
     text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
+    font-size: 1.5vmin;  
+}
+
+.list{
+
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.list ul{
+    height: 125vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.list li{
+    margin:5px;
+    font-size: 1.5vmin;    
 }
 
 .section{

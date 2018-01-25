@@ -74,6 +74,16 @@ body {
     }
 }
 
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+ }
+
+
+
+
+
+
 footer {
     background-color: #22205b;
     color: #ffffff;
@@ -97,5 +107,23 @@ footer .colaboradores_margem .container {
 }
 
 footer .col-lg-12 a{
+    color: #ffffff;
+}
+
+footer .col-lg-12 a:hover{
+    background: #22205b;
+    text-decoration: none;
+}
+
+footer .icons a {
+    color: #ffffff;
+}
+
+footer .icons a:hover {
+    background: #22205b;
+    text-decoration: none;
+}
+
+footer a{
     color: #ffffff;
 }

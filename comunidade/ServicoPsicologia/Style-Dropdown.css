@@ -1,0 +1,26 @@
+.dropdown-content{
+    background-color: none;
+    position: absolute;
+    overflow: initial;
+    height: 100%;
+    width: 100%;
+    margin-left: -7%;
+    z-index: 200;   
+}
+.dropdown-content:hover{
+    background-color: green;
+    display: block;
+    height: 100px;
+    width: 100%;
+    margin-left: -7%;
+    margin-top: 20px;
+
+}
+.Drop-Dev{
+    background-color: orange;
+    position: absolute;
+    display: none;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
