@@ -79,8 +79,16 @@ body {
     height: 100%;
  }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
 
-
+.flex-container a {
+    margin:10px;
+    padding:20px;
+    font-size: 30px;
+}
 
 
 
