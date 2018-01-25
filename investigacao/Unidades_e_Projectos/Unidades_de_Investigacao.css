@@ -127,20 +127,6 @@ body {
     text-decoration: none;
    }  
 
-.painel {
-    background-size: auto;
-    background-position: top;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 10px;
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    color: gray;
-    position: absolute;
-    align-self: flex-start;
-    }
 
     #flexbox{
         display:flex;
@@ -170,41 +156,8 @@ body {
        height: 50px;
    }
 
-h1{
-    width: auto;
-    height: auto;
-    color: black;
 
-}
-h2{
-    width: auto;
-    height: auto;
-    color: black;
-}
-h3{
-    width: auto;
-    height: auto;
-    color: black;
-}
-h4{
-    width: auto;
-    height: auto;
-    color: black;
-}
-h5{
-    width: auto;
-    height: auto;
-    color: black;
-}
-h6{
-    width: auto;
-    height: auto;
-    color: black;
-}
 * {box-sizing: border-box}
-
-
-
 
 
 
@@ -350,6 +303,7 @@ a:hover{
     color: black;
 }
 .Main Container Unidades e Projectos Unidades Investigação a2{
-        text-decoration-style: solid;
-        color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration-style: solid;
 }
