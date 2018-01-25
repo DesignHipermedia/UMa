@@ -1,3 +1,7 @@
+<div id="floater">
+        <a id="link" href="#u1"><button type="button" class="btn btn-outline-primary">A Universidade</button></a><p></p> 
+        <a id="link" href="#u2"><button type="button" class="btn btn-outline-primary">Projetos Didáticos</button></a><p></p> 
+        </div> 
 <div class="w-85"><p></p>
     <h4 id="u1">UMa 25 anos</h4>
     <img class="imgpart grow" src="./src/u1.png"><p></p>
@@ -55,3 +59,13 @@
     <p></p>
    
 </div>
+<script>
+$(window).scroll(function() {
+    var winScrollTop = $(window).scrollTop();
+    var winHeight = $(window).height();
+    var floaterHeight = $('#floater').outerHeight(true);
+    //true so the function takes margins into account
+    var fromBottom = 160;
+    var top = winScrollTop + winHeight - floaterHeight - fromBottom;
+    $('#floater').css({'top': top + 'px'});
+});</script>
