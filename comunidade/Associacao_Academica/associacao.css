@@ -82,6 +82,7 @@ body {
 .flex-container {
     display: flex;
     flex-direction: row;
+    align-self: center;
 }
 
 .flex-container a {
