@@ -11,6 +11,10 @@
     position: relative;
     
   }
+  
+
+
+
   .tabs li {
     float: left;
     width: 25%;
@@ -55,6 +59,18 @@
     left: 0;
     background: #ffffff;
   }
+
+  .tabs .tab-content1 {
+    
+     display: none;
+     overflow: hidden;
+     width: 100%;
+     font-size: 14px;
+     position: absolute;
+     top: 100px;
+     left: 0;
+     background: #ffffff;
+   }
 
   .agnda{
     font-size: 12px;
@@ -151,7 +167,11 @@ body {
 
     .agenda2{
         margin: 1.5%;
+        text-align: center;
+        padding: 2%;
     }
+
+
 
     input[type=text]{
         border-radius: 5px;
@@ -581,7 +601,6 @@ a:hover{
   .serv{
     text-align: left;
     list-style: none;
-    padding: 1%;
     font-size: 12px;
   }
 
@@ -625,4 +644,7 @@ a:hover{
     .right {
       left: 0%;
     }
+  }
+  .ajuste{
+    width: 100%
   }
