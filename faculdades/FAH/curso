@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleah.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Artes e Humanidades</title>
+</head>
+    <body>
+        <div class="container1">
+            <header>
+                    <div class="navbar">
+                            <img class="imagemlogo" src="http://aulp.org/sites/default/files/Logotipos/LogoUMa_Institucional1.jpg" alt="Logotipo Uma">
+                    <div class="dropdown">
+                            <button class="dropbtn">A universidade</button>
+                            <div class="dropdown-content">
+                              <a href="#">Sobre Nós</a>
+                              <a href="#">Projeto Educativo, Cientifico e Cultural</a>
+                              <a href="#">Conselho Geral</a>
+                              <a href="#">Reitoria</a>
+                              <a href="#">Senado Universitário</a>
+                              <a href="#">Conselho de Cultura</a>
+                              <a href="#">Conselho de Gestão</a>
+                              <a href="#">Provedor do Estudante</a>
+                              <a href="#">Estrutura Orgânica</a>
+                              <a href="#">Serviços de Acção Social</a>
+                              <p class="droppar">Gabinetes</p>
+                              <a href="#">Apoio ao Conselho Geral e ao Provedor do Estudante</a>
+                              <a href="#">Controlo da Qualidade</a>
+                              <a href="#">Desenvolvimento de Aplicações informáticas</a>
+                              <a href="#">Imagem e Relações Públicas</a>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                            <button class="dropbtn">Ensino</button>
+                            <div class="dropdown-content">
+                              <a href="#">Guia do Aluno</a>
+                              <a href="#">Cursos- Oferta Formativa</a>
+                              <a href="#">Formação Continua de Docentes</a>
+                              <a href="#">Gabinete de Apoio ao Estudante</a>
+                              <a href="#">Programas de Mobilidade</a>
+                              <a href="#">Maiores de 23</a>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                            <button class="dropbtn">Investigaçao</button>
+                            <div class="dropdown-content">
+                              <a href="#">Unidades e Projectos</a>
+                              <p class="droppar">Institutos</p>
+                              <a href="#">Madeira Interactiva Technologies Institute</a>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                            <button class="dropbtn">Serviços e Comunidade</button>
+                            <div class="dropdown-content">
+                              <a href="#">Secretariado Interno</a>
+                              <a href="#">Observatório de Emprego e Formação Profissional</a>
+                              <a href="#">Observatório de Turismo</a>
+                              <a href="#">Centro de Desenvolvimento Académico</a>
+                              <a href="#">Serviço de Consulta Psicológica</a>
+                              <p class="droppar">Comunidades</p>
+                              <a href="#">Associação Académica</a>
+                              <a href="#">Associação dos Antigos Alunos da Universidade da Madeira</a>
+                              <a href="#">Pastoral do Ensino Superior na Madeira</a>
+                              <a href="#">Rotaract Clube</a>
+                              <a href="#">TUma</a>
+                              <a href="#">Tun'UMa</a>
+                              <a href="#">Tuna D'Elas</a>
+                              <a href="#">UM@Fóruns</a>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                            <button class="dropbtn">Faculdades e Escolas</button>
+                            <div class="dropdown-content">
+                              <a href="index.html">Artes e Humanidades</a>
+                              <a href="#">Ciência Exactas e da Engenharia</a>
+                              <a href="#">Ciências Sociais</a>
+                              <a href="#">Ciências da Vida</a>
+                              <a href="#">Escola Superior de Saúde</a>
+                              <a href="#">Escola Superior de Tecnologias e Gestão</a>
+                    </div>
+                    </div> 
+                    <div class="dropdown">
+                        <div class="LastItem">
+                        <input type="text" placeholder="Pesquisar">
+                        <button>Pesquisar</button>
+                    </div>
+                    </div>
+                    </div>
+                   
+                </header>
+                <div class="estgname">
+                    <h1>Artes Visuais</h1>
+                </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-9" style="background-color:white;">
+                    <h3>Diretor do curso:</h3>
+                    <ul>
+                        <li>Pau Pascual Galbis</li>
+                        <li>E-mail: pau.galbis@staff.uma.pt</li>
+                        
+                    </ul>
+                   <h3>Saídas Profissionais</h3>
+                   <ul>
+                        <li>Criação artística no domínio das artes visuais (desenho, artes plásticas, instalação, fotografia, vídeo e animação).</li>
+                        <li>Colaboração com museus ou outras instituições e entidades, públicas ou privadas, tanto em serviços educativos como noutras áreas afins.</li>
+                        <li>Consultoria, assessoria técnica, crítica e divulgação cultural.</li>
+                        <li>Investigação</li>
+                   </ul>
+                   <h3>Duração do curso</h3>
+                   <ul>
+                       <li>3 anos / 6 semestres</li>
+                   </ul>
+                   <img src="imagemcurso1.png" alt="artesvisuais" width="100%" height="auto">
+                   <br>
+                   <br>
+                </div>
+                <div class="col-sm-3" style="background-color:#F0F0F0;">
+                    <h3>Menu FAH</h3>
+                    <ul>
+                        <li><a href="index.html">Home-FAH</a></li>
+                        <li><a href="Composição.html">Composição</a></li>
+                    </ul>
+                    <h3>Cursos</h3>
+                    <ul>
+                    <li><a href="curso.html">Artes Visuais</a></li>
+                    <li><a href="curso2.html">Design</a></li>
+                    <li><a href="curso3.html">Design dos Espaços</a></li>
+                    <li><a href="curso4.html">Comunicação, Cultura e Organizações (CCO)</a></li>
+                    <li><a href="curso5.html">Estudos de Cultura (ECul)</a></li>
+                    <li><a href="curso6.html"> Línguas e Relações Empresariais (LeRE)</a></li>
+                    <li><a href="curso7.html">Estudos Linguísticos e Culturais</a></li>
+                    <li><a href="curso8.html"> Gestão Cultural</a></li>
+                    <li><a href="curso9.html">Estudos Regionais e Locais</a></li>
+                    <li><a href="curso10.html">Ilhas Atlânticas: História, Património e Quadro Jurídico-Institucional</a></li>
+                    <li><a href="curso11.html">Psicologia</a></li>
+                    <li><a href="curso12.html">Psicologia da Educação</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+            <footer>
+                    <div class="row" id="footerl">
+                            <div class="col-sm-4">
+                                <h5>Secretariado</h5>
+                                <p>Campus Universitário da Penteada
+                                        9020-105 Funchal - Portugal</p>
+                                <p>Telef. + 351 291 705 000 | Fax + 351 291 705 249</p>
+                                <p><a href="malito:secretariado.estg@mail.uma.pt">email: secretariado.estg@mail.uma.pt</a></p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h5>Horário de Atendimento</h5>
+                                <p>2ª a 6ª feira das 09h00 às 18h00</p>
+                            </div>
+                            <div class="col-sm-4">
+                            <h5>Hiperligações</h5>
+                            <ul class="footerhip">
+                                <li><a href="#">Acção Social</a></li>
+                                <li><a href="#">Publicitação de Actos</a></li>
+                                <li><a href="#">Hiperligações Externas</a></li>
+                                <li><a href="#">Contactos</a></li>
+                            </ul>    
+                            </div>
+                            <p>&copy;2012 UMa - Gabinete de Desenvolvimento de Aplicações Informáticas. Todos os direitos reservados. Processado em 0.0103 segundos</p>
+                    </div>
+            </footer>
+            </div>   
+    </body>
+    </html>

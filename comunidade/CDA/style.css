@@ -5,8 +5,8 @@ header{
     margin-bottom: 1rem;
 }
 footer{
+    width: 100%;
     bottom: 0;
-    width: 80%;
     background-color: black;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -30,7 +30,7 @@ footer hr{
 
 header div img{
     width:auto;
-    height: 10vh;
+    height: 7vh;
 }
 .painel{
     border: solid 1px lightgray;
