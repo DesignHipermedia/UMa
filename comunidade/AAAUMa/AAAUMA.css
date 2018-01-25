@@ -1,6 +1,5 @@
 body {
     background-color: orange;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -10,131 +9,143 @@ body {
     flex-direction: column;
     min-height: 100%
 }
-.navegacao {
-    display: flex;
-    justify-content: center;
-}
 .flexItems {
     display: flex;
     align-items: center;
     padding: 1rem;
 }
+header {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    min-height: 0.75rem;
+    align-items: center;
+    padding: 0 1rem;
+   }
+.LastItem {
+    color: #050303;
+    text-decoration: none;
+    margin-left: auto;
+}
+nav {
+    background-color: orange;
+    font-size: 0.75rem;
+    min-height: 0.75rem;
+    align-items: right;
+    margin:10px;
+    justify-content: space-around;
+   }
+.ListItemnav {
+    color: black;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
 main {
     flex-direction: row;
     flex-flow: row wrap;
     flex: 1;
+    margin: 10px;
    }
+
 footer {
-    background-color: #050101b0;
-    color: #370875;
+    background-color: white;
+    color: black;
     font-size: 0.75rem;
     min-height: 0.75rem;
     justify-content: space-around;
     padding: 0 1rem;
+    margin: 10px;
    }
+.FooterItem {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inicio {
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        flex-flow: row wrap;
+        margin: 10px;
+}
 .foco {
     width: 100%;
     background-color: white;
     flex-direction: column;
     flex-flow: row wrap;
-   }
-.ultimas {
+    margin: 10px;
+}
+.imagem {
     width: 100%;
+    height: 100%;
     background-color: white;
     flex-direction: column;
     flex-flow: row wrap;
-    align-items: center;
-   }
-.agenda {
-    flex: 2;
-   }
+    margin:10px;
+}
 .informacao {
     width: 100%;
     background-color: white;
     flex-direction: column;
     flex-flow: row wrap;
     margin:10px;
-   }
-header {
-    background-color: orange;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
-    min-height: 0.75rem;
-    align-items: center;
-    padding: 0 1rem;
-   }
-nav {
-    background-color: white;
-    font-family: 'Oswald', sans-serif, black;
-    font-size: 1rem;
-    min-height: 0.75rem;
-    align-items: center;
-    padding: 0 1rem;
-    margin:10px;
-   }
-.LastItem {
-    color: #050303;
-    text-decoration: none;
-   }
+}
 .ListItem {
+    color: white;
+    text-decoration: none;
     margin-right: 1rem;
-   }
-.LastItem {
-    margin-left: auto;
-   }
-.ultimas_content {
-    display: flex;
-    flex-flow: row wrap;
-   }
-.imagem_ultimas {
-    height: 150px;
-    width: 90px;
-    background-color: steelblue;
-    margin: 10px;
-    background-image: url('http://antigosalunos.uma.pt/images/aaaumabanner.jpg');
 }
 .foco_content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    
-   }
+    justify-content:space-around;  
+}
 .imagem1 {
     width: 350px;
     height: 180px;
     background-color: steelblue;
     margin: 10px;
-    background-image: url('http://antigosalunos.uma.pt/media/joomlashine/demo_assets/jsn-corsa/custom-html/icons/flat-design.png');
-   }
+    background-image: url('http://files.unidade-de-ensino-estruturado.webnode.pt/system_preview_detail_200000480-44f1f45ebc/mensagens-de-trabalho-em-equipe-3.png');
+}
 .imagem2 {
     width: 350px;
     height: 180px;
     background-color: steelblue;
     margin: 10px;
-    background-image: url('http://www.uma.pt/portal/imagens/logo_int_pt.jpg?v3');
+    background-image: url('http://files.unidade-de-ensino-estruturado.webnode.pt/system_preview_detail_200000480-44f1f45ebc/mensagens-de-trabalho-em-equipe-3.png');
 }
 .imagem3 {
     width: 350px;
     height: 180px;
     background-color: steelblue;
     margin: 10px;
-    background-image: url('http://www.uma.pt/portal/imagens/eua_member_icon_165.jpg');
+    background-image: url('http://www.uma.pt/portal/imagens/logo_int_pt.jpg?v3');
 }
 .imagem4 {
     width: 350px;
     height: 180px;
     background-color: steelblue;
     margin: 10px;
-    background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/poloemprego.jpg');
+    background-image: url('http://www.uma.pt/portal/imagens/eua_member_icon_165.jpg');
 }
 .imagem5 {
     width: 350px;
     height: 180px;
     background-color: steelblue;
     margin: 10px;
-    background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/video_uma_v7.jpg');
+    background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/poloemprego.jpg');
 }
 .imagem6 {
+    width: 350px;
+    height: 180px;
+    background-color: steelblue;
+    margin: 10px;
+    background-image: url('http://www.uma.pt/portal/modulos/noticia/imagens/video_uma_v7.jpg');
+}
+.imagem7 {
     width: 350px;
     height: 180px;
     background-color: steelblue;

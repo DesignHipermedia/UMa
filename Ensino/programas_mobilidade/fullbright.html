@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Microwebsite de programas de mobilidade</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+          integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+          integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+          integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+          crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+<body class="grey line-height-base">
+
+
+<!-- Nav tabs -->
+<div class="container-fluid">
+  <div class="col d-flex justify-content-center">
+    <img src="images/logo_white_on_transparent.png" height="72" width="196"/>
+  </div>
+  <div class="col d-flex justify-content-center">
+    <img class="hidden-sm-down" src="images/unit_pt-PT.png" height="20"
+         width="400"/>
+  </div>
+</div>
+
+<ul class="nav nav-tabs|pills text-white d-flex justify-content-center " id="navId">
+  <li class="nav-item text-white">
+    <a href="#tab1Id" class="nav-link active text-white">UMA</a>
+  </li>
+  <li class="nav-item dropdown text-white">
+    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+       aria-expanded="false">Programas Mobilidade</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#tab2Id">Bolsas Luso-Brasileiras Santander Universidades
+      </a>
+      <a class="dropdown-item" href="#tab3Id">Another action</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#tabs4Id"></a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a href="#tab5Id" class="nav-link text-white">Another link</a>
+  </li>
+  <li class="nav-item">
+    <a href="#" class="nav-link disabled text-white">Disabled</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane fade in active" id="tab1Id" role="tabpanel"></div>
+  <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+  <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+  <div class="tab-pane fade" id="tabs4Id" role="tabpanel"></div>
+  <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+</div>
+
+<script>
+  $('#navId a').click(e => {
+    e.preventDefault();
+    $(this).tab('show');
+  });
+</script>
+
+<div class="container p-3">
+  <div class="container-fluid">
+
+    <div class="col black  p-5">
+      <div class="row">
+        <div class="col d-flex justify-self-center">
+
+          <img src="images/cinffulbright_uma.jpg" height="92" width="188"/></div>
+        <div class="col d-flex justify-self-center">
+
+          <img class="hidden-sm-down" src="images/imagem fulbright.png" height="92" width="188"/></div>
+        <div class="col d-flex justify-self-center">
+
+          <img class="hidden-md-down" src="images/fulbright.jpg" height="92" width="160"/></div>
+      </div>
+      <p>A Comissão Cultural Luso-Americana, habitualmente designada por Comissão Fulbright, tem por objectivo o
+        estreitamento de relações culturais entre Portugal e os Estados Unidos da América, através da promoção do
+        intercâmbio cultural;</p>
+
+      <p>A Comissão Fulbright administra um Centro de Informação sobre estudos nos Estados Unidos da América, localizado
+        em Lisboa, mas visto que os estudantes de outras localidades têm acesso limitado ao Centro de Informação
+        Fulbright, foi criado, no Gabinete de Planeamento, Projectos e Cooperação da UMa, um Centro Regional de
+        Informação Fulbright que tem como missão providenciar a todos os interessados informação básica sobre
+        estudos nos Estados Unidos da América.
+      </p>
+
+      <ul style="list-style-type:none">
+
+        <h2>Centro Regional de Informação Fulbright/UMa</h2>
+
+        <li>Gabinete de Planeamento, Projectos e Cooperação</li>
+
+        <li>Colégio dos Jesuítas / Praça do Município,</li>
+
+        <li>9000-081 Funchal</li>
+
+        <li>fulbright@uma.pt / www.ccla.pt</li>
+
+        <li>Tel: 291 209 475</li>
+
+        <li>Fax: 291 209 470</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+
+  </div>
+  <footer class="footer border white p-3 ">
+    <ul class="border border-dark list-unstyled">
+      <li class="pull-left">Unidade de Projetos e Cooperação</li>
+      <li class="pull-left">Colégio dos Jesuítas - Rua dos Ferreiros
+        9000-082 Funchal - Portugal
+      </li>
+      <li class="pull-left">Telef. + 351 291 209 471 | Fax + 351 291 209 470</li>
+      <li class=" pull-left">email: projetos@mail.uma.pt</li>
+    </ul>
+  </footer>
+</div>
+
+
+</body>
+</html>
