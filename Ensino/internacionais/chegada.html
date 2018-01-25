@@ -1,4 +1,10 @@
-
+<div id="floater">
+<a  href="#c1"><button type="button" class="btn btn-outline-primary">Instala-te</button></a><p></p> 
+<a  href="#c2"><button type="button" class="btn btn-outline-primary">Visitar aos nossos Serviços</button></a><p></p> 
+<a href="#c3"><button type="button" class="btn btn-outline-primary">Ir à loja do Cidadão</button></a><p></p> 
+<a href="#c4"><button type="button" class="btn btn-outline-primary">Abre uma Conta</button></a><p></p> 
+<a href="#c5"><button type="button" class="btn btn-outline-primary">Registo no Centro de Saude</button></a><p></p> 
+</div> 
 <div class="w-85"><p></p>
     <h4 id="c1">Instala-te</h4>
     <img class="imgpart grow" src="./src/c1.jpg">
@@ -101,3 +107,13 @@
     </div>
     <p></p>
 </div>
+<script>
+$(window).scroll(function() {
+    var winScrollTop = $(window).scrollTop();
+    var winHeight = $(window).height();
+    var floaterHeight = $('#floater').outerHeight(true);
+    //true so the function takes margins into account
+    var fromBottom = 160;
+    var top = winScrollTop + winHeight - floaterHeight - fromBottom;
+    $('#floater').css({'top': top + 'px'});
+});</script>
