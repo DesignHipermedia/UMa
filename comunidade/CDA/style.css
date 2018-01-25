@@ -5,6 +5,7 @@ header{
     margin-bottom: 1rem;
 }
 footer{
+    width: 100%;
     bottom: 0;
     background-color: black;
     padding-left: 2rem;

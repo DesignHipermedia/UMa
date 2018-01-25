@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="F.ciencias Socias.css">
-    <title>Noticias</title>
+    <title>Composição</title>
     <!-- nav logo -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -227,179 +227,315 @@
 
             <SCRIPT LANGUAGE="JavaScript">
 
-                            var Elem = document.getElementById("Clock");
-                            function Horario() {
-                                var Hoje = new Date();
-                                var Horas = Hoje.getHours();
-                                if (Horas < 10) {
-                                    Horas = "0" + Horas;
-                                }
-                                var Minutos = Hoje.getMinutes();
-                                if (Minutos < 10) {
-                                    Minutos = "0" + Minutos;
-                                }
-                                var Segundos = Hoje.getSeconds();
-                                if (Segundos < 10) {
-                                    Segundos = "0" + Segundos;
-                                }
-                                Elem.innerHTML = Horas + ":" + Minutos + ":" + Segundos;
-                            }
-                            window.setInterval("Horario()", 1000);
+                var Elem = document.getElementById("Clock");
+                function Horario() {
+                    var Hoje = new Date();
+                    var Horas = Hoje.getHours();
+                    if (Horas < 10) {
+                        Horas = "0" + Horas;
+                    }
+                    var Minutos = Hoje.getMinutes();
+                    if (Minutos < 10) {
+                        Minutos = "0" + Minutos;
+                    }
+                    var Segundos = Hoje.getSeconds();
+                    if (Segundos < 10) {
+                        Segundos = "0" + Segundos;
+                    }
+                    Elem.innerHTML = Horas + ":" + Minutos + ":" + Segundos;
+                }
+                window.setInterval("Horario()", 1000);
 
             </SCRIPT>
         </a>
-        <div class="container">
-            <div class="row">
-                <div class="columnc">
-                    <span class="cor-quinta"><h1>Notícias CCS</h1>
-</span>
-                    <br>
-                    <br>
-                </div>
-                    
-                    
-                <div class="column left" style="background-color:#ddd;">
-                    <h3>
-                        <span class="cor-principal"> FCS </span>
-                    </h3>
-                    <h4>
-                        - A Comissão Eleitoral informa que não recebeu nenhuma lista candidata as eleições dos representantes dos estudantes para
-                        o Conselho Pedagógico da Faculdade de Ciências Sociais.
-                        <br>
-                        <br>
-                        <h4>
-                            <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=7&Itemid=53&lang=pt"> <ul><li>Eleições para os representantes dos estudantes do Conselho Pedagógico-Sem listas</li></ul> </a>
-                        </h4>
-                    </h4>
-                    <br>
-                    <br>
-                    <br>
-                    Actualizado Terça-feira, 21 Julho 2015 16:19
+    </div>
+    <div class="container">
 
-                </div>
-                <div class="column right" style="background-color:#bbb;">
-                    <h2>Menu
-                        <span class="cor-principal">FCS</span>
-                    </h2>
-                    <p>
-                        <a  class="LastItem" href="Index.html">
-                            <h4>-Home FCS</h4>
-                        </a>
-                    </p>
-                    <p>
-                        <a  class="LastItem" href="composicao.html">
-                            <h4>-Composição</h4>
-                        </a>
-                    </p>
-                    <p>
-                        <a  class="LastItem" href="Noticias.html" class="item-active" >  
-                            <h4>-Notícias</h4>
-                        </a>
-                    </p>
-                    <p>
-                        <a  class="LastItem" href="http://ccs.uma.pt/index.php?option=com_docman&Itemid=53&lang=pt">
-                            <h4>-Regulamentos</h4>
-                        </a>
-                    </p>
-                    <p>
-                        <a  class="LastItem" href="http://ccs.uma.pt/index.php?option=com_docman&Itemid=58&lang=pt">
-                            <h4>-Bolsas de Investigação</h4>
-                        </a>
-                    </p>
-                </div>
-                <br>
-                <br>
-                <div class="column left" style="background-color:#ddd;">
-                    <h3>
-                        <span class="cor-tercearia">Cadernos eleitorais</span>
-
-                    </h3>
-                    <h4>
-                        <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=2&Itemid=53&lang=pt">
-                            <ul>
-                                <li>Eleições para os representantes dos estudantes do Conselho Pedagógico-Caderno Eleitoral(2009-11-12)</li>
-                            </ul>
-                            <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=2&Itemid=53&lang=pt" download="pdfuma.png">
-                                <img border="0" src="http://ccs.uma.pt/components/com_docman/themes/mjaztools_blogtheme/images/icons/32x32/pdf.png" width="104" height="110">
-        
-                        </a>
-                    </h4>
-                    <br>
-                    
-                    Actualizado Sexta-feira, 18 Dezembro 2009 19:01
-
-                </div>
-                <div class="column right" style="background-color:#bbb;">
-                    <h2>
-                        <span class="cor-tercearia"> Centros de Investigação </span>
-                    </h2>
-                    <h4>
-                        <a class="LastItem"  href="teste.html">
-                            <ul>
-                                <li>CIE-UMa-Centro de Investigação em Educação</li>
-                            </ul>
-                        </a>
-                    </h4>
-
-                    <h4>
-                        <a  class="LastItem" href="http://www.uac.pt/~ceeapla">
-                            <ul>
-                                <li> CEEApIA-UMa- Centro de Estudos de Economia Aplicada do Atlântico</li>
-                            </ul>
-                        </a>
-                    </h4>
-                </div>
-                <div class="columnd" style="background-color:#ddd;">
-                    <h2>
-                        <span class="cor-tercearia">Convocatórias</span>
-                    </h2>
-
-                    <h4>
-                        <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=2&Itemid=53&lang=phttp://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=3&Itemid=53&lang=pt">
-                            <ul>
-                                <li>Eleições para os representantes dos estudantes do Conselho Pedagógico-Convocatória(2009-11-12)</li>
-                            </ul>
-                            <a href="" download="pdfuma.png">
-                                <img border="0" src="http://ccs.uma.pt/components/com_docman/themes/mjaztools_blogtheme/images/icons/32x32/pdf.png" width="104" height="105">
-        
-                        </a>
-                        </a>
-                    </h4>
-                    <br>
-                    Actualizado Sexta-feira, 18 Dezembro 2009 19:01
-
-                </div>
-                <div class="columnf" style="background-color:#ddd;">
-                    <h3>
-                        <span class="cor-tercearia"> Outra Documentação </span>
-                    </h3>
-                    <h4>
-                        <br>
-                        <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=4&Itemid=53&lang=pt"><li>  Regulamento Eleitoral - Eleição de Estudantes dos Conselhos Pedagógico dos Centros de Competências(2009-12-14)</li></ul></a>
-                        <br>
-                        <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=5&Itemid=53&lang=pt"><li> Composição da Comissão Eleitoral (2009-12-16)</li></ul></a>
-                        <br>
-                        <a href="http://ccs.uma.pt/index.php?option=com_docman&task=doc_download&gid=6&Itemid=53&lang=pt"><li> Alteração ao Calendário de Eleições(2009-12-18)</li></a>
-                        <br>
-                    </h4>
-                   <h5> Actualizado Sexta-feira, 18 Dezembro 2009 19:01</h5>
-                </div>
-            </div>
-        </div>
-
-</body>
-<div class="container">
-    <div class="row">
-        <div class="columb" style="background-color:#aaa">
-            <h2></h2>
-            <br>
-            <br>
+        <div class="columnc">
+            <span class="cor-quinta">
+                <h1>Composição</h1>
+            </span>
         </div>
     </div>
-</div>
-<footer>
     <div class="container">
-        <div class="row">
+        <div class="columnm" style="background-color:#ddd;">
+            <div class="columnq">
+                <h1>
+                    <span class="cor-principal"> Docentes </span>
+
+                </h1>
+            </div>
+            <h6>
+                <div class="column right">
+                    <ul>
+                        <li>Adérita Cristina Pereira Fernandes</li>
+                    </ul>
+                    <ul>
+                        <li>Alexandra Quintal Teixeira Prioste</li>
+                    </ul>
+                    <ul>
+                        <li>Ana Luísa Rodrigues Figueira de Sousa Correia</li>
+                    </ul>
+                    <ul>
+                        <li>Bento Duarte da Silva</li>
+                    </ul>
+                    <ul>
+                        <li>Celso Luís Pereira Nunes</li>
+                    </ul>
+                    <ul>
+                        <li>Duarte Filipe Jesus Sousa</li>
+                    </ul>
+                </div>
+            </h6>
+
+            <h6>
+                <div class="column right">
+                    <ul>
+                        <li>Agostinho Renato Mendonça Marques</li>
+                    </ul>
+                    <ul>
+                        <li>Alice Maria Justa Ferreira Mendonça</li>
+                    </ul>
+                    <ul>
+                        <li>Ana Isabel de Gouveia</li>
+                    </ul>
+                    <ul>
+                        <li>Ana Maria França Freitas Kot Kotecki</li>
+                    </ul>
+                    <ul>
+                        <li>António Manuel Martins de Almeida</li>
+                    </ul>
+                    <ul>
+                        <li>Carlos Manuel Nogueira Fino</li>
+                    </ul>
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>Alexandra Catarina Spranger Fernandes Gomes Forte Saldanha Cardoso</li>
+                    </ul>
+                    <ul>
+                        <li>Américo Ramos Cardoso</li>
+                    </ul>
+                    <ul>
+                        <li>Ana José Aguiar Rodrigues</li>
+                    </ul>
+                    <ul>
+                        <li>António Manuel Marques Antunes</li>
+                    </ul>
+                    <ul>
+                        <li>António Miguel Valente Martins</li>
+                    </ul>
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>Fernando Jorge da Silva Colmenero Ferreira</li>
+                    </ul>
+                    <ul>
+                        <li>Gabriel Augusto Leite Mota</li>
+                    </ul>
+                    <ul>
+                        <li>Guida Reis Rodrigues Mendes</li>
+                    </ul>
+                    <ul>
+                        <li>Jesus Maria Angélica Fernandes Sousa</li>
+                    </ul>
+                    <ul>
+                        <li>João Gabriel Jardim Caldeira</li>
+                    </ul>
+                    <ul>
+                        <li>José António Teixeira Cardoso</li>
+                    </ul>
+
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>Corrado Andini</li>
+                    </ul>
+                    <ul>
+                        <li>Duarte Luís de Freitas</li>
+                    </ul>
+                    <ul>
+                        <li>Fernando Luís de Sousa Correia</li>
+                    </ul>
+                    <ul>
+                        <li>Glória Josefina Rodrigues Leça Gonçalves</li>
+                    </ul>
+                    <ul>
+                        <li>Hélder Manuel Arsénio Lopes</li>
+                    </ul>
+                    <ul>
+                        <li>Joana Catarina Marques Simões</li>
+                    </ul>
+                    <ul>
+                        <li>João Manuel Marcelino Dias Zambujal de Oliveira</li>
+                    </ul>
+                    <ul>
+                        <li>José Augusto Brito Pacheco</li>
+                    </ul>
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>Carmen Marisela Fernandes de Freitas</li>
+                    </ul>
+                    <ul>
+                        <li>Cristina Martins de Figueira Gonçalves</li>
+                    </ul>
+                    <ul>
+                        <li>Élvio Rúbio Quintal Gouveia</li>
+                    </ul>
+                    <ul>
+                        <li>Filipe Jorge Moreira de Sousa</li>
+                    </ul>
+                    <ul>
+                        <li>Gonçalo Nuno Ferreira Marques</li>
+                    </ul>
+                    <ul>
+                        <li>Hélio Ricardo Lourenço Antunes</li>
+                    </ul>
+                    <ul>
+                        <li>João Filipe Pereira Nunes Prudente</li>
+                    </ul>
+
+
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>João Nelson Veríssimo</li>
+                    </ul>
+                    <ul>
+                        <li>Jorge Alexandre Pereira Soares</li>
+                    </ul>
+                    <ul>
+                        <li>José Eduardo Mendonça da Silva Gonçalves</li>
+                    </ul>
+                    <ul>
+                        <li>José Ricardo Spínola de Aguiar</li>
+                    </ul>
+                    <ul>
+                        <li>Lisa Raquel dos Santos Gonçalves</li>
+                    </ul>
+                    <ul>
+                        <li>Luiz Tadeu Milheiro de Menezes Pinto Machado</li>
+                    </ul>
+                    <ul>
+                        <li>Marco Paulo Teixeira Gonçalves</li>
+                    </ul>
+
+
+                </div>
+                <div class="column right">
+                    <ul>
+                        <li>Maria de Lurdes Martins Veludo</li>
+                    </ul>
+                    <ul>
+                        <li>Maria Gorete Gonçalves Rocha Pereira</li>
+                    </ul>
+                    <ul>
+                        <li>Maria Natalina Faria Cristovão Santos</li>
+                    </ul>
+                    <ul>
+                        <li>Nuno Miguel da Silva Fraga</li>
+                    </ul>
+                    <ul>
+                        <li>Pedro Telhado Pereira</li>
+                    </ul>
+                    <ul>
+                        <li>Ricardo João Nunes dos Santos Cabral</li>
+                    </ul>
+                    <ul>
+                        <li>Ricardo Nuno Teixeira Gouveia</li>
+                    </ul>
+                 </div>    
+                    <div class="columnq">
+                        <h2>
+                            <span class="cor-primaria">Não-Docentes</span>
+                        </h2>
+                    </div>
+                    <div>
+                        <h5>
+                            <ul>
+                                <li>Maria de Lurdes Martins Veludo</li>
+                            </ul>
+                        </h5>
+                    </div>
+
+
+
+               
+
+            </h6>
+        </div>
+
+        <div class="column right" style="background-color:#bbb;">
+            <h2>Menu
+                <span class="cor-principal">FCS</span>
+            </h2>
+            <p>
+                <a class="LastItem" href="Index.html">
+                    <h4>-Home FCS</h4 class="active">
+                </a>
+            </p>
+            <p>
+                <a class="LastItem" href="composicao.html" class="item-active">
+                    <h4>-Composição</h4>
+                </a>
+            </p>
+            <p>
+                <a class="LastItem" href="Noticias.html">
+                    <h4>-Notícias</h4>
+                </a>
+            </p>
+            <p>
+                <a class="LastItem" href="http://ccs.uma.pt/index.php?option=com_docman&Itemid=53&lang=pt">
+                    <h4>-Regulamentos</h4>
+                </a>
+            </p>
+            <p>
+                <a class="LastItem" href="http://ccs.uma.pt/index.php?option=com_docman&Itemid=58&lang=pt">
+                    <h4>-Bolsas de Investigação</h4>
+                </a>
+            </p>
+        </div>
+        <div class="columnw" style="background-color:#bbb;">
+            <h2>
+                <span class="cor-tercearia"> Centros de Investigação </span>
+            </h2>
+            <h4>
+                <a class="LastItem" href="teste.html">
+                    <ul>
+                        <li>CIE-UMa-Centro de Investigação em Educação</li>
+                    </ul>
+                </a>
+            </h4>
+
+            <h4>
+                <a class="LastItem" href="http://www.uac.pt/~ceeapla">
+                    <ul>
+                        <li> CEEApIA-UMa- Centro de Estudos de Economia Aplicada do Atlântico</li>
+                    </ul>
+                </a>
+            </h4>
+        </div>
+    </div>
+    <div class="container">
+
+        <br>
+        <br>
+        <div class="columni">
+            <h2>
+                <ul>
+                    <li>Maria de Lurdes Martins Veludo</li>
+                </ul>
+            </h2>
+        </div>
+
+
+
+
+    </div>
+    <footer>
+        <div class="container">
+
             <div class="columnb" style="background-color:#aaa;">
                 <h2>
                     <span class="cor-tercearia">
@@ -434,17 +570,17 @@
                 <h5>
                     <a class="LastItem" href="http://www.sasuma.pt/"> Acção Social </a>
                     <br>
-                    <a  class="LastItem" href="http://urh.uma.pt/index.php?option=com_content&view=article&id=13&lang=">Publicitação de Actos</a>
+                    <a class="LastItem" href="http://urh.uma.pt/index.php?option=com_content&view=article&id=13&lang=">Publicitação de Actos</a>
                     <br>
-                    <a  class="LastItem" href="http://www2.uma.pt/index.php?option=com_weblinks&view=category&id=2&Itemid=29&lang=pt">Hiperligações Externas</a>
+                    <a class="LastItem" href="http://www2.uma.pt/index.php?option=com_weblinks&view=category&id=2&Itemid=29&lang=pt">Hiperligações Externas</a>
                     <br>
-                    <a class="LastItem"  href="http://www.uma.pt/portal/modulos/geral/index.php?NV_MOD=MOD_GERAL&NV_EAGR=EAGR_CONTACT&TPESQ=FRM_GER_CONTACT&Itemid=89">Contactos</a>
+                    <a class="LastItem" href="http://www.uma.pt/portal/modulos/geral/index.php?NV_MOD=MOD_GERAL&NV_EAGR=EAGR_CONTACT&TPESQ=FRM_GER_CONTACT&Itemid=89">Contactos</a>
                     <br>
                 </h5>
             </div>
         </div>
-    </div>
-</footer>
+        </div>
+    </footer>
 
 
 </body>
