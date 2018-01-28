@@ -10,16 +10,33 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home.css">
     <title>M-ITI</title>
-</head>     
+    <script>
+                function startTime() {
+                    var today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var s = today.getSeconds();
+                    m = checkTime(m);
+                    s = checkTime(s);
+                    document.getElementById('txt').innerHTML =
+                    h + ":" + m + ":" + s;
+                    var t = setTimeout(startTime, 500);
+                }
+                function checkTime(i) {
+                    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                    return i;
+                }
+                </script> 
+</head>    
  <header> <div class="mitibanner">
             <img src="apoio visual/official_logo.png" alt="M-ITI">
              </div>   
              <h1 class="text-center">Bem-vindo ao M-ITI</h1>
             </header>
-    <body>
+    <body onload="startTime()">
            <div class="first_panel container">
                     <div class="cont text-center ">
-                        <a class="border border-top-0 border-left-0 border-right-0" href="subsites/objetivos.html">Pesquisa</a> <br> <br>
+                        <a class="border border-top-0 border-left-0 border-right-0" href="subsites/descubra_mais.html">Pesquisa</a> <br> <br>
                         <p>Veja os nossos projetos na área de HCI e inovação de design.</p>
                      </div> 
                     <div class="cont text-center">
@@ -31,7 +48,7 @@
                         <p>Junte-se a nós, trabalhando como estudantes e investigadores.</p> 
                         </div>
                     <div class="cont text-center">
-                        <a class="border border-top-0 border-left-0 border-right-0" href="subsites/programas_e_cursos.html"> Comunidade</a> <br> <br> 
+                        <a class="border border-top-0 border-left-0 border-right-0" href="subsites/descubra_mais.html"> Comunidade</a> <br> <br> 
                         <p>Verifique as mais recentes notícias, eventos, e fique a conhecer os nossos alunos e faculdade.</p> 
                     </div>
             </div>
@@ -84,7 +101,7 @@
                     <br>
                     <div class="row">
                         <div class="container align-content-center text-center col">
-                            <a class="linksp" href="subsites/objetivos.html"> <b>Nossos projetos</b> </a>
+                            <a class="linksp" href="subsites/parcerias.html"> <b>Nossos projetos</b> </a>
                             <h4> Inovação e Eficácia em contextos de vida real</h4>
                             <p>Com os nossos projetos, procura-se expandir o potencial das tecnologias, visto a melhorar a comunicação humana através de desenhar e desenvolver novos sistemas e serviços, e pela investigação do seu uso e eficâcia.</p>
                             <a class="linksp" href="subsites/programas_e_cursos.html">Veja o nosso centro</a>
@@ -108,11 +125,12 @@
                         </div>
                         <a class="linksp text-center" href="subsites/descubra_mais.html">Descubra mais</a>
                     </div>
-
-<div class="footer_panel container col">
+<br><br>
+<div class="footer_panel text-center container col">
 <h6>©2018 m-iti <small>(adaptação realizada por Pedro Perestrelo)</small>  </h6>
 <a class="linksp" href="subsites/contactos.html">Contactos</a>
 <a class="linksp" href="subsites/descubra_mais.html">Informações</a>
 <a class="linksp" href="subsites/parcerias.html">Parcerias</a>
+<div class="text-center" id="txt"></div>
 </body>
 </html>
