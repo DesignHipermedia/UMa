@@ -307,3 +307,26 @@ a:hover{
     color: black;
     text-decoration-style: solid;
 }
+
+.padding-top-10  {
+    padding-top: 10px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.background-gray {
+    background: #c7c7c7;
+}
+
+.background-footer {
+    background: #999999;
+}
+
+.footer {
+    font-size: 70%;
+    font-weight: bold;
+    
+}
+
