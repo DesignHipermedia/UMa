@@ -11,48 +11,47 @@
     <script type="text/javascript" src="js/jquery.destaques.js"></script>
     <style>
     body {
-    background-color: #f8f9fa;
-    
-    background-image: url(universidade.jpg) no-repeat; #eu estou a tentar pôr esta imagem como de fundo, mas quando tento fazê-lo, fica a repetir muitas vezes e quando ponho no-repeat desaparece
-}
-#links {    
-    overflow: hidden; 
-    width: 100%;
-    height: 100%;
-    background-color: rgb(44, 172, 207); 
-} 
+      background-color: #f8f9fa;    
+      background-image: url(universidade.jpg) no-repeat; #eu estou a tentar pôr esta imagem como de fundo, mas quando tento fazê-lo, fica a repetir muitas vezes e quando ponho no-repeat desaparece
+    }
+    #links {    
+      overflow: hidden; 
+      width: 100%;
+      height: 100%;
+      background-color: rgb(44, 172, 207); 
+     } 
 
 
-a {
-    display: block;
-    position: relative;
-    width: 50px;
-    height: 5px;
-    padding: 5px; 
+    a {
+      display: block;
+      position: relative;
+      width: 50px;
+      height: 5px;
+      padding: 5px; 
 
-}   
+    }   
 
-h1 {
-    color: rgba(0, 0, 0, 1);
-    font-size: 18pt;
-    text-align: left;
-}
+    h1 {
+      color: rgba(0, 0, 0, 1);
+      font-size: 18pt;
+      text-align: left;
+    }
 
-h2 {
-    color: rgba(255, 102, 0,1);
-    font-size: 16pt;
-     text-align: center;
-}
+    h2 {
+      color: rgba(255, 102, 0,1);
+      font-size: 16pt;
+      text-align: center;
+    }
 
-h3 {
-    color: rgba(0, 0, 0, 1);
-    font-size: 12pt;
-}
+    h3 {
+      color: rgba(0, 0, 0, 1);
+      font-size: 12pt;
+    }
 
-h4 {
-    color: rgba(0, 0, 0, 1);
-    font-size: 12pt;
-}
+    h4 {
+      color: rgba(0, 0, 0, 1);
+      font-size: 12pt;
+    }
 
     </style>
     <title>Ação social</title>
