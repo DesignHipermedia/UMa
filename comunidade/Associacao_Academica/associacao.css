@@ -102,8 +102,7 @@ body {
 }
 .wrapper {
     display: grid;
-    width: 100%;
-    grid-template-columns:  repeat(2, 100%);
+    grid-template-columns:  repeat(2, auto);
     grid-template-rows: repeat( 9, 300px);
     background-color: #fff;
     color: #444;
