@@ -70,6 +70,7 @@ footer {
         flex-direction: column;
         flex-flow: row wrap;
         margin: 10px;
+        align-items: right;
 }
 .foco {
     width: 100%;
@@ -86,6 +87,12 @@ footer {
     flex-flow: row wrap;
     margin:10px;
 }
+
+.foco_content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;  
+}
 .informacao {
     width: 100%;
     background-color: white;
@@ -97,11 +104,6 @@ footer {
     color: white;
     text-decoration: none;
     margin-right: 1rem;
-}
-.foco_content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:space-around;  
 }
 .imagem1 {
     width: 350px;
