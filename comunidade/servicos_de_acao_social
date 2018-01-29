@@ -9,19 +9,68 @@
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
     <script type="text/javascript" src="js/jquery.destaques.js"></script>
+    <style>
+    body {
+      background-color: #f8f9fa;    
+      background-image: url(universidade.jpg) no-repeat; #eu estou a tentar pôr esta imagem como de fundo, mas quando tento fazê-lo, fica a repetir muitas vezes e quando ponho no-repeat desaparece
+    }
+    #links {    
+      overflow: hidden; 
+      width: 100%;
+      height: 100%;
+      background-color: rgb(44, 172, 207); 
+     } 
+
+
+    a {
+      display: block;
+      position: relative;
+      width: 50px;
+      height: 5px;
+      padding: 5px; 
+
+    }   
+
+    h1 {
+      color: rgba(0, 0, 0, 1);
+      font-size: 18pt;
+      text-align: left;
+    }
+
+    h2 {
+      color: rgba(255, 102, 0,1);
+      font-size: 16pt;
+      text-align: center;
+    }
+
+    h3 {
+      color: rgba(0, 0, 0, 1);
+      font-size: 12pt;
+    }
+
+    h4 {
+      color: rgba(0, 0, 0, 1);
+      font-size: 12pt;
+    }
+
+    </style>
     <title>Ação social</title>
 </head>
 
-<body>    
+<body>
+    <div id="image-fundo">
+        <div id="fundo"></div>
+        <img url="uma.png" alt="" />
+    </div>
     <header>
         <table>
             <img width="100%" border="0" cellspacing="0" cellpadding="0" id="Table" class="main" src="logo.png" alt="logo.png">
             <tr>
                 <nav class="navbar navbar-expand-md navbar-light bg-light px-0">
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <ul class="navbar-nav ml-auto">
+                        <ul id="links" class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a href="acao_social.html" src="casa.png" class="nav-link"></a>
+                                <a href="acao_social.html" src="casa.png" class="nav-link">Página Inicial</a>
                             </li>
                             <li class="divider py-2 d-none d-md-block cor-principal">/</li>
                             <li class="nav-item">
@@ -57,176 +106,249 @@
             </tr>
         </table>
     </header>
-    <div>
-        <h1>Notícias</h1>
+    <table>
+        <div>
+            <h1>Notícias</h1>
+
+            <hr>
+
+            <h2>Informação nº17 - Concurso de bolsas de estudo 2017/2018</h2>
+            <table>
+                <tr>
+                    <tr style="background-color: #003366;  ">
+                        <td class="xl71" style="text-align: center;" colspan="2" width="435" height="34">
+                            <span style="font-size: medium; color: #ffffff;">
+                                Mapa Estatístico de Candidaturas
+                            </span>
+                        </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Estado da Candidatura - Candidaturas submetidas</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">Quantidade</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Aceite</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">1022</td>
+                </tr>
+                <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Aguardar dados</td>
+                <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">1</td>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Aguarda Notificação Documentos</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">4</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Aguarda Notificação-Resultado</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">2</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Em análise</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">24</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Em re-analálise</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">7</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Reclamação Activa-Motivo Montante Bolsa Atribuída</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">1</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Reclamação Activa-Motivo Rejeição Bolsa </td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">3</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Reclamação Resolvida-Bolsa Aceite</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">1</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Reclamação Resolvida-Bolsa Rejeitada</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">3</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Reclamação Resolvida-Montante Inalterado</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">21</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Reclamação Resolvida-Montante Revisto</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">18</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Rejeitada-Sistema - Condições de acesso</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align:center">182</td>
+                </tr>
+                <tr>
+                    <td class="xl69" style="text-align: right;" width="350" height="17"> Total:</td>
+                    <td class="quantidade" class="xl70" style="text-align: center; border-color: #ded8da; width: 85px; border-style: solid; border-width: 1px;">1289</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Estado da Candidatura - Candidaturas não submetidas</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 2px; text-align: center;"> Quantidade </td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Aberta</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align: center;">156</td>
+                </tr>
+                <tr>
+                    <td style="border-color: #ded8da; border-style: solid; border-width: 1px;">Candidatura Pré Validada</td>
+                    <td class="quantidade" style="border-color: #ded8da; border-style: solid; border-width: 1px; text-align: center;">37</td>
+                </tr>
+                <tr>
+                    <td class="xl69" style="text-align: right;" width="350" height="17">Total:</td>
+                    <td class="quantidade" class="xl70" style="text-align: center; border-color: #ded8da; width: 85px; border-style: solid; border-width: 1px;">193</td>
+                </tr>
+            </table>
+           
+        <hr>
+        <div>
+            <h2>Candidatura à Bolsa Blandy Educação 2017-2018 (3ª fase)</h1>
+                <p>Caro aluno,</p>
+                <p>Relembramos que está em curso a candidatura à Bolsa Blandy Educação (3ª fase) que poderá ser efetuada até
+                    às 24 horas do dia 18 do corrente mês.</p>
+                <p>Recomendamos uma leitura atenta ao regulamento para ver se preenche os critérios de ilegibilidade.</p>
+        </div>
         <h2>Procedimento Concursal Assistente Operacional - SASUMa</h2>
-        <h3>Procedimento concursal comum para preenchimento de dois postos de trabalho, na carreira e categoria de Assistente
-            Operacional, do mapa de pessoal dos Serviços de Ação Social da Universidade da Madeira, publicado em Diário da
-            República, 2ª Série - Nº 242 - 19 de dezembro de 2017.</h3>
-
-        <h3>Mais informamos que a data limite de candidatura é o dia 8 de janeiro de 2018.</h3>
-
-
-
-        <h4>Para mais informações consultar:</h4>
-
+        <hr>
+        <p>Procedimento concursal comum para preenchimento de dois postos de trabalho, na carreira e categoria de Assistente
+            Operacional, do mapa de pessoal dos Serviços de Ação Social da Universidade da Madeira, publicado em Diário
+            da República, 2ª Série - Nº 242 - 19 de dezembro de 2017.</p>
+        <p>Mais informamos que a data limite de candidatura é o dia 8 de janeiro de 2018.</p>
+        <p>Para mais informações consultar:</p>
         <h4>Aviso n.º 15261/2017 - Diário da República, 2ª Série - Nº 242 - 19 de dezembro de 2017</h4>
-
-
-
         <h4>FORMULÁRIO DE CANDIDATURA AO PROCEDIMENTO CONCURSAL</h3>
-
-        <h2>Candidatura à Bolsa Blandy Educação 2017-2018 (3ª fase)</h1>
-        <h3>Caro aluno,</h3>
-
-        <h3>Relembramos que está em curso a candidatura à Bolsa Blandy Educação (3ª fase) que poderá ser efetuada até às 24 horas
-            do dia 18 do corrente mês.</h3>
-
-        <h3>Recomendamos uma leitura atenta ao regulamento para ver se preenche os critérios de ilegibilidade.</h3>
     </div>
+        <table width="100%" border="0" cellspacing="2" cellpadding="0" id="Table">
+            <div>
+                <hr>
+                <h2>Apoio Excepcional do Governo Regional para a frequência do ensino superior no ano letivo de 2017/18</h2>
+                <tr>
+                    <td>
+                        <h3>
+                            <p>Informamos os alunos da UMa que o Governo Regional da Madeira atribui um Apoio Excecional no
+                                valorde 45,00€ por mês, aos estudantes que se encontrem a frequentar cursos superiores em
+                                estabelecimentos localizados na Região Autónoma da Madeira.</p>
+                            <p>Este Apoio é concedido aos estudantes que preencham, cumulativamente, os seguintes requisitos:</p>
+                            <p>a) Façam prova de que frequentaram a totalidade de um curso de ensino secundário num estabelecimento
+                                de ensino da Região Autónoma da Madeira;</p>
+                            <p>b) Usufruam de bolsa de estudos da Direção-geral do Ensino Superior;</p>
+                            <p>c) Uma capitação mensal calculada no âmbito da candidatura à bolsa referida na alínea anterior
+                                não superior a 350,00€ (a).</p>
+                            <p>(a)Nanotificação que recebeu com o resultado da sua candidatura à bolsa de estudos da Direção-geral
+                                do Ensino Superior, encontrará no final do quadro explicativo o valor do “Rendimento per
+                                capita (Artigo 45º)”, que corresponde ao valor de “C”. Para usufruir desta bolsa excecional,
+                                o valor de “C” terá de ser inferior a 4.200,00€.</p>
+                            <p>Não poderão usufruir deste Apoio os estudantes oriundos do Porto Santo que já beneficiem do primeiro
+                                Apoio.
+                            </p>
+                        </h3>
+                    </td>
+                </tr>
+            </div>
+        </table>
+        <table>
+            <hr>
+            <h2>Candidatura à Bolsa de Estudo 2017-2018</h2>
+            <img src="imagem1.png" style="display: block; width: 500px; height: 353px; margin-left:auto; margin-right:auto;">
+            <p>&nbsp;</p>
+            <p>Informamos todos os alunos que desejam apresentar a candidatura a benefícios sociais para o próximo ano letivo
+                2017/2018, que poderão fazê-lo a partir do dia 25 de Junho de 2017.</p>
+            <p>
+                <strong>&nbsp;</strong>
+            </p>
+            <p>
+                <strong>1.</strong>&nbsp;
+                <strong>Prazos de submissão</strong> -
+                <span style="font-size: small;">(alínea a), nº 1, artº 28 do Despacho nº 5404/2017, de 21/06)</span>:</p>
+            <ol class="menu">
+                <li style="display: block; list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Entre&nbsp;25 de junho e&nbsp;30 de setembro de 2017;&nbsp;</li>
+                <p>&nbsp;</p>
+                <li style="display: block;list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Nos 20 dias úteis subsequentes à inscrição, quando esta ocorra após 30 de setembro;</li>
+                <p>&nbsp;</p>
+                <li style="display: block;list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Nos 20 dias úteis subsequentes à emissão de comprovativo de início de estágio previsto no n.º3, do artigo
+                    1.º do Regulamento de atribuição de bolsas de estudo a estudantes do ensino superior;</li>
+                <p>&nbsp;</p>
+                <li style="display: block;list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative;height:auto; font-size:10pt; text-align:justify; ">Entre 1 de outubro e 31 de maio, sendo, nesse caso, a bolsa de estudo atribuída pelo período que medeia entre
+                    o mês seguinte ao da submissão do requerimento e o fim do período letivo ou do estágio;</li>
+            </ol>
+            <p>
+                <p>&nbsp;</p>
+                <strong>
+                    <em>
+                        <span style="text-decoration: underline;">Sugerimos que submetam a sua candidatura o mais breve possível; uma vez que são verificadas&nbsp;por
+                            ordem de entrega, quanto mais cedo o fizerem, mais cedo receberão o resultado.</span>
+                    </em>
+                </strong>
+            </p>
+            <p>
+                <strong>
+                    <br> </strong>Todas as candidaturas&nbsp;a bolsa de estudo para o ano letivo 2017/2018 continuarão a ser
+                apresentadas por via eletrónica através da página da DGES.</p>
+            <p>&nbsp;</p>
+            <p>Relembramos que, nos termos no regulamento de propinas, a inscrição num programa de formação da Universidade
+                da Madeira, produz efeitos com o pagamento da taxa de inscrição. Caso ainda não tenha regularizado este pagamento,
+                deverá fazê-lo o mais breve possível, uma vez que a falta de regularização, resultará no indeferimento da
+                candidatura.
+            </p>
+            <p>&nbsp;</p>
+            <p>Aconselha-se ainda uma leitura do Regulamento de bolsas de estudo
+            </p>
+            <p>&nbsp;</p>
+
+            <p>
+                <strong>Contactos do Gabinete de Apoio Social (GAS) - Área de Bolsas (AB):</strong>
+            </p>
+            <ul style="position:relative; display:inline-block; ">
+                <li style="display: block; list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Nuno Rebolo: telefone n.º 291 201810 e/ou
+                    <strong>@sas.uma.pt </strong>
+                </li>
+
+                <p>&nbsp;</p>
+                <li style="display: block; list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Manuela Patrício: telefone n.º 291 201814 e/ou
+                    <strong>celina.patricio@sas.uma.pt</strong>
+                </li>
+                <p>&nbsp;</p>
+                <li style="display: block; list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Graça Mota: telefone n.º 291 201813 e/ou
+                    <strong>graca.mota@sas.uma.pt</strong>
+                </li>
+                <p>&nbsp;</p>
+                <li style="display: block; list-style-type: disc; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 40px; display:list-item; text-align:-webkit-match-parent; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style:normal; font-weight:normal; position:relative; height:auto; font-size:10pt; text-align:justify;">Maria da Paz: telefone n.º 291 201811 e/ou
+                    <strong>paz.fernandes@sas.uma.pt</strong>
+                </li>
+            </ul>
+
+            </tr>
+
+            </tbody>
+        </table>
+        <table></table>
+        <div>
+            <hr>
+            <h2>Bolsa Fullbright-Schuman para os EUA</h2>
+            <p>Encontra-se aberto até ao meio-dia (hora de Bruxelas) de dia 1 de dezembro o período de aceitação de candidaturas
+                para as bolsas Fulbright-Schuman. Estas bolsas destinam-se ao financiamento de projetos de investigação,
+                no âmbito de programas pré ou pós doutorais, ou de lecionação, nas áreas das relações bilaterais UE-EUA,
+                políticas da UE ou das instituições europeias.
+
+            </p>
+            <p>O número de bolsas a atribuir é aproximadamente de 35 bolsas para o ano académico de 2017/2018, sendo consideradas
+                as candidaturas de cidadãos dos 28 Estados-Membros da União Europeia.
+
+            </p>
+            <p>As bolsas Fulbright-Schuman, administradas pela Comissão para o Intercâmbio Educacional entre os EUA e a Bélgica,
+                recebem financiamento conjunto do Departamento de Estado dos EUA e da Direção-Geral para a Educação e Cultura
+                da Comissão Europeia.</p>
+            <p>Leia mais sobre os projetos que, no passado, receberam financiamento no âmbito destas bolsas
+                <strong>aqui</strong>
+            </p>
+            <p>Para aceder a informação completa sobre este programa de bolsas, aceda por favor a este
+                <strong>link.</strong>
+            </p>
+    </table>
+
+    </table>
     <footer>
         <img width="100%" border="0" cellspacing="0" cellpadding="0" id="Table" class="main" src="footer.png" alt="footer.png">
     </footer>
-    <style> # eu praticamente repeti o css das fichas 11 e 13, como ajuda
-    body {
-    background-color: #f8f9fa;
-    
-    background-image: url(uma.png); # eu estou a tentar não repetir a imagem e compouca opacidade, mas quando ponho no-repeat tira a imagem
-}
-#imagem-fundo img {    
-    overflow: hidden; 
-    width: 100%;
-    height: 100%;
-   
-} 
-
-li {
-    display: inline-block;
-    width: 50px;
-    height: 5px;
-    padding: 5px;
-   
-    position: relative;
-}
-a {
-    display: block;
-    position: relative;
-    width: 50px;
-    height: 5px;
-    padding: 5px; 
-
-}   
-
-h1 {
-    color: rgba(0, 0, 0, 1);
-    font-size: 16pt;
-}
-
-h2 {
-    color: rgba(255, 102, 0,1);
-    font-size: 14pt;
-}
-
-h3 {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 10pt;
-}
-
-h4 {
-    color: rgba(0, 0, 0, 1);
-    font-size: 10pt;
-}
-
-
-
-section .container .col-lg-12 {
-    background-color: white;
-}
-
-#carouselExampleIndicators {
-    color:black;
-    height: 210px;
-}
-
-#carouselExampleIndicators .carousel-indicators li {
-    background-color: rgba(220, 20, 60, 0.3);
-}
-
-#carouselExampleIndicators .carousel-indicators .active {
-    background-color: crimson;
-}
-
-#carouselExampleIndicators .carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: crimson;
-}
-
-.carousel-caption {
-    color: black;
-    top: 0;
-}
-
-footer {
-    display: block;
-    height: 4px;
-    top: 100%;
-    align-content: center;
-    width: 800px;
-    position: relative;
-    border:5px;
-    padding: 50px;
-    
-}
-
-.container {
-    align-content: center;
-}
-
-.text-center {
-    align-content: center;
-}
-
-#box {
-    display:table; 
-    width:100%;
-}
-
-.column {
-    display:table-cell;
-    width:50%;
-    background: white;
-    padding:0 20px;
-}
-
-.two {
-    background:white;
-    width: 30%;
-
-}
-
-.library {
-    color: red;
-}
-
-#footer {
-    background-color: gray;
-}
-
-.icon {
-    color: red;
-}       
-
-.imgur {
-    width: 400px;
-    height: 200px;
-}
-
-.obs {
-    width:12em;
-    word-wrap: break-word;
-    height: 5em;
-    overflow: hidden;
-}
-</style
 </body>
 
 </html>

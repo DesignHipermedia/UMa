@@ -5,133 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="ofertaformativa.css">
-    <title>JoaoSantos</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-
-    
+    <title>CTeSP</title>
+    <link rel="stylesheet" href="cursos.css">
 </head>
 
-<body style="background-color:gray">
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-        <div class="flexwrappernav">
-                <header class="flexitems">
-                    <img class="social" src="../styles/social.png" alt="">
-                        
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                </header>
-                <nav class="flexItems">
-                        <div class="dropdown"> <!--#### A Universidade ### -->
-                                <a href="#" class="ListItem lang" key="universidade"> A Universidade</a> 
-                                <ul class="dropdown-content">
-                                    <li class="lang" key="sobre"><a href="#">Sobre Nós</a></li>
-                                    <li><a href="#">Projeto Educativo, Científico e Cultural</a></li>
-                                    <li><a href="#">Conselho Geral</a></li>
-                                    <li><a href="#">Reitoria</a></li>
-                                    <li><a href="#">Senado Universitário</a></li>
-                                    <li><a href="#">Conselho de Cultura</a></li>
-                                    <li><a href="#">Conselho de Gestão</a></li>
-                                    <li><a href="#">Provedor do Estudante</a></li>
-                                    <li><a href="#">Estrutura Orgânica</a></li>
-                                    <li><a href="#">Serviços de Acção Social</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <span class="span"><b>Gabinetes</b></span>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a href="#">Controlo da Qualidade</a></li>
-                                    <li><a href="#">Desenvolvimento de Aplicações Informáticas</a></li>
-                                    <li><a href="#">Imagem e Relações Públicas</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <span class="span"><b>Unidades</b></span>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a href="#">Assuntos Académicos</a></li>
-                                    <li><a href="unidades\Unidade_de_aprovisionamento\index.html">Aprovisionamento e Património</a></li>
-                                    <li><a href="#">Documentação e Arquivo</a></li>
-                                    <li><a href="#">Equipamentos e Instalações</a></li>
-                                    <li><a href="#">Económica e Financeira</a></li>
-                                    <li><a href="#">Projectos e Cooperação</a></li>
-                                    <li><a href="#">Recursos Humanos</a></li>
-                                </ul>
-                        </div>                                         
-                        <div class="dropdown"> <!--#### Ensino ### -->
-                                <a href="#" class="ListItem">Ensino</a>
-                                <ul class="dropdown-content">
-                                    <li><a href="#">Guia do Aluno</a></li>
-                                    <li><a href="./Ensino/oferta_formativa/">Cursos - Oferta Formativa</a></li>
-                                    <li><a href="#">Formação Contínua de Docentes</a></li>
-                                    <li><a href="#">Gabinete de Apoio ao Estudante</a></li>
-                                    <li><a href="./Ensino/programas_mobilidade/">Programas de Mobilidade</a></li>
-                                    <li><a href="#">Maiores de 23</a></li>
-                                    <li><a href="./Ensino/internacionais/">Estudantes Internacionais</a></li>
-                                </ul>
-                        </div> 
-                        <div class="dropdown"> <!--#### Investigação ### -->
-                                <a href="#" class="ListItem">Investigação</a>
-                                <ul class="dropdown-content">
-                                    <li><a href="./investigacao/Unidades_e_Projectos/">Unidades e Projetos</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <span class="span"><b>Institutos</b></span>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a href="#">Madeira Interactive Technologies Institute</a></li>
-                                </ul>
-                        </div>
-                        <div class="dropdown"> <!--#### Serviços ### -->
-                                <a href="#" class="ListItem">Serviços</a>
-                                <ul class="dropdown-content">
-                                    <li><a href="#">Observatório de Emprego e Formação Profissional</a></li>
-                                    <li><a href="./comunidade/Projeto_Turismo/">Projeto Turismo</a></li>
-                                    <li><a href="./comunidade/CDA/">Centro de Desenvolvimento Académico</a></li>
-                                    <li><a href="#">Serviço de Consulta Psicológica</a></li>
-                                    <div class="dropdown-divider"></div>
-                                    <span class="span"><b>Comunidades</b></span>
-                                    <div class="dropdown-divider"></div>
-                                    <li><a href="./comunidade/Associacao_Academica/">Associação Académica</a></li>
-                                    <li><a href="./comunidade/AAAUMa/">Associação dos Antigos Alunos da Universidade da Madeira</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="comunidade/Associacao_Academica/index.html">Associação Académica</a></li>
-                                    <li><a href="#">Associação dos Antigos Alunos da Universidade da Madeira</a></li>
-                                    <li><a href="#">Pastoral do Ensino Superior na Madeira</a></li>
-                                    <li><a href="#">Rotaract Clube</a></li>
-                                    <li><a href="#">TUMa</a></li>
-                                    <li><a href="#">Tun'UMa</a></li>
-                                    <li><a href="./comunidade/tunas/">Tuna D'Elas</a></li>
-                                    <li><a href="#">UM@Fóruns</a></li>
-                                </ul>
-                        </div>
-                        <div class="dropdown"> <!--#### Faculdades ### -->
-                                <a href="#" class="ListItem">Faculdades</a>
-                                <ul class="dropdown-content">
-                                    <li><a href="#">Artes e Humanidades</a></li>
-                                    <li><a href="./faculdades/fcee/">Ciências Exatas e da Engenharia</a></li>
-                                    <li><a href="./faculdades/cs/">Ciências Sociais</a></li>
-                                    <li><a href="./faculdades/cv/">Ciências da Vida</a></li>
-                                    <li><a href="#">Escola Superior de Saúde</a></li>
-                                    <li><a href="./faculdades/estg/">Escola Superior de Tecnologias e Gestão</a></li>
-                                </ul>
-                        </div>
-                    <div class="LastItem">
-                        <input type="text" placeholder="Pesquisar">
-                        <button>Pesquisar</button>
-                    </div>
-                </nav>
-            </div>
+        <a href="#">Página Inicial</a>
+        <a href="1ciclo.html">1º Ciclo</a>
+        <a href="2ciclo.html">2º Ciclo</a>
+        <a href="3ciclo.html">3º Ciclo</a>
+        <a href="ciclobasico.html">Ciclo Básico</a>
+        <a href="ctesp.html">CTeSP</a>
+        <a href="cursoslivres.html">Cursos Livres</a>
+        <a href="diplestudo.html">Diploma de Estudos Avançados</a>
+        <a href="maiores23.html">Maiores 23 anos</a>
+        <a href="fcd.html">Formação Continua de Docentes</a>
+        <a href="posgraduacao.html">Pós-Graduações/Licenciatura</a>
+    </div>
 
-
-
-
-
-
-    <div class="limpar-floats">
+    <div id="main">
+        <span style="font-size:80px;cursor:pointer;color: white; position: absolute;top: 8px;left: 16px;" onclick="openNav()">&#9776;</span>
+    </div>
     <div class="flex-container">
 
-            <div class="article">
-                    <h2>Em que consiste o Curso?</h2>
+        <div class="article">
+            <h2>Em que consiste o Curso?</h2>
             <p>O objetivo do curso Tecnologias e Programação de Sistemas de Informação é formar técnicos capazes, de forma autónoma
                 ou integrada numa equipa, de planear, implementar e proceder à manutenção de software aplicacional orientado
                 para o contexto web, distribuído ou móvel, bem como conceber e otimizar Sistemas de Informação em contextos
@@ -139,8 +40,8 @@
         </div>
 
 
-            <div class="article">
-                    <h2>Condições de Acesso</h2>
+        <div class="article">
+            <h2>Condições de Acesso</h2>
             <p> Podem candidatar-se ao acesso aos Cursos Técnicos Superiores Profissionais:</p>
             <p> Os titulares de um curso de ensino secundário ou de habilitação legalmente equivalente;</p>
             <p> Os que tenham sido aprovados nas provas especialmente adequadas destinadas a avaliar a capacidade para a frequência
@@ -154,38 +55,40 @@
                 e para os quais reúnam as condições de ingresso.</p>
         </div>
 
-            
-            <div class="article">
 
-                    <h2>Candidaturas 2017/2018</h2>
+        <div class="article">
+
+            <h2>Candidaturas 2017/2018</h2>
             <p>
-                <i style="text-decoration: red"><a href="http://candidaturas.uma.pt">FORMULÁRIO DE CANDIDATURA ONLINE</a></i>
+                <i>
+                    <a href="http://candidaturas.uma.pt">FORMULÁRIO DE CANDIDATURA ONLINE</a>
+                </i>
             </p>
 
-                <p>a. Inscrição nas provas especialmente adequadas, destinadas a avaliar a capacidade de frequência dos CTeSP,
-                    dos candidatos com 12º ano completo, sem área relevante para o curso a que pretendem concorrer: 16 a
-                    28 de agosto de 2017; </p>
-                <p>b. Candidaturas aos Cursos Técnicos Superiores Profissionais (CTeSP): 1ª fase:
-                    <span>
-                        29 agosto a 12 setembro de 2017</span> | 2ª fase (apenas para vagas sobrantes): 02 a 05 de outubro
-                    de 2017;
-                </p>
-                <p>c. Afixação da lista provisória de colocação: 1ª fase: até 19 de setembro de 2017 | 2ª fase (apenas para
-                    vagas sobrantes): até 10 de outubro de 2017; </p>
-                <p>d. Prazo de reclamação (exclusivamente no GAE): 1ª fase: 20 a 21 de setembro de 2017| 2ª fase (apenas para
-                    vagas sobrantes): 11 a 12 de outubro de 2017; </p>
-                <p>e. Afixação da lista definitiva de colocação: 1ª fase: até 22 de setembro de 2017 | 2ª fase (apenas para
-                    vagas sobrantes): até 13 de outubro de 2017; </p>
-                <p>f. Período de matrículas/ inscrições (exclusivamente Infoalunos): 1ª fase: 23 a 30 de setembro | 2ª fase:
-                    14 a 17 de outubro; </p>
-                <p>g. Abertura das aulas e receção aos alunos do 1º ano: 02 de outubro de 2017;</p>
-                <p>h. Início das aulas do 1º ano: 02 de outubro de 2017.</p>
+            <p>a. Inscrição nas provas especialmente adequadas, destinadas a avaliar a capacidade de frequência dos CTeSP, dos
+                candidatos com 12º ano completo, sem área relevante para o curso a que pretendem concorrer: 16 a 28 de agosto
+                de 2017; </p>
+            <p>b. Candidaturas aos Cursos Técnicos Superiores Profissionais (CTeSP): 1ª fase:
+                <span>
+                    29 agosto a 12 setembro de 2017</span> | 2ª fase (apenas para vagas sobrantes): 02 a 05 de outubro de
+                2017;
+            </p>
+            <p>c. Afixação da lista provisória de colocação: 1ª fase: até 19 de setembro de 2017 | 2ª fase (apenas para vagas
+                sobrantes): até 10 de outubro de 2017; </p>
+            <p>d. Prazo de reclamação (exclusivamente no GAE): 1ª fase: 20 a 21 de setembro de 2017| 2ª fase (apenas para vagas
+                sobrantes): 11 a 12 de outubro de 2017; </p>
+            <p>e. Afixação da lista definitiva de colocação: 1ª fase: até 22 de setembro de 2017 | 2ª fase (apenas para vagas
+                sobrantes): até 13 de outubro de 2017; </p>
+            <p>f. Período de matrículas/ inscrições (exclusivamente Infoalunos): 1ª fase: 23 a 30 de setembro | 2ª fase: 14
+                a 17 de outubro; </p>
+            <p>g. Abertura das aulas e receção aos alunos do 1º ano: 02 de outubro de 2017;</p>
+            <p>h. Início das aulas do 1º ano: 02 de outubro de 2017.</p>
 
         </div>
 
-            
-            <div class="article">
-                    <h2>Seleção e seriação dos candidatos</h2>
+
+        <div class="article">
+            <h2>Seleção e seriação dos candidatos</h2>
             <p>a. Os titulares de um curso de Ensino secundário ou de habilitação legalmente equivalente em áreas relevantes
                 para o CTeSP, tendo em consideração a nota final do curso.</p>
             <p>b. Os titulares de um curso de Ensino secundário ou de habilitação legalmente equivalente em áreas relevantes
@@ -202,7 +105,27 @@
                 a nota final do curso. </p>
         </div>
     </div>
-</div>
+    </div>
+
+
+    <footer class="flexItems">
+        <p>Colégio dos Jesuítas - Rua dos Ferreiros</p>
+        <p>9000-082 Funchal - Portugal</p>
+        <p>Telef. + 351 291 209 400 | Fax + 351 291 209 410</p>
+        <p>email: gabinetedareitoria@uma.pt</p>
+    </footer>
+
 </body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "410px";
+        document.body.style.backgroundColor = "white";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.body.style.backgroundColor = "white";
+    }
+</script>
 
 </html>
