@@ -5,9 +5,8 @@
   <title>Microwebsite de programas de mobilidade</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-          integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-          crossorigin="anonymous"></script>
+  <script src="scripts/jquery-3.3.1.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
           integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
           crossorigin="anonymous"></script>
@@ -15,62 +14,19 @@
           integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
           crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/stylesheet.css">
+  <script>
+    $(document).ready(function(){
+      $(".header").load("header.html");
+    });
+  </script>
 <body class="grey line-height-base">
 
+<div class="header"></div>
 
-<!-- Nav tabs -->
-<div class="container-fluid">
-  <div class="col d-flex justify-content-center">
-    <img src="images/logo_white_on_transparent.png" height="72" width="196"/>
-  </div>
-  <div class="col d-flex justify-content-center">
-    <img class="hidden-sm-down" src="images/unit_pt-PT.png" height="20"
-         width="400"/>
-  </div>
-</div>
-
-<ul class="nav nav-tabs|pills text-white d-flex justify-content-center " id="navId">
-  <li class="nav-item text-white">
-    <a href="#tab1Id" class="nav-link active text-white">UMA</a>
-  </li>
-  <li class="nav-item dropdown text-white">
-    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-       aria-expanded="false">Programas Mobilidade</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#tab2Id">Bolsas Luso-Brasileiras Santander Universidades
-      </a>
-      <a class="dropdown-item" href="#tab3Id">Another action</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#tabs4Id"></a>
-    </div>
-  </li>
-  <li class="nav-item">
-    <a href="#tab5Id" class="nav-link text-white">Another link</a>
-  </li>
-  <li class="nav-item">
-    <a href="#" class="nav-link disabled text-white">Disabled</a>
-  </li>
-</ul>
-
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane fade in active" id="tab1Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tabs4Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-</div>
-
-<script>
-  $('#navId a').click(e => {
-    e.preventDefault();
-    $(this).tab('show');
-  });
-</script>
 
 <div class="container p-3">
   <div class="column">
-    <div class="col d-flex black justify-content-center">
+    <div class="col d-flex black justify-content-center p-5">
 
       <div class="article-content">
         <div style="text-align: center"><img src="images/programa_leonardo.jpg" height="113" width="575"/></div>

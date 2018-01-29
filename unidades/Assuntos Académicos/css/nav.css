@@ -1,0 +1,57 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.outer-col-1 {
+    flex: 1;
+}
+.outer-col-1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.outer-col-1 ul li {
+    list-style-type: none;
+    padding: 15px;
+}
+.outer-col-1 ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dropdown .droplink {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li.dropdown {
+    display: flex;    
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+}
+.dropdown-menu a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+}
