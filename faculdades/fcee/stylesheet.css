@@ -3,6 +3,7 @@ body{
     background-color: rgb(60, 142, 156);
     background-image: url('images/background.png');
     background-attachment: fixed; 
+    background-size: auto; 
 }
 .flex-container{
     display:flex;
@@ -113,7 +114,7 @@ a{
     flex-flow: row;
     justify-content: center;
     width: 100vw;
-    padding-top: 115px;
+    padding-top: 7%;
 }
 
 .container{
@@ -129,6 +130,7 @@ a{
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     margin-bottom: 10px;
+    padding-left: 20px;
 }
 
 .main-title h1{
@@ -138,6 +140,7 @@ a{
 .main-content{
     display:flex;
     flex-flow: row;
+    
 }
 
 .content{
@@ -149,12 +152,29 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
     margin-right:10px;
+    margin-bottom: 5px;
 }
 
 .img-docente{
     border-radius: 4px;
     height: 20vh;
     width: 7vw;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.4);
+    border: 2px solid rgb(0, 90, 90);
+}
+
+.title-section{
+    background-color: rgb(0, 90, 90);
+    color:aliceblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.title{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title{
@@ -165,6 +185,10 @@ a{
 
 .title h3{
     font-size: 1vw;
+}
+
+.data{
+    font-size: 1vmin;
 }
 
 .text{
@@ -193,7 +217,7 @@ a{
 }
 
 .section{
-    border: 2px solid rgb(66, 66, 66);
+    border: 2px solid rgb(0, 90, 90);
     padding: 5px;
     margin: 5px;
     border-radius: 4px;
@@ -208,7 +232,6 @@ a{
 .submenu-container{
     background-color: rgba(24, 24, 24, 0.753);
     padding: 5px;
-    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
@@ -318,3 +341,4 @@ a{
     padding: 2px solid white;
     
 }
+
