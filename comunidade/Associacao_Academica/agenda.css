@@ -1,0 +1,20 @@
+.coluna{
+    margin-left: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #ffffff;
+ }
+
+ .nome{
+    float: right;
+    text-align: right;
+}
+
+.recuo { 
+    text-indent:4em;
+    color: black;
+}
+.letras{
+    font-size: 14px;
+    color: #22205b;
+}
