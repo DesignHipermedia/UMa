@@ -1,9 +1,10 @@
 .coluna{
-    margin-left: 2%;
+    margin-right: 3%;
     text-align: justify;
     text-justify: inter-word;
     background-color: #ffffff;
     padding:10px;
+    left: 33%;
  }
 
  .nome{
