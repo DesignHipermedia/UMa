@@ -76,44 +76,25 @@ body {
     }
 }
 
- .carousel-inner img {
-    width: 100%;
-    height: 100%;
+.coluna{
+    margin-left: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #ffffff;
  }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
+ .nome{
+    float: right;
+    text-align: right;
 }
 
-.flex-container a {
-    margin:10px;
-    padding:20px;
-    font-size: 30px;
+.recuo { 
+    text-indent:4em;
+    color: black;
 }
-
-.flex-container img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.grid {
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
-    "title title1"
-    "photo1 photo2"
-    "photo3 photo4"
-    "photo5 photo6"
-    "photo7 photo8"
-    "photo9 photo10"
-    "photo11 photo12"
-    "photo13 photo14"
-    "photo15 photo16"
+.letras{
+    font-size: 14px;
+    color: #22205b;
 }
 
 footer {
