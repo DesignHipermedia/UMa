@@ -1,0 +1,21 @@
+.prim_painel{
+    background-color: burlywood;
+}
+.border{
+    border-width: thick;
+}
+.seg_painel{
+    background-color: burlywood;
+}
+.terceiro_painel{
+    background-color: darkgoldenrod;
+}
+body{
+    background-color: lightgray;
+}
+.textsp{
+    color: white;
+}
+.footer_panel{
+    background-color: orange;
+}

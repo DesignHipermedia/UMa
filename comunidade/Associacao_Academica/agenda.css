@@ -1,0 +1,31 @@
+.coluna_imagens {
+    margin-left: 5%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.coluna_texto{
+    text-align: justify;
+    text-justify: inter-word;
+    padding:10px;
+ }
+
+ .nome{
+    float: right;
+    text-align: right;
+}
+
+h3 {
+    color: #22205b;
+}
+
+.texto { 
+    text-indent:4em;
+    color: #22205b;
+}
+
+.letras{
+    font-size: 14px;
+    color: #22205b;
+}

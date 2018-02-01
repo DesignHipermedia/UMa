@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/stylesheet.css">
-<body class="grey">
-<ul class="nav nav-tabs|pills" id="navId">
-  <li class="nav-item">
-    <a href="#tab1Id" class="nav-link active">UMA</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-       aria-expanded="false">Prorgramas Mobilidade</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#tab2Id">Bolsas Luso-Brasileiras Santander Universidades
-      </a>
-      <a class="dropdown-item" href="#tab3Id">Another action</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#tabs4Id"></a>
+  <meta charset="UTF-8">
+  <title>Microwebsite de programas de mobilidade</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="scripts/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+          integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+          integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+          crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script>
+    $(document).ready(function(){
+      $(".header").load("header.html");
+    });
+  </script>
+<body class="grey line-height-base">
+<div class="header"></div>
+
+
+<div class="container p-3">
+  <div class="column">
+    <div class="col d-flex justify-content-center black p-5">
+
+      <img src="images/logo_santander_universidades.jpg" height="78" width="205"/>
     </div>
-  </li>
-  <li class="nav-item">
-    <a href="#tab5Id" class="nav-link">Another link</a>
-  </li>
-  <li class="nav-item">
-    <a href="#" class="nav-link disabled">Disabled</a>
-  </li>
-</ul>
+    <div class="col black">
+      <p>No dia 20 de Janeiro de 2007 foi assinado entre o Grupo Santander, o CRUP, a Associação Nacional dos Dirigentes
+        das Instituições Federais de Ensino Superior, em representação das Universidades Federais Brasileiras e o
+        Conselho de Reitores das Universidades Estaduais Paulistas, em representação das Universidades Públicas do
+        Estado de São Paulo, um Convénio para a Criação do Programa de Bolsas Luso-Brasileiras Santander
+        Universidades.</p>
+      <p>Pretende-se, com a assinatura deste Convénio, estreitar as relações académicas entre Portugal e o Brasil,
+        promover a construção de um espaço ibero-americano de educação superior, incentivar a mobilidade dos estudantes
+        universitários e promover a excelência no ensino superior.No âmbito deste Convénio foi criada uma Comissão de
+        Implementação e Seguimento do Programa de Bolsas Luso-brasileiras Santander Universidades, à qual compete
+        aprovar e distribuir as bolsas entre as Universidades, estabelecer o calendário e o procedimento de adjudicação
+        e usufruto, após aprovação da lista dos candidatos beneficiários.</p>
+      <p>As Universidades brasileiras participantes são as seguintes:</p>
+      <ol>
+        <li>USP - Universidade de São Paulo (USP);</li>
+        <li>UNICAMP - Universidade Estadual de Campinas;</li>
+        <li>UNESP - Universidade Estadual Paulista "Júlio de Mesquita Filho";</li>
+        <li> UFF - Universidade Federal Fluminense;</li>
+        <li>UNIFESP - Universidade Federal de São Paulo;</li>
+        <li>UFAL - Universidade Federal de Alagoas;</li>
+        <li>UFRGN - Universidade Federal de Rio Grande do Norte;</li>
+        <li>UFRGS - Universidade Federal do Rio Grande do Sul;</li>
+        <li>UFPEL - Universidade Federal de Pelotas;</li>
+        <li>UFPI - Universidade Federal do Piauí;</li>
+        <li>UFPE - Universidade Federal de Pernambuco;</li>
+        <li>UFBA - Universidade Federal da Bahia</li>
+        <li>UFMT - Universidade Federal do Mato Grosso;</li>
+        <li>UFRRJ - Universidade Federal Rural do Rio Janeiro</li>
+        <li>UFRG - Universidade Federal do Rio Grande;</li>
+        <li>UFRJ - Universidade Federal do Rio de Janeiro;</li>
+        <li>UFMS - Universidade Federal do Mato Grosso do Sul;</li>
+        <li>UFU - Universidade Federal de Uberlândia;</li>
+        <li>UFG - Universidade Federal de Goiás;</li>
+      </ol>
 
-<!-- Tab panes -->
-<div class="tab-content">
-  <div class="tab-pane fade in active" id="tab1Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tabs4Id" role="tabpanel"></div>
-  <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+    </div>
+
+  </div>
+  <footer class="footer border white ">
+    <ul class="border border-dark list-unstyled">
+      <li class="pull-left">Unidade de Projetos e Cooperação</li>
+      <li class="pull-left">Colégio dos Jesuítas - Rua dos Ferreiros
+        9000-082 Funchal - Portugal
+      </li>
+      <li class="pull-left">Telef. + 351 291 209 471 | Fax + 351 291 209 470</li>
+      <li class=" pull-left">email: projetos@mail.uma.pt</li>
+    </ul>
+  </footer>
 </div>
 
-<script>
-  $('#navId a').click(e => {
-    e.preventDefault();
-    $(this).tab('show');
-  });
-</script>
 
-<div class="container">
-<div class="row">
-  <div class="col">
-<img src="images/logo_santander_universidades.jpg" height="78" width="205"/></body>
-</div>
-</div>
-</div>
+</body>
 </html>
