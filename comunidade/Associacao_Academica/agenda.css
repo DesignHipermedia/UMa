@@ -1,10 +1,14 @@
-.coluna{
-    margin-right: 3%;
+.coluna_imagens {
+    margin-left: 5%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.coluna_texto{
     text-align: justify;
     text-justify: inter-word;
-    background-color: #ffffff;
     padding:10px;
-    left: 33%;
  }
 
  .nome{
@@ -12,10 +16,15 @@
     text-align: right;
 }
 
-.recuo { 
-    text-indent:4em;
-    color: black;
+h3 {
+    color: #22205b;
 }
+
+.texto { 
+    text-indent:4em;
+    color: #22205b;
+}
+
 .letras{
     font-size: 14px;
     color: #22205b;
