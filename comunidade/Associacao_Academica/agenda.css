@@ -3,12 +3,22 @@
     align-items: center;
     padding: 10px;
     margin-top: 1rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.coluna_imagens .image:hover {
+    opacity: 0.3;
+    transition: .3s ease-out;
+
 }
 
 .coluna_texto{
     text-align: justify;
     text-justify: inter-word;
     padding:10px;
+    left: -10%;
  }
 
  .nome{
