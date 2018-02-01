@@ -1,6 +1,8 @@
 body {
     background-color: #d3d3d3;
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
 }
 
 .container {
@@ -97,115 +99,41 @@ body {
     width: 100%;
 }
 
-.wrapper_box{
-    width: auto;
-}
-.wrapper {
+.grid {
+    background-color: #ffffff;
     display: grid;
-    width: 100%;
-    grid-template-columns:  repeat(2, 100%);
-    grid-template-rows: repeat( 9, 300px);
-    background-color: #fff;
-    color: #444;
-    margin:10px;
-    justify-content: center;
-}
-  
-.box {
-    border: 1px solid #444;
-    padding: 20px;
-    font-size: 150%;
-    align-items: center;
-}
- 
-.a {
-    grid-column: 1 / 2;
-    grid-row: 1 / 9;
-}
-  
-.b {
-    grid-column: 2 / 2;
-    grid-row: 1 / 9;
-}
-  
-.c {
-    grid-column: 1 / 2;
-    grid-row: 2 /  9;
-}
-  
-.d {
-    grid-column: 2 / 2;
-    grid-row: 2 / 9;
-}
-  
-.e {
-    grid-column: 1 / 2;
-    grid-row: 3 / 9;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:  
+    "title title1"
+    "photo1 photo2"
+    "photo3 photo4"
+    "photo5 photo6"
+    "photo7 photo8"
+    "photo9 photo10"
+    "photo11 photo12"
+    "photo13 photo14"
+    "photo15 photo16"
 }
 
-.f {
-    grid-column: 2 / 2;
-    grid-row: 3 / 9;
+.coluna{
+    margin-left: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #ffffff;
+ }
+
+ .nome{
+    float: right;
+    text-align: right;
 }
 
-.g {
-    grid-column: 1 / 2;
-    grid-row: 4 / 9;
+.recuo { 
+    text-indent:4em;
+    color: black;
 }
-
-.h {
-    grid-column: 2 / 2;
-    grid-row: 4 / 9;
-}
-
-.i {
-    grid-column: 1 / 2;
-    grid-row: 5 / 9;
-}
-
-.j {
-    grid-column: 2 / 2;
-    grid-row: 5 / 9;
-}
-
-.k {
-    grid-column: 1 / 2;
-    grid-row: 6 / 9;
-}
-
-.l {
-    grid-column: 2 / 2;
-    grid-row: 6 / 9;
-}
-
-.m {
-    grid-column: 1 / 2;
-    grid-row: 7 / 9;
-}
-
-.n {
-    grid-column: 2 / 2;
-    grid-row: 7 / 9;
-}
-
-.o {
-    grid-column: 1 / 2;
-    grid-row: 8 / 9;
-}
-
-.p {
-    grid-column: 2 / 2;
-    grid-row: 8 / 9;
-}
-
-.q {
-    grid-column: 1 / 2;
-    grid-row: 9 / 9;
-}
-
-.r {
-    grid-column: 2 / 2;
-    grid-row: 9 / 9;
+.letras{
+    font-size: 14px;
 }
 
 footer {
