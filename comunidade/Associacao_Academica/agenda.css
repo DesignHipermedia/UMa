@@ -1,3 +1,20 @@
+.titulo{
+    margin:auto;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+h1 {
+    color: #22205b;
+}
+
+.texto_titulo {
+    color: #22205b;
+}
+
 .coluna_imagens {
     margin-left: 5%;
     align-items: center;
