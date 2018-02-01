@@ -3,6 +3,7 @@ body{
     background-color: rgb(60, 142, 156);
     background-image: url('images/background.png');
     background-attachment: fixed; 
+    background-size: auto; 
 }
 .flex-container{
     display:flex;
@@ -14,7 +15,7 @@ body{
     width:100vw;
     flex-flow: row;
     justify-content: center;
-    position: fixed;
+
     top: 0;
 }
 
@@ -30,15 +31,6 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
 }
 
-.header-menu{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin : 5px;
-}
-
 .menu-buttons{
     position: relative;
     display: inline-block;
@@ -46,53 +38,6 @@ body{
     
 }
 
-.dropdown-btn{
-    display:flex;
-    align-items: center;
-    color: white;
-    background-color: rgba(173, 173, 173, 0.5);
-    font-size: 0.9em;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    border: 2px solid rgb(180, 180, 180);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-    z-index: 1;
-    font-size: 0.9em;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #d4d4d4;
-    border-radius: 4px;
-}
-
-.menu-buttons:hover .dropdown-content {
-    display: block;
-    background-color: rgb(240, 240, 240);
-}
-
-.menu-buttons:hover .dropdown-btn {
-    background-color: rgb(148, 148, 148);
-    border-radius: 4px;
-    border: 2px solid rgb(255, 255, 255);
-    padding: 8px;
-
-}
 
 a{
     text-decoration: none;
@@ -113,7 +58,7 @@ a{
     flex-flow: row;
     justify-content: center;
     width: 100vw;
-    padding-top: 115px;
+    margin-top: 5px;
 }
 
 .container{
@@ -123,12 +68,9 @@ a{
 }
 
 .main-title{
-    background-color: rgba(24, 24, 24, 0.753);
     padding: 10px;
+    margin: 10px;
     color:aliceblue;
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-    margin-bottom: 10px;
 }
 
 .main-title h1{
@@ -150,7 +92,7 @@ a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     width: 80%;
     margin-right:10px;
-    height: 100%;
+    margin-bottom: 5px;
 }
 
 .img-docente{
@@ -158,6 +100,21 @@ a{
     height: 20vh;
     width: 7vw;
     box-shadow:0px 8px 16px 0px rgba(0,0,0,0.4);
+    border: 2px solid rgb(0, 90, 90);
+}
+
+.title-section{
+    background-color: rgb(0, 90, 90);
+    color:aliceblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.title{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title{
@@ -200,7 +157,7 @@ a{
 }
 
 .section{
-    border: 2px solid rgb(66, 66, 66);
+    border: 2px solid rgb(0, 90, 90);
     padding: 5px;
     margin: 5px;
     border-radius: 4px;
@@ -215,7 +172,6 @@ a{
 .submenu-container{
     background-color: rgba(24, 24, 24, 0.753);
     padding: 5px;
-    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 4px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
@@ -325,3 +281,4 @@ a{
     padding: 2px solid white;
     
 }
+
