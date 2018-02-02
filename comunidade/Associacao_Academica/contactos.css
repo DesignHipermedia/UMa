@@ -40,6 +40,11 @@ h3 {
     flex-direction: row;
 }
 
+.found {
+    color: #22205b;
+    text-align: center;
+}
+
 .flex-container img{
     display: block;
     margin-left: auto;
@@ -66,4 +71,19 @@ h3 {
     text-justify: inter-word;
     padding:10px;
     left: -10%;
+}
+
+.coluna_procura {
+    text-align: center;
+    padding:10px;
+}
+
+.coluna_escrita {
+    margin-left: 5%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
 }
