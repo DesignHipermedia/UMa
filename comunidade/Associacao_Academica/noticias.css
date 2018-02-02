@@ -49,6 +49,8 @@ h3 {
 .texto { 
     text-indent:4em;
     color: #22205b;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .letras{
