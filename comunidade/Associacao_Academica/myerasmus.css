@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+}
+
+.content {
+    background-color: #ffffff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin:10px;
+    padding:20px;
+    font-size: 30px;
+    transition: .5s ease;
+}
+
+.flex-container img:hover {
+    filter: brightness(80%);
+    transition: .3s ease-out;
+}

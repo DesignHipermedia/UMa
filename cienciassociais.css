@@ -1,0 +1,48 @@
+.container > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+
+.header {
+    order: -1;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.navegacao {
+    list-style: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    order: 1;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.imagem {
+    justify-content: flex-start;
+    order: 0;
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+.rodape {
+    margin: 1px;
+    display:flex;
+    border: 1px solid white;
+    order:5;
+    background-color: grey;
+}
+
+.rodape_texto {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    color: white;
+    border-left-style: dashed;
+    margin-right: 20%;
+    justify-content: center;
+}
