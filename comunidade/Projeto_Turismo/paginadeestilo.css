@@ -18,6 +18,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:black;
+    text-decoration:none; 
 }
 
 li {
@@ -30,10 +31,10 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 li a:hover {
     background-color: rgb(0, 110, 255);
+    text-decoration:none; 
 }
 h1{
     margin-top:0;
