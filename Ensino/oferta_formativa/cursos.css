@@ -101,14 +101,14 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%; */
+    float: left;
     background-color: black;
     color: white;
     font-size: 0.75rem;
     min-height: 0.75rem;
     justify-content: space-around;
-    padding: 0 1rem;
     text-align: center;
-   
+    width: 100%;
    }
 .flexItems {
     display: flex;
@@ -119,10 +119,14 @@ footer {
 .article {
     float: left;
     margin: 5px;
-    padding: 5px;
-    width: 50%;
+    padding: 10px;
+    width: 100%;
     height: 50%;
+    text-decoration: none;
+    text-indent: -30px;
     text-align: left;
+    letter-spacing: 2px;
+    text-transform: capitalize;
 
   } 
 html{
@@ -131,3 +135,20 @@ html{
     margin:0;
     padding: 0;
 }
+
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}

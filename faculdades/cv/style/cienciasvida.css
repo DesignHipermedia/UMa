@@ -321,7 +321,8 @@ a:hover{
 
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    
     width: 80%
 }
 .containerr{
@@ -370,4 +371,45 @@ a:hover{
 .sidemenu{
     align-items: center;
     justify-content: center;
+}
+.composicao{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.image{
+    width: 100px;
+    height: 100px; 
+}
+
+.s{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.soss1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+.sos1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3px;
+    vertical-align: top;
+}
+.sos2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3px;
+    vertical-align: top;
+    padding-left: 50px;
 }

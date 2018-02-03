@@ -1,0 +1,32 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+ {
+    margin: 0;
+    padding: 0;
+}
+#fundo {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}

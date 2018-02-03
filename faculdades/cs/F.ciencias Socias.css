@@ -213,7 +213,7 @@ h11 {
             float: left;
             width: 75%;
             padding: 10px;
-            height: 600px;
+            height: 650px;
             align-items:center ;
             background-color: rgb(24, 24, 29);
         }
@@ -260,7 +260,7 @@ h11 {
         }
         .columnw {
             width: 25%;
-            height: 390px ; 
+            height: 440px ; 
             float: right;
             padding: 10px;
 
@@ -272,6 +272,11 @@ h11 {
             justify-content: center;
             align-items:center ;
         }
+        .container{
+            width:80%;
+            margin:auto;
+            overflow:hidden;
+          }
 
           .LastItem {
               text-decoration: none;
