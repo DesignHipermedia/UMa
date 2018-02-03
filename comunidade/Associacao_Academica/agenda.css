@@ -1,0 +1,59 @@
+.titulo{
+    margin:auto;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+h1 {
+    color: #22205b;
+}
+
+.texto_titulo {
+    color: #22205b;
+}
+
+.coluna_imagens {
+    margin-left: 5%;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.coluna_imagens .image:hover {
+    opacity: 0.3;
+    transition: .3s ease-out;
+}
+
+.coluna_texto{
+    text-align: justify;
+    text-justify: inter-word;
+    padding:10px;
+    left: -10%;
+ }
+
+ .nome{
+    float: right;
+    text-align: right;
+}
+
+h3 {
+    color: #22205b;
+}
+
+.texto { 
+    text-indent:4em;
+    color: #22205b;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.letras{
+    font-size: 14px;
+    color: #22205b;
+}
